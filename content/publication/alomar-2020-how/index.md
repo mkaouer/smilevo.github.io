@@ -1,5 +1,5 @@
 ---
-title: "How We Refactor and How We Document it? On the Use of Supervised Machine Learning Algorithms to Classify Refactoring Documentation"
+title: "How we refactor and how we document it? on the use of supervised machine learning algorithms to classify refactoring documentation"
 date: "2020-01-01"
 authors: ["Eman Abdullah AlOmar","Anthony Peruma","Mohamed Wiem Mkaouer","Christian D. Newman","Ali Ouni","Marouane Kessentini"]
 publication: "CoRR"

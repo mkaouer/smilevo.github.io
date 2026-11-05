@@ -1,5 +1,5 @@
 ---
-title: "An Exploratory Study on the Usage and Readability of Messages Within Assertion Methods of Test Cases"
+title: "An exploratory study on the usage and readability of messages within assertion methods of test cases"
 date: "2023-01-01"
 authors: ["Taryn Takebayashi","Anthony Peruma","Mohamed Wiem Mkaouer","Christian D. Newman"]
 publication: "CoRR"

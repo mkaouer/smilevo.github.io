@@ -1,5 +1,5 @@
 ---
-title: "SCALAR: A Part-of-speech Tagger for Identifiers"
+title: "SCALAR: a part-of-speech tagger for identifiers"
 date: "2025-01-01"
 authors: ["Christian D. Newman","Brandon Scholten","Sophia Testa","Joshua A. C. Behler","Syreen Banabilah","Michael L. Collard","Michael John Decker","Mohamed Wiem Mkaouer","Marcos Zampieri","Eman Abdullah AlOmar","Reem S. Alsuhaibani","Anthony Peruma","Jonathan I. Maletic"]
 publication: "CoRR"

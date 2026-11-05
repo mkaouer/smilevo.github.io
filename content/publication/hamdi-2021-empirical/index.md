@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: An Empirical Study on the Impact of Refactoring on Quality Metrics in Android
+title: An empirical study on the impact of refactoring on quality metrics in Android
   Applications
 subtitle: ''
 summary: ''

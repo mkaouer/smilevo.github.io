@@ -1,5 +1,5 @@
 ---
-title: "An Ensemble Approach for Annotating Source Code Identifiers With Part-of-Speech Tags"
+title: "An ensemble approach for annotating source code identifiers with part-of-speech tags"
 date: "2022-01-01"
 authors: ["Christian D. Newman","Michael John Decker","Reem S. Alsuhaibani","Anthony Peruma","Mohamed Wiem Mkaouer","Satyajit Mohapatra","Tejal Vishnoi","Marcos Zampieri","Timothy J. Sheldon","Emily Hill"]
 publication: "IEEE Trans. Software Eng."

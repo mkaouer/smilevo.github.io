@@ -1,5 +1,5 @@
 ---
-title: "Toward the automatic classification of Self-Affirmed Refactoring"
+title: "Toward the automatic classification of self-affirmed refactoring"
 date: "2021-01-01"
 authors: ["Eman Abdullah AlOmar","Mohamed Wiem Mkaouer","Ali Ouni"]
 publication: "J. Syst. Softw."

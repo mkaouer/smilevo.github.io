@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'On the Relationship Between Developer Experience and Refactoring: An Exploratory
-  Study and Preliminary Results'
+title: 'On the relationship between developer experience and refactoring: an exploratory study and preliminary results'
 subtitle: ''
 summary: ''
 authors:

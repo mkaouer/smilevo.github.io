@@ -1,5 +1,5 @@
 ---
-title: "Towards Prioritizing Documentation Effort"
+title: "Towards prioritizing documentation effort"
 date: "2018-01-01"
 authors: ["Paul W. McBurney","Siyuan Jiang","Marouane Kessentini","Nicholas A. Kraft","Ameer Armaly","Mohamed Wiem Mkaouer","Collin McMillan"]
 publication: "IEEE Trans. Software Eng."

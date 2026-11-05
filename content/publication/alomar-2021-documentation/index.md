@@ -1,5 +1,5 @@
 ---
-title: "On the Documentation of Refactoring Types"
+title: "On the documentation of refactoring types"
 date: "2021-01-01"
 authors: ["Eman Abdullah AlOmar","Jiaqian Liu","Kenneth Addo","Mohamed Wiem Mkaouer","Christian D. Newman","Ali Ouni","Zhe Yu"]
 publication: "CoRR"

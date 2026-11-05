@@ -1,5 +1,5 @@
 ---
-title: "Who Added That Permission to My App? An Analysis of Developer Permission Changes in Open Source Android Apps"
+title: "Who added that permission to my app? an analysis of developer permission changes in open source Android apps"
 date: "2017-01-01"
 authors: ["Daniel E. Krutz","Nuthan Munaiah","Anthony Peruma","Mohamed Wiem Mkaouer"]
 publication: "MOBILESoft@ICSE"

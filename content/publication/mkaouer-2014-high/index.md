@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'High dimensional search-based software engineering: finding tradeoffs among
-  15 objectives for automating software refactoring using NSGA-III'
+title: 'High dimensional search-based software engineering: finding tradeoffs among 15 objectives for automating software refactoring using NSGA-III'
 subtitle: ''
 summary: ''
 authors:

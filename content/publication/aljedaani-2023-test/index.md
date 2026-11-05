@@ -1,5 +1,5 @@
 ---
-title: "Do the Test Smells Assertion Roulette and Eager Test Impact Students' Troubleshooting and Debugging Capabilities?"
+title: "Do the test smells assertion roulette and eager test impact students' troubleshooting and debugging capabilities?"
 date: "2023-01-01"
 authors: ["Wajdi Aljedaani","Mohamed Wiem Mkaouer","Anthony Peruma","Stephanie Ludi"]
 publication: "CoRR"

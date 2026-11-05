@@ -1,5 +1,5 @@
 ---
-title: "M-Perm: A Lightweight Detector for Android Permission Gaps"
+title: "M-Perm: a lightweight detector for Android permission gaps"
 date: "2017-01-01"
 authors: ["Piper Chester","Chris Jones","Mohamed Wiem Mkaouer","Daniel E. Krutz"]
 publication: "MOBILESoft@ICSE"

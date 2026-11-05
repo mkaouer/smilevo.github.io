@@ -1,5 +1,5 @@
 ---
-title: "How is Software Reuse Discussed in Stack Overflow?"
+title: "How is software reuse discussed in Stack Overflow?"
 date: "2023-01-01"
 authors: ["Eman Abdullah AlOmar","Anthony Peruma","Mohamed Wiem Mkaouer","Christian D. Newman","Ali Ouni"]
 publication: "CoRR"

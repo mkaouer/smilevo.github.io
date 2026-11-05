@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: On the Use of Smelly Examples to Detect Code Smells in JavaScript
+title: On the use of smelly examples to detect code smells in JavaScript
 subtitle: ''
 summary: ''
 authors:

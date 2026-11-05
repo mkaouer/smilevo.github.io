@@ -1,5 +1,5 @@
 ---
-title: "Issue-Labeler: an ALBERT-based Jira Plugin for Issue Classification"
+title: "Issue-Labeler: an ALBERT-based Jira plugin for issue classification"
 date: "2023-01-01"
 authors: ["Waleed Alhindi","Abdulrahman Aleid","Ilyes Jenhani","Mohamed Wiem Mkaouer"]
 publication: "MOBILESoft"

@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Anti-patterns in Modern Code Review: Symptoms and Prevalence'
+title: 'Anti-patterns in modern code review: symptoms and prevalence'
 subtitle: ''
 summary: ''
 authors:

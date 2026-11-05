@@ -1,5 +1,5 @@
 ---
-title: "Many-Objective Software Remodularization Using NSGA-III"
+title: "Many-objective software remodularization using NSGA-III"
 date: "2015-01-01"
 authors: ["Wiem Mkaouer","Marouane Kessentini","Adnan Shaout","Patrice Koligheu","Slim Bechikh","Kalyanmoy Deb","Ali Ouni"]
 publication: "ACM Trans. Softw. Eng. Methodol."

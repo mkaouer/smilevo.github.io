@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Improving Distributed Neuroevolution Using Island Extinction and Repopulation
+title: Improving distributed neuroevolution using island extinction and repopulation
 subtitle: ''
 summary: ''
 authors:

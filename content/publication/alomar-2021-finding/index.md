@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Finding the Needle in a Haystack: On the Automatic Identification of Accessibility
-  User Reviews'
+title: 'Finding the needle in a haystack: on the automatic identification of accessibility user reviews'
 subtitle: ''
 summary: ''
 authors:

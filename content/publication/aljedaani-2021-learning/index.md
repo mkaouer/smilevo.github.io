@@ -1,5 +1,5 @@
 ---
-title: "Learning Sentiment Analysis for Accessibility User Reviews"
+title: "Learning sentiment analysis for accessibility user reviews"
 date: "2021-01-01"
 authors: ["Wajdi Aljedaani","Furqan Rustam","Stephanie Ludi","Ali Ouni","Mohamed Wiem Mkaouer"]
 publication: "ASE Workshops"

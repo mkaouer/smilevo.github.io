@@ -1,5 +1,5 @@
 ---
-title: "MoxE: Mixture of xLSTM Experts with Entropy-Aware Routing for Efficient Language Modeling"
+title: "MoxE: mixture of xLSTM experts with entropy-aware routing for efficient language modeling"
 date: "2025-01-01"
 authors: ["Abdoul Majid O. Thiombiano","Brahim Hnich","Ali Ben Mrad","Mohamed Wiem Mkaouer"]
 publication: "CoRR"

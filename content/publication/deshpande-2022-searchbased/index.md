@@ -1,5 +1,5 @@
 ---
-title: "Search-Based Third-Party Library Migration at the Method-Level"
+title: "Search-based third-party library migration at the method-level"
 date: "2022-01-01"
 authors: ["Niranjana Deshpande","Mohamed Wiem Mkaouer","Ali Ouni","Naveen Sharma"]
 publication: "EvoApplications"

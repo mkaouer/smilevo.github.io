@@ -1,5 +1,5 @@
 ---
-title: "Learning to Predict Code Review Completion Time In Modern Code Review"
+title: "Learning to predict code review completion time in modern code review"
 date: "2023-01-01"
 authors: ["Moataz Chouchen","Ali Ouni","Jefferson Olongo","Mohamed Wiem Mkaouer"]
 publication: "Empir. Softw. Eng."

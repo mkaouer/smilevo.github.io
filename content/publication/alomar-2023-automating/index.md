@@ -1,5 +1,5 @@
 ---
-title: "Automating Source Code Refactoring in the Classroom"
+title: "Automating source code refactoring in the classroom"
 date: "2023-01-01"
 authors: ["Eman Abdullah AlOmar","Mohamed Wiem Mkaouer","Ali Ouni"]
 publication: "CoRR"

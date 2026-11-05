@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: How Do Developers Refactor Code to Improve Code Reusability?
+title: How do developers refactor code to improve code reusability?
 subtitle: ''
 summary: ''
 authors:

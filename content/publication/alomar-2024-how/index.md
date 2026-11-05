@@ -1,5 +1,5 @@
 ---
-title: "How to Refactor this Code? An Exploratory Study on Developer-ChatGPT Refactoring Conversations"
+title: "How to refactor this code? an exploratory study on developer-ChatGPT refactoring conversations"
 date: "2024-01-01"
 authors: ["Eman Abdullah AlOmar","Anushkrishna Venkatakrishnan","Mohamed Wiem Mkaouer","Christian D. Newman","Ali Ouni"]
 publication: "CoRR"

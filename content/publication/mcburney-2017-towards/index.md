@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Towards Prioritizing Documentation Effort
+title: Towards prioritizing documentation effort
 subtitle: ''
 summary: ''
 authors:

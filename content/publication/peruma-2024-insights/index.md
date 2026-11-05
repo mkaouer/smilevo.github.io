@@ -1,5 +1,5 @@
 ---
-title: "Insights from the Field: Exploring Students' Perspectives on Bad Unit Testing Practices"
+title: "Insights from the field: exploring students' perspectives on bad unit testing practices"
 date: "2024-01-01"
 authors: ["Anthony Peruma","Eman Abdullah AlOmar","Wajdi Aljedaani","Christian D. Newman","Mohamed Wiem Mkaouer"]
 publication: "ITiCSE (1)"

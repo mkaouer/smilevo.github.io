@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Multi-criteria Web Services Selection: Balancing the Quality of Design and
-  Quality of Service'
+title: 'Multi-criteria web services selection: balancing the quality of design and quality of service'
 subtitle: ''
 summary: ''
 authors:

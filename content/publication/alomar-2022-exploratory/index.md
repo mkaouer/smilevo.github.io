@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: An Exploratory Study on How Software Reuse is Discussed in Stack Overflow
+title: An exploratory study on how software reuse is discussed in Stack Overflow
 subtitle: ''
 summary: ''
 authors:

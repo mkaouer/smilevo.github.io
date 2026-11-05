@@ -1,5 +1,5 @@
 ---
-title: "Distil-xLSTM: Learning Attention Mechanisms through Recurrent Structures"
+title: "Distil-xLSTM: learning attention mechanisms through recurrent structures"
 date: "2025-01-01"
 authors: ["Abdoul Majid O. Thiombiano","Brahim Hnich","Ali Ben Mrad","Mohamed Wiem Mkaouer"]
 publication: "CoRR"

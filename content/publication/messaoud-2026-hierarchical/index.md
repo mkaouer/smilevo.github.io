@@ -1,5 +1,5 @@
 ---
-title: "Hierarchical multi-label classification for concrete defects: An industrial case study at Vermeg"
+title: "Hierarchical multi-label classification for concrete defects: an industrial case study at Vermeg"
 date: "2026-01-01"
 authors: ["Montassar Ben Messaoud","Ahmed Nour","Ilyes Ben Khalifa","Mohamed Tounsi","Mohamed Wiem Mkaouer"]
 publication: "J. Syst. Softw."

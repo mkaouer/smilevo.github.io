@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'M-perm: A lightweight detector for android permission gaps'
+title: 'M-Perm: a lightweight detector for Android permission gaps'
 subtitle: ''
 summary: ''
 authors:

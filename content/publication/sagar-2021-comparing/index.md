@@ -1,5 +1,5 @@
 ---
-title: "Comparing Commit Messages and Source Code Metrics for the Prediction Refactoring Activities"
+title: "Comparing commit messages and source code metrics for the prediction refactoring activities"
 date: "2021-01-01"
 authors: ["Priyadarshni Suresh Sagar","Eman Abdullah AlOmar","Mohamed Wiem Mkaouer","Ali Ouni","Christian D. Newman"]
 publication: "Algorithms"

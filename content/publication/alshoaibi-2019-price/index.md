@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'PRICE: Detection of Performance Regression Introducing Code Changes Using
-  Static and Dynamic Metrics'
+title: 'PRICE: detection of performance regression introducing code changes using static and dynamic metrics'
 subtitle: ''
 summary: ''
 authors:

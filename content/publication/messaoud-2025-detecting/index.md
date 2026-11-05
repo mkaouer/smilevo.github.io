@@ -1,5 +1,5 @@
 ---
-title: "Detecting Software Defects With Hierarchical Multilabel Classification: Insights From an Industrial Case Study"
+title: "Detecting software defects with hierarchical multilabel classification: insights from an industrial case study"
 date: "2025-01-01"
 authors: ["Montassar Ben Messaoud","Ahmed Nour","Ilyes Ben Khalifa","Mohamed Tounsi","Mohamed Wiem Mkaouer"]
 publication: "IT Prof."

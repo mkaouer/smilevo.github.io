@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Variability in Library Evolution
+title: Variability in library evolution
 subtitle: ''
 summary: ''
 authors:

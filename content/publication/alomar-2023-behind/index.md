@@ -1,5 +1,5 @@
 ---
-title: "Behind the Intent of Extract Method Refactoring: A Systematic Literature Review"
+title: "Behind the intent of extract method refactoring: a systematic literature review"
 date: "2023-01-01"
 authors: ["Eman Abdullah AlOmar","Mohamed Wiem Mkaouer","Ali Ouni"]
 publication: "CoRR"

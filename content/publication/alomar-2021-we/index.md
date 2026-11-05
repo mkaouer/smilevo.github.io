@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: How we refactor and how we document it? On the use of supervised machine learning
+title: How we refactor and how we document it? on the use of supervised machine learning
   algorithms to classify refactoring documentation
 subtitle: ''
 summary: ''

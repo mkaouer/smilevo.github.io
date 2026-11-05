@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Interactive code smells detection: An initial investigation'
+title: 'Interactive code smells detection: an initial investigation'
 subtitle: ''
 summary: ''
 authors:

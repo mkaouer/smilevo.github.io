@@ -1,5 +1,5 @@
 ---
-title: "Detecting Continuous Integration Skip Commits Using Multi-Objective Evolutionary Search"
+title: "Detecting continuous integration skip commits using multi-objective evolutionary search"
 date: "2022-01-01"
 authors: ["Islem Saidani","Ali Ouni","Mohamed Wiem Mkaouer"]
 publication: "IEEE Trans. Software Eng."

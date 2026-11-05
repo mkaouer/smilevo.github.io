@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'On preserving the behavior in software refactoring: A systematic mapping study'
+title: 'On preserving the behavior in software refactoring: a systematic mapping study'
 subtitle: ''
 summary: ''
 authors:

@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Web Service API Anti-patterns Detection as a Multi-label Learning Problem
+title: Web service API anti-patterns detection as a multi-label learning problem
 subtitle: ''
 summary: ''
 authors:

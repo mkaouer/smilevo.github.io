@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: On the Diffusion and Impact of Code Smells in Web Applications
+title: On the diffusion and impact of code smells in web applications
 subtitle: ''
 summary: ''
 authors:

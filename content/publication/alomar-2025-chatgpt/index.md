@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT for Code Refactoring: Analyzing Topics, Interaction, and Effective Prompts"
+title: "ChatGPT for code refactoring: analyzing topics, interaction, and effective prompts"
 date: "2025-01-01"
 authors: ["Eman Abdullah AlOmar","Luo Xu","Sofia Martinez","Anthony Peruma","Mohamed Wiem Mkaouer","Christian D. Newman","Ali Ouni"]
 publication: "CoRR"

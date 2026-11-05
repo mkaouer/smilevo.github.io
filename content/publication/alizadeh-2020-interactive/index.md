@@ -1,5 +1,5 @@
 ---
-title: "An Interactive and Dynamic Search-Based Approach to Software Refactoring Recommendations"
+title: "An interactive and dynamic search-based approach to software refactoring recommendations"
 date: "2020-01-01"
 authors: ["Vahid Alizadeh","Marouane Kessentini","Mohamed Wiem Mkaouer","Mel Ocinneide","Ali Ouni","Yuanfang Cai"]
 publication: "IEEE Trans. Software Eng."

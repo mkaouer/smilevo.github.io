@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'On the distribution of test smells in open source android applications: An
-  exploratory study'
+title: 'On the distribution of test smells in open source Android applications: an exploratory study'
 subtitle: ''
 summary: ''
 authors:

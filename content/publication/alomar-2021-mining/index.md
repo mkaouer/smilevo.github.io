@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Mining and Managing Big Data Refactoring for Design Improvement: Are We There
-  Yet?'
+title: 'Mining and managing big data refactoring for design improvement: are we there yet?'
 subtitle: ''
 summary: ''
 authors:

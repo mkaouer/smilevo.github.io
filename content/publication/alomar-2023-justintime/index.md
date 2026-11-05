@@ -1,5 +1,5 @@
 ---
-title: "Just-in-Time Code Duplicates Extraction"
+title: "Just-in-time code duplicates extraction"
 date: "2023-01-01"
 authors: ["Eman Abdullah AlOmar","Anton Ivanov","Zarina Kurbatova","Yaroslav Golubev","Mohamed Wiem Mkaouer","Ali Ouni","Timofey Bryksin","Le Nguyen","Amit Dilip Kini","Aditya Thakur"]
 publication: "CoRR"

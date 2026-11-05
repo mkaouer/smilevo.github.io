@@ -1,5 +1,5 @@
 ---
-title: "Sentiment analysis on Twitter data integrating TextBlob and deep learning models: The case of US airline industry"
+title: "Sentiment analysis on Twitter data integrating TextBlob and deep learning models: the case of US airline industry"
 date: "2022-01-01"
 authors: ["Wajdi Aljedaani","Furqan Rustam","Mohamed Wiem Mkaouer","Abdullatif Ghallab","Vaibhav Rupapara","Patrick Bernard Washington","Ernesto Lee","Imran Ashraf"]
 publication: "Knowl. Based Syst."

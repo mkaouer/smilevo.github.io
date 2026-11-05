@@ -1,5 +1,5 @@
 ---
-title: "Multi-label Classification of Mobile Application User Reviews Using Neural Language Models"
+title: "Multi-label classification of mobile application user reviews using neural language models"
 date: "2023-01-01"
 authors: ["Ghaith Khlifi","Ilyes Jenhani","Montassar Ben Messaoud","Mohamed Wiem Mkaouer"]
 publication: "ECSQARU"

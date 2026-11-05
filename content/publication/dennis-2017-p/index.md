@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'P-lint: a permission smell detector for android applications'
+title: 'P-Lint: a permission smell detector for Android applications'
 subtitle: ''
 summary: ''
 authors:
