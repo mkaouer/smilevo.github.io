@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'PLAIN: PLugin for predicting the usAbility of Mobile User INterface.'
+title: 'PLAIN: PLugin for predicting the usAbility of mobile user INterface.'
 subtitle: ''
 summary: ''
 authors:

@@ -1,5 +1,5 @@
 ---
-title: "Cultivating Software Quality Improvement in the Classroom: An Experience with ChatGPT"
+title: "Cultivating software quality improvement in the classroom: an experience with ChatGPT"
 date: "2024-01-01"
 authors: ["Eman Abdullah AlOmar","Mohamed Wiem Mkaouer"]
 publication: "CSEE&T"

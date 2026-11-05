@@ -1,5 +1,5 @@
 ---
-title: "Anti-patterns in Modern Code Review: Symptoms and Prevalence"
+title: "Anti-patterns in modern code review: symptoms and prevalence"
 date: "2021-01-01"
 authors: ["Moataz Chouchen","Ali Ouni","Raula Gaikovina Kula","Dong Wang","Patanamon Thongtanunam","Mohamed Wiem Mkaouer","Kenichi Matsumoto"]
 publication: "SANER"

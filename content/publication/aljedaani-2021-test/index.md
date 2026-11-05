@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Test Smell Detection Tools: A Systematic Mapping Study'
+title: 'Test smell detection tools: a systematic mapping study'
 subtitle: ''
 summary: ''
 authors:

@@ -1,5 +1,5 @@
 ---
-title: "How Does Library Migration Impact Software Quality and Comprehension? An Empirical Study"
+title: "How does library migration impact software quality and comprehension? an empirical study"
 date: "2020-01-01"
 authors: ["Hussein Alrubaye","Deema Alshoaibi","Eman Abdullah AlOmar","Mohamed Wiem Mkaouer","Ali Ouni"]
 publication: "ICSR"

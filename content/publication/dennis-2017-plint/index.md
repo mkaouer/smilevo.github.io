@@ -1,5 +1,5 @@
 ---
-title: "P-Lint: A Permission Smell Detector for Android Applications"
+title: "P-Lint: a permission smell detector for Android applications"
 date: "2017-01-01"
 authors: ["Colton Dennis","Daniel E. Krutz","Mohamed Wiem Mkaouer"]
 publication: "MOBILESoft@ICSE"

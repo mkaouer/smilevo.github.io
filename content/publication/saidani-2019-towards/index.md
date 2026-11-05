@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Towards Automated Microservices Extraction Using Muti-objective Evolutionary
+title: Towards automated microservices extraction using muti-objective evolutionary
   Search
 subtitle: ''
 summary: ''

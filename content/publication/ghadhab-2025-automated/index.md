@@ -1,5 +1,5 @@
 ---
-title: "Automated Duplicate Bugs Detection: Do We Really Need All Bug Report Sections?"
+title: "Automated duplicate bugs detection: do we really need all bug report sections?"
 date: "2025-01-01"
 authors: ["Lobna Ghadhab","Ilyes Jenhani","Montassar Ben Messaoud","Mohamed Wiem Mkaouer"]
 publication: "CoopIS"

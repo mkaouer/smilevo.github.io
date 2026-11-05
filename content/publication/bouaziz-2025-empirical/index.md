@@ -1,5 +1,5 @@
 ---
-title: "An Empirical Study on Microservices Deployment Trends, Topics and Challenges in Stack Overflow"
+title: "An empirical study on microservices deployment trends, topics and challenges in Stack Overflow"
 date: "2025-01-01"
 authors: ["Amina Bouaziz","Mohamed Aymen Saied","Mohammed Sayagh","Ali Ouni","Mohamed Wiem Mkaouer"]
 publication: "SANER"

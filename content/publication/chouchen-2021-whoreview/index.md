@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'WhoReview: A multi-objective search-based approach for code reviewers recommendation
-  in modern code review'
+title: 'WhoReview: a multi-objective search-based approach for code reviewers recommendation in modern code review'
 subtitle: ''
 summary: ''
 authors:

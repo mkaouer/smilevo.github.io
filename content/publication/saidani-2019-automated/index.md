@@ -1,5 +1,5 @@
 ---
-title: "Towards Automated Microservices Extraction Using Muti-objective Evolutionary Search"
+title: "Towards automated microservices extraction using muti-objective evolutionary search"
 date: "2019-01-01"
 authors: ["Islem Saidani","Ali Ouni","Mohamed Wiem Mkaouer","Mohamed Aymen Saied"]
 publication: "ICSOC"

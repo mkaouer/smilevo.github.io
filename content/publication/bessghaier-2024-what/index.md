@@ -1,5 +1,5 @@
 ---
-title: "What Constitutes the Deployment and Runtime Configuration System? An Empirical Study on OpenStack Projects"
+title: "What constitutes the deployment and runtime configuration system? an empirical study on OpenStack projects"
 date: "2024-01-01"
 authors: ["Narjes Bessghaier","Mohammed Sayagh","Ali Ouni","Mohamed Wiem Mkaouer"]
 publication: "ACM Trans. Softw. Eng. Methodol."

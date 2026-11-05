@@ -1,5 +1,5 @@
 ---
-title: "Accessibility Feedback in Mobile Application Reviews: A Dataset of Reviews and Accessibility Guidelines"
+title: "Accessibility feedback in mobile application reviews: a dataset of reviews and accessibility guidelines"
 date: "2022-01-01"
 authors: ["Jose E. Reyes Arias","Kale Kurtzhall","Di Pham","Mohamed Wiem Mkaouer","Yasmine N. El-Glaly"]
 publication: "CHI Extended Abstracts"

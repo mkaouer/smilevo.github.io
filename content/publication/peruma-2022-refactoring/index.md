@@ -1,5 +1,5 @@
 ---
-title: "Refactoring Debt: Myth or Reality? An Exploratory Study on the Relationship Between Technical Debt and Refactoring"
+title: "Refactoring debt: myth or reality? an exploratory study on the relationship between technical debt and refactoring"
 date: "2022-01-01"
 authors: ["Anthony Peruma","Eman Abdullah AlOmar","Christian D. Newman","Mohamed Wiem Mkaouer","Ali Ouni"]
 publication: "CoRR"

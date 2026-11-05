@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: How Does Library Migration Impact Software Quality and Comprehension? An Empirical
+title: How does library migration impact software quality and comprehension? an empirical
   Study
 subtitle: ''
 summary: ''

@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'AndroLib: Third-Party Software Library Recommendation for Android Applications'
+title: 'AndroLib: third-party software library recommendation for Android applications'
 subtitle: ''
 summary: ''
 authors:

@@ -1,5 +1,5 @@
 ---
-title: "How Do So ware Developers Use ChatGPT? An Exploratory Study on GitHub Pull Requests"
+title: "How do so ware developers use ChatGPT? an exploratory study on GitHub pull requests"
 date: "2024-01-01"
 authors: ["Moataz Chouchen","Narjes Bessghaier","Mahi Begoug","Ali Ouni","Eman Abdullah AlOmar","Mohamed Wiem Mkaouer"]
 publication: "MSR"

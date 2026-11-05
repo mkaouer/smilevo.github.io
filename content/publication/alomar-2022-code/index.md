@@ -1,5 +1,5 @@
 ---
-title: "Code Review Practices for Refactoring Changes: An Empirical Study on OpenStack"
+title: "Code review practices for refactoring changes: an empirical study on OpenStack"
 date: "2022-01-01"
 authors: ["Eman Abdullah AlOmar","Moataz Chouchen","Mohamed Wiem Mkaouer","Ali Ouni"]
 publication: "CoRR"

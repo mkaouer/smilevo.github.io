@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: A Multi-label Active Learning Approach for Mobile App User Review Classification
+title: A multi-label active learning approach for mobile app user review classification
 subtitle: ''
 summary: ''
 authors:

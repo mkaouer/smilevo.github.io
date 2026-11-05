@@ -1,5 +1,5 @@
 ---
-title: "Large-Scale Anonymized Text-based Disability Discourse Dataset"
+title: "Large-scale anonymized text-based disability discourse dataset"
 date: "2023-01-01"
 authors: ["Brandon Palonis","Samantha Jane Dobesh","Selah Bellscheidt","Mohamed Wiem Mkaouer","Yudong Liu","Yasmine N. Elglaly"]
 publication: "ASSETS"

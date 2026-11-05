@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Refactoring Practices in the Context of Modern Code Review: An Industrial
-  Case Study at Xerox'
+title: 'Refactoring practices in the context of modern code review: an industrial case study at Xerox'
 subtitle: ''
 summary: ''
 authors:

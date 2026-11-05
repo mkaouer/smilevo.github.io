@@ -1,5 +1,5 @@
 ---
-title: "On the impact of single and co-occurrent refactorings on quality attributes in android applications"
+title: "On the impact of single and co-occurrent refactorings on quality attributes in Android applications"
 date: "2023-01-01"
 authors: ["Ali Ouni","Eman Abdullah AlOmar","Oumayma Hamdi","Mel Ó Cinnéide","Mohamed Wiem Mkaouer","Mohamed Aymen Saied"]
 publication: "J. Syst. Softw."

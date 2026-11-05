@@ -1,5 +1,5 @@
 ---
-title: "What Do Infrastructure-as-Code Practitioners Discuss: An Empirical Study on Stack Overflow"
+title: "What do infrastructure-as-code practitioners discuss: an empirical study on Stack Overflow"
 date: "2023-01-01"
 authors: ["Mahi Begoug","Narjes Bessghaier","Ali Ouni","Eman Abdullah AlOmar","Mohamed Wiem Mkaouer"]
 publication: "ESEM"

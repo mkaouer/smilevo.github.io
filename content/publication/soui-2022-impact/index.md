@@ -1,5 +1,5 @@
 ---
-title: "On the Impact of Aesthetic Defects on the Maintainability of Mobile Graphical User Interfaces: An Empirical Study"
+title: "On the impact of aesthetic defects on the maintainability of mobile graphical user interfaces: an empirical study"
 date: "2022-01-01"
 authors: ["Makram Soui","Mabrouka Chouchane","Narjes Bessghaier","Mohamed Wiem Mkaouer","Marouane Kessentini"]
 publication: "Inf. Syst. Frontiers"

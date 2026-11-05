@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'MigrationMiner: An Automated Detection Tool of Third-Party Java Library Migration
-  at the Method Level'
+title: 'MigrationMiner: an automated detection tool of third-party Java library migration at the method level'
 subtitle: ''
 summary: ''
 authors:

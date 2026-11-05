@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'On the use of many quality attributes for software refactoring: a many-objective
-  search-based software engineering approach'
+title: 'On the use of many quality attributes for software refactoring: a many-objective search-based software engineering approach'
 subtitle: ''
 summary: ''
 authors:

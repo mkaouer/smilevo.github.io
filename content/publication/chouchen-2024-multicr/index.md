@@ -1,5 +1,5 @@
 ---
-title: "MULTICR: Predicting Merged and Abandoned Code Changes in Modern Code Review Using Multi-Objective Search"
+title: "MULTICR: predicting merged and abandoned code changes in modern code review using multi-objective search"
 date: "2024-01-01"
 authors: ["Moataz Chouchen","Ali Ouni","Mohamed Wiem Mkaouer"]
 publication: "ACM Trans. Softw. Eng. Methodol."

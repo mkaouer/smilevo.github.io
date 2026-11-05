@@ -1,5 +1,5 @@
 ---
-title: "A Multi-label Active Learning Approach for Mobile App User Review Classification"
+title: "A multi-label active learning approach for mobile app user review classification"
 date: "2019-01-01"
 authors: ["Montassar Ben Messaoud","Ilyes Jenhani","Nermine Ben Jemaa","Mohamed Wiem Mkaouer"]
 publication: "KSEM (1)"

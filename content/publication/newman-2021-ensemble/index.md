@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: An Ensemble Approach for Annotating Source Code Identifiers with Part-of-speech
+title: An ensemble approach for annotating source code identifiers with part-of-speech
   Tags
 subtitle: ''
 summary: ''

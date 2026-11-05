@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: How do i refactor this? An empirical study on refactoring trends and topics
+title: How do I refactor this? an empirical study on refactoring trends and topics
   in Stack Overflow
 subtitle: ''
 summary: ''

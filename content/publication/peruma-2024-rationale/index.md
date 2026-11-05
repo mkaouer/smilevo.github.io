@@ -1,5 +1,5 @@
 ---
-title: "On the Rationale and Use of Assertion Messages in Test Code: Insights from Software Practitioners"
+title: "On the rationale and use of assertion messages in test code: insights from software practitioners"
 date: "2024-01-01"
 authors: ["Anthony Peruma","Taryn Takebayashi","Rocky Huang","Joseph Carmelo Averion","Veronica Hodapp","Christian D. Newman","Mohamed Wiem Mkaouer"]
 publication: "CoRR"

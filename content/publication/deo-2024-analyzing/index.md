@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Developer-ChatGPT Conversations for Software Refactoring: An Exploratory Study"
+title: "Analyzing developer-ChatGPT conversations for software refactoring: an exploratory study"
 date: "2024-01-01"
 authors: ["Soham Deo","Divya Hinge","Omkar Sandip Chavan","Yaxuan Olivia Wang","Mohamed Wiem Mkaouer"]
 publication: "MSR"

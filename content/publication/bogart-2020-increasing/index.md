@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Increasing the Trust In Refactoring Through Visualization
+title: Increasing the trust in refactoring through visualization
 subtitle: ''
 summary: ''
 authors:

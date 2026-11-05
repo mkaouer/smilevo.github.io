@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'On the impact of Continuous Integration on refactoring practice: An exploratory
-  study on TravisTorrent'
+title: 'On the impact of continuous integration on refactoring practice: an exploratory study on TravisTorrent'
 subtitle: ''
 summary: ''
 authors:

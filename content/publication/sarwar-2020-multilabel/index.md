@@ -1,5 +1,5 @@
 ---
-title: "Multi-label Classification of Commit Messages using Transfer Learning"
+title: "Multi-label classification of commit messages using transfer learning"
 date: "2020-01-01"
 authors: ["Muhammad Usman Sarwar","Sarim Zafar","Mohamed Wiem Mkaouer","Gursimran Singh Walia","Muhammad Zubair Malik"]
 publication: "ISSRE Workshops"

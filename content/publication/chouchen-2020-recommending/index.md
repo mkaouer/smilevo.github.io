@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Recommending peer reviewers in modern code review: a multi-objective search-based
-  approach'
+title: 'Recommending peer reviewers in modern code review: a multi-objective search-based approach'
 subtitle: ''
 summary: ''
 authors:

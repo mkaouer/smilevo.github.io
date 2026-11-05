@@ -1,5 +1,5 @@
 ---
-title: "GitRev: An LLM-Based Gamification Framework for Modern Code Review Activities"
+title: "GitRev: an LLM-based gamification framework for modern code review activities"
 date: "2024-01-01"
 authors: ["Jasem Khelifi","Moataz Chouchen","Ali Ouni","Dong Wang","Raula Gaikovina Kula","Salma Hamza","Mohamed Wiem Mkaouer"]
 publication: "SCAM"

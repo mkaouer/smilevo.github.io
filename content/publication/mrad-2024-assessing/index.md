@@ -1,5 +1,5 @@
 ---
-title: "Assessing Large Language Models Effectiveness in Outdated Method Renaming"
+title: "Assessing large language models effectiveness in outdated method renaming"
 date: "2024-01-01"
 authors: ["Ali Ben Mrad","Abdoul Majid O. Thiombiano","Mohamed Wiem Mkaouer","Brahim Hnich"]
 publication: "ICSOC (1)"

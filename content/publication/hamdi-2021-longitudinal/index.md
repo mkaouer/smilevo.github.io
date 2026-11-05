@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: A longitudinal study of the impact of refactoring in android applications
+title: A longitudinal study of the impact of refactoring in Android applications
 subtitle: ''
 summary: ''
 authors:

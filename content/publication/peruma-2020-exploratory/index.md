@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: An exploratory study on the refactoring of unit test files in android applications
+title: An exploratory study on the refactoring of unit test files in Android applications
 subtitle: ''
 summary: ''
 authors:

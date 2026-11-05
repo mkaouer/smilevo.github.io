@@ -1,5 +1,5 @@
 ---
-title: "How do i refactor this? An empirical study on refactoring trends and topics in Stack Overflow"
+title: "How do I refactor this? an empirical study on refactoring trends and topics in Stack Overflow"
 date: "2022-01-01"
 authors: ["Anthony Peruma","Steven Simmons","Eman Abdullah AlOmar","Christian D. Newman","Mohamed Wiem Mkaouer","Ali Ouni"]
 publication: "Empir. Softw. Eng."

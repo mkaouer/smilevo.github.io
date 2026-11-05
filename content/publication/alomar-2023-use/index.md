@@ -1,5 +1,5 @@
 ---
-title: "On the Use of Static Analysis to Engage Students with Software Quality Improvement: An Experience with PMD"
+title: "On the use of static analysis to engage students with software quality improvement: an experience with PMD"
 date: "2023-01-01"
 authors: ["Eman Abdullah AlOmar","Salma Abdullah AlOmar","Mohamed Wiem Mkaouer"]
 publication: "CoRR"

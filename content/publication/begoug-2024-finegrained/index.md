@@ -1,5 +1,5 @@
 ---
-title: "Fine-Grained Just-In-Time Defect Prediction at the Block Level in Infrastructure-as-Code (IaC)"
+title: "Fine-grained just-in-time defect prediction at the block level in infrastructure-as-code (IaC)"
 date: "2024-01-01"
 authors: ["Mahi Begoug","Moataz Chouchen","Ali Ouni","Eman Abdullah AlOmar","Mohamed Wiem Mkaouer"]
 publication: "MSR"

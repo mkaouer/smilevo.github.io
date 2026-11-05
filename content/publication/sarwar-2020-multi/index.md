@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Multi-label Classification of Commit Messages using Transfer Learning
+title: Multi-label classification of commit messages using transfer learning
 subtitle: ''
 summary: ''
 authors:

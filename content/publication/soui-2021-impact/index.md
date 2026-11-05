@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'On the Impact of Aesthetic Defects on the Maintainability of Mobile Graphical
-  User Interfaces: An Empirical Study'
+title: 'On the impact of aesthetic defects on the maintainability of mobile graphical user interfaces: an empirical study'
 subtitle: ''
 summary: ''
 authors:

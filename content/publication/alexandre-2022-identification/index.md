@@ -1,5 +1,5 @@
 ---
-title: "On the Identification of Third-Party Library Usage Patterns for Android Applications"
+title: "On the identification of third-party library usage patterns for Android applications"
 date: "2022-01-01"
 authors: ["Richardson Alexandre","Ali Ouni","Mohamed Aymen Saied","Salah Bouktif","Mohamed Wiem Mkaouer"]
 publication: "EASE"

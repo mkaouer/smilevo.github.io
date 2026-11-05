@@ -1,5 +1,5 @@
 ---
-title: "Bankruptcy Prediction Using Stacked Auto-Encoders"
+title: "Bankruptcy prediction using stacked auto-encoders"
 date: "2020-01-01"
 authors: ["Makram Soui","Salima Smiti","Mohamed Wiem Mkaouer","Ridha Ejbali"]
 publication: "Appl. Artif. Intell."

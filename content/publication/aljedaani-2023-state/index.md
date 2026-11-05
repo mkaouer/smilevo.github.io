@@ -1,5 +1,5 @@
 ---
-title: "The State of Accessibility in Blackboard: Survey and User Reviews Case Study"
+title: "The state of accessibility in Blackboard: survey and user reviews case study"
 date: "2023-01-01"
 authors: ["Wajdi Aljedaani","Mohammed Alkahtani","Stephanie Ludi","Mohamed Wiem Mkaouer","Marcelo Medeiros Eler","Marouane Kessentini","Ali Ouni"]
 publication: "W4A"

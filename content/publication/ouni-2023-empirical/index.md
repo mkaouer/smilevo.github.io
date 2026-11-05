@@ -1,5 +1,5 @@
 ---
-title: "An Empirical Study on Continuous Integration Trends, Topics and Challenges in Stack Overflow"
+title: "An empirical study on continuous integration trends, topics and challenges in Stack Overflow"
 date: "2023-01-01"
 authors: ["Ali Ouni","Islem Saidani","Eman Abdullah AlOmar","Mohamed Wiem Mkaouer"]
 publication: "EASE"

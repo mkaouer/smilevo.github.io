@@ -1,5 +1,5 @@
 ---
-title: "PR-DupliChecker: detecting duplicate pull requests in Fork-based workflows"
+title: "PR-DupliChecker: detecting duplicate pull requests in fork-based workflows"
 date: "2024-01-01"
 authors: ["Montassar Ben Messaoud","Rania Ben Chekaya","Mohamed Wiem Mkaouer","Ilyes Jenhani","Wajdi Aljedaani"]
 publication: "Int. J. Syst. Assur. Eng. Manag."
