@@ -6,6 +6,8 @@
     "data": [
       {
         "title": "SWE 330: Software Architecture & Design",
+        "description": "PR: CSC 275 or CSC 276 or CSC 279. Modeling and design of software at the architectural level. Architectural styles, basics of model-driven architecture, object-oriented design and analysis, iterative development and unified process. Design patterns, design by contract, component-based design, product families. Measurement theory and appropriate use of metrics in design; designing for qualities such as performance, safety, security, reliability and reusability; analysis and evaluation of software architectures; introduction to architecture definition languages. Basics of software evolution, reengineering, and reverse engineering. Introduction to distributed system software. Includes case studies.",
+        "url": "https://www.coursicle.com/umflint/courses/SWE/330/",
         "author": [
           {
             "name": "Mohamed Wiem Mkaouer",
@@ -16,6 +18,8 @@
       },
       {
         "title": "SWE 380: Software Engineering",
+        "description": "(was CSC 382) PR: Grade of C (2.0) or better in one from: CSC 275, CSC 276, CSC 279. In-depth treatment of modeling techniques suitable for developing complex large-scale software-intensive systems ranging from large information systems to embedded systems. Key tasks comprising the entire software lifecycle, structured and object-oriented modeling techniques for requirements analysis and software design. Use cases, CRC cards, data flow diagrams, activity diagrams, class diagrams, methods for software testing. Includes semester-long analysis and design project for hands-on experience.",
+        "url": "https://www.coursicle.com/umflint/courses/SWE/380/",
         "author": [
           {
             "name": "Mohamed Wiem Mkaouer",
@@ -26,6 +30,8 @@
       },
       {
         "title": "SWE 535: Software Arch/Des",
+        "description": "PR: Graduate standing. Modeling and design of software at the architectural level. Architectural styles, basics of model-driven architecture, object-oriented design and analysis, iterative development and unified process. Design patterns, design by contract, component-based design, product families. Measurement theory and appropriate use of metrics in design; designing for qualities such as performance, safety, security, reliability and reusability; analysis and evaluation of software architectures; introduction to architecture definition languages. Basics of software evolution, reengineering, and reverse engineering. Introduction to distributed system software. Includes case studies. Not open to students with credit for SWE 330.",
+        "url": "https://www.coursicle.com/umflint/courses/SWE/535/",
         "author": [
           {
             "name": "Mohamed Wiem Mkaouer",
@@ -36,6 +42,8 @@
       },
       {
         "title": "CSC 580: Advanced Software Engineering",
+        "description": "PR: Graduate standing. Advanced topics in software engineering; advanced design methods including formal methods, component-based design, design with patterns and frameworks, and architectural-based designs. Modern software processes such as Extreme Programming and Cleanroom software development. Issues and problems associated with large-scale software project failures and techniques for preventing them. Graded ABCDE.",
+        "url": "https://www.coursicle.com/umflint/courses/CSC/580/",
         "author": [
           {
             "name": "Mohamed Wiem Mkaouer",
@@ -46,6 +54,8 @@
       },
       {
         "title": "CSC 595: Master's Thesis I",
+        "description": "PR: Consent of instructor. Advanced topics of particular interest to the student chosen in cooperation with the thesis advisor. Directed research under the supervision of thesis advisor, thesis document preparation, preparation for oral thesis defense. Graded Satisfactory/Unsatisfactory/Y.",
+        "url": "https://www.coursicle.com/umflint/courses/CSC/595/",
         "author": [
           {
             "name": "Mohamed Wiem Mkaouer",
@@ -56,6 +66,8 @@
       },
       {
         "title": "CSC 596: Master's Thesis II",
+        "description": "PR: Satisfactory completion of CSC 595. Continuation of thesis research. Graded Satisfactory/Unsatisfactory/Y.",
+        "url": "https://www.coursicle.com/umflint/courses/CSC/596/",
         "author": [
           {
             "name": "Mohamed Wiem Mkaouer",
@@ -66,6 +78,8 @@
       },
       {
         "title": "CSC 801: Pre-Candidacy Research",
+        "description": "PR: Enrollment in the PhD in Computing program. Dissertation work by a pre-candidacy student in the PhD in Computing program, conducted under guidance of the faculty advisor. May be reelected for additional credit.",
+        "url": "https://www.coursicle.com/umflint/courses/CSC/801/",
         "author": [
           {
             "name": "Mohamed Wiem Mkaouer",
