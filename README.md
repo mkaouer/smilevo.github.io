@@ -1,46 +1,69 @@
-# Wowchemy's Research Group Template for [Hugo](https://github.com/gohugoio/hugo)
+# Behavioral Data Science website
 
-The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
+A static React website built with Next.js and plain CSS. Content is stored in JSON; the optional DOI helper uses Python's standard library. No Ruby, Jekyll, database, or application server is needed in production.
 
-## SMILE site maintenance
+## Run locally
 
-For this site's event video and Google Analytics configuration notes, see the [site maintenance guide](docs/site-maintenance.md).
+Use Node 24 LTS (`nvm use` if you use nvm):
 
-[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 5 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
+```sh
+npm ci
+npm run dev
+```
 
-_[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs._
+Open the URL printed by Next.js (normally http://127.0.0.1:3000).
 
-- 👉 [**Get Started**](https://wowchemy.com/templates/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://github.com/wowchemy/wowchemy-hugo-modules/releases)
+## Build and check
 
-## Crowd-funded open-source software
+```sh
+npm run check
+npm run test:skeleton
+npm run preview
+```
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+The build validates the content and referenced assets, then exports static files into `out/`. Stop the development server before starting the static preview because both default to port 3000.
 
-### [❤️ Click here to unlock rewards with sponsorship](https://wowchemy.com/sponsor/)
+Run `npm run format` after editing JavaScript, JSX, CSS, or root configuration files. The pinned Prettier version keeps source formatting consistent; `npm run check` enforces it locally and in CI. Content, maintenance records, Markdown, and Python files retain their existing formatting.
 
-## Ecosystem
+## Update content
 
-* **[Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli/):** Automatically import publications from BibTeX
+| What to edit | Where |
+| --- | --- |
+| Publications | `content/publications.json` |
+| People, roles, status and interests | `content/people.json` |
+| Alumni from the original site | `content/alumni.json` |
+| News, newest date first | `content/news.json` |
+| Sponsors | `content/sponsors.json` |
+| Existing page prose (Markdown strings) | `content/pages.json` |
+| Awards, projects, opportunities, photos | `content/awards.json`, `projects.json`, `opportunities.json`, `gallery.json` |
+| Site domain and signup endpoint | `content/site.json` |
+| Page layout | `app/` |
+| Shared interface components | `components/` |
+| All styling | `app/globals.css` |
+| Images, PDFs and downloads | `public/` |
 
-[![Screenshot](./preview.png)](https://wowchemy.com/templates/)
+See [Content model](docs/CONTENT_MODEL.md) for field definitions and [Maintenance runbook](docs/MAINTENANCE.md) for submissions, discovery, review, activation and recovery. Keep stable IDs when editing existing records: they determine page URLs. Ordinary papers do not require a thumbnail or local PDF. Do not modify the `legacy` metadata unless correcting an import; it preserves original bibliographic details.
 
-## Demo Credits
+All 66 publications have reviewed `personIds`, which determine profile paper lists. The discovery pipeline queries nine current-member identities and recognizes anchored past-member and split-profile identities as coauthors. Reviewed membership evidence uses inclusive calendar years; uncertain identities and dates remain human-review cases.
 
-Please replace the demo images with your own.
+## Review and deploy
 
-- [Female scientist](https://unsplash.com/photos/uVnRa6mOLOM)
-- [2 Coders](https://unsplash.com/photos/kwzWjTnDPLk)
-- [Cafe](https://unsplash.com/photos/RnDGGnMEOao)
-- Blog posts
-  - https://unsplash.com/photos/AndE50aaHn4
-  - https://unsplash.com/photos/OYzbqk2y26c
-- Avatars
-  - https://unsplash.com/photos/5yENNRbbat4
-  - https://unsplash.com/photos/WNoLnJo7tS8
+Create a branch and pull request. The check workflow runs content validation, tests and the production build, then saves the exported site as a downloadable artifact. Review the content and preview before merging.
 
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/starter-research-group/readme?pixel)](https://github.com/igrigorik/ga-beacon)
+The React site is live at <https://behavioral-data.github.io/> from `master`, using GitHub Actions for Pages. Deployment remains **manual-only**: after reviewing and merging a change, run “Deploy React website” on `master`. Pushing a branch or merging a PR does not deploy it. The [runbook](docs/MAINTENANCE.md) covers verification and rollback without rewriting history.
+
+## Migration and remaining work
+
+See [Next steps and GitHub issues](_planning/NEXT_STEPS.md) for the current delivery plan and completion criteria.
+
+The reviewed website contains 66 publications, 22 people records (nine current members), 11 legacy alumni entries, four news records, seven sponsors, and 69 honors. Sponsors are described as **Past and present support**, as confirmed by the maintainer. Original assets and stable publication URLs remain available. Empty Research, Pictures, and About website routes redirect to relevant live sections; historical news, recruitment, and IdioFid URLs are preserved.
+
+The content and layout passes are complete. Keyboard, responsive, accessibility, and route checks are recorded in [final QA](_planning/FINAL_QA.md). The IdioFid form retains its existing Google Apps Script endpoint; the maintainer explicitly deferred a live signup test.
+
+The migration backup location and inventory are recorded in `_planning/migration-backup.json`. It includes the pre-migration legacy source and staged/unstaged Git patches. Generated Jekyll output and installed Ruby dependencies were not archived. Git's existing commit history is intact.
+
+**Recurring maintenance remains disabled.** The isolated live discovery pilot passed; see [pilot evidence](_planning/MAINTENANCE_PILOT.md). Primary maintainer: [advaitmb](https://github.com/advaitmb). Activation still requires review safeguards, alert routing, an independent missed-run monitor, and two actual weekly review cycles. Automatic publication is out of scope. Private reviewer notes, credentials, and signup addresses stay outside this public repository.
+
+## Credits
+
+The original website was based on the Allan Lab at Leiden University template. Its content and historical assets are retained with their existing attribution. The current implementation uses React and Next.js.

@@ -1,7 +1,15 @@
-# IDEs
-.idea/
+node_modules/
+.next/
+out/
+_review/
+.DS_Store
+.vscode/
+__pycache__/
+*.pyc
+.env*
+!.env.example
 
-# Hugo
-/resources/
-public/
-assets/jsconfig.json
+# Machine-local pre-migration recovery inventory
+_planning/migration-backup.json
+
+.cache/
