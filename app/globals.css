@@ -1165,3 +1165,120 @@ h2 + .news-item {
     bottom: calc(-1 * var(--space-lg));
   }
 }
+
+/* Facebook carousel and feed */
+.fb-carousel {
+  position: relative;
+  padding: 0 56px;
+}
+.fb-slide {
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+}
+.fb-post-wrap {
+  width: 100%;
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fb-fallback {
+  margin-top: 12px;
+  font-size: 14px;
+}
+.fb-blocked {
+  margin: 12px 0 0;
+  font-size: 14px;
+  color: var(--muted);
+  text-align: center;
+}
+.fb-arrow {
+  position: absolute;
+  top: 260px;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #c00;
+  font-size: 36px;
+  line-height: 1;
+  cursor: pointer;
+}
+.fb-arrow:hover {
+  background: var(--wash);
+}
+.fb-prev {
+  left: 0;
+}
+.fb-next {
+  right: 0;
+}
+.fb-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+.fb-dots button {
+  width: 36px;
+  height: 6px;
+  padding: 0;
+  border: 0;
+  background: rgba(204, 0, 0, 0.35);
+  cursor: pointer;
+}
+.fb-dots button[aria-current='true'] {
+  background: #c00;
+}
+.fb-arrow:focus-visible,
+.fb-dots button:focus-visible,
+.fb-pagination button:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: 2px;
+}
+.fb-feed-item {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--line);
+}
+.fb-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 32px;
+}
+.fb-pagination button {
+  min-width: 40px;
+  padding: 8px 14px;
+  border: 1px solid var(--purple);
+  border-radius: 4px;
+  background: var(--paper);
+  color: var(--purple);
+  font: inherit;
+  cursor: pointer;
+}
+.fb-pagination button[aria-current='page'] {
+  background: var(--purple);
+  color: var(--paper);
+}
+.fb-pagination button:disabled {
+  border-color: var(--line);
+  color: var(--muted);
+  cursor: not-allowed;
+}
+@media (max-width: 700px) {
+  .fb-carousel {
+    padding: 0 8px;
+  }
+  .fb-arrow {
+    top: 4px;
+    width: 36px;
+    height: 36px;
+    font-size: 28px;
+    background: rgba(255, 255, 255, 0.85);
+  }
+}

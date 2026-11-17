@@ -448,7 +448,7 @@ def main():
     (extra / "teaching.json").write_text(json.dumps(load_teaching(), ensure_ascii=False, indent=2), encoding="utf-8")
     (extra / "service.json").write_text(json.dumps(load_service(), ensure_ascii=False, indent=2), encoding="utf-8")
 
-    redirects += [("/newsfeed/", "/news/"), ("/people/", "/team/"), ("/publication/", "/publications/"),
+    redirects += [("/people/", "/team/"), ("/publication/", "/publications/"),
                   ("/event/", "/news/"), ("/project/", "/research/"), ("/code/", "/research/"),
                   ("/contact/", "/join/")]
     redirects += [(f"/publication/{p['id']}/", f"/publications/{p['id']}/") for p in pubs]

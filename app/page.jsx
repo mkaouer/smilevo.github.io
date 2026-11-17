@@ -2,7 +2,9 @@ import PersonPhoto from '@/components/person-photo';
 import HeroNetwork from '@/components/hero-network';
 import ReactMarkdown from 'react-markdown';
 import Link from 'next/link';
-import { papers, people, sponsors, pageContent, awards, news } from '@/lib/content';
+import { papers, people, sponsors, pageContent, awards, news, facebookPosts } from '@/lib/content';
+import FacebookCarousel from '@/components/facebook-carousel';
+import { CAROUSEL_COUNT } from '@/lib/facebook.mjs';
 import {
   latestAwardPapers,
   latestPeopleAwards,
@@ -51,6 +53,19 @@ export default function Home() {
             ))}
         </div>
       </section>
+      {facebookPosts.length > 0 && (
+        <section
+          className="section highlight-group"
+          id="facebook"
+          aria-labelledby="facebook-heading"
+        >
+          <div className="section-heading">
+            <h2 id="facebook-heading">From Facebook</h2>
+            <Link href="/newsfeed/">See all posts</Link>
+          </div>
+          <FacebookCarousel posts={facebookPosts.slice(0, CAROUSEL_COUNT)} />
+        </section>
+      )}
       {news.length > 0 && (
         <section
           className="section highlight-group"

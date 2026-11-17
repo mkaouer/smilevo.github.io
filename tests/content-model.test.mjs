@@ -351,3 +351,22 @@ test('optional portrait framing and venue labels reject invalid editorial values
   data.publications[0].venueShort = 42;
   assert.match(validateContent(data).join(), /venueShort/);
 });
+
+test('facebook posts must be unique public post URLs', () => {
+  const base = fixture();
+  const ok = {
+    ...base,
+    facebook: [{ id: 'fb-1', url: 'https://www.facebook.com/someone/posts/123' }],
+  };
+  assert.deepEqual(validateContent(ok), []);
+  const dup = {
+    ...base,
+    facebook: [
+      { id: 'fb-1', url: 'https://www.facebook.com/someone/posts/123' },
+      { id: 'fb-2', url: 'https://www.facebook.com/someone/posts/123' },
+    ],
+  };
+  assert.match(validateContent(dup).join(), /duplicate Facebook post URL/);
+  const bad = { ...base, facebook: [{ id: 'fb-3', url: 'https://example.com/posts/1' }] };
+  assert.match(validateContent(bad).join(), /facebook\.com/);
+});

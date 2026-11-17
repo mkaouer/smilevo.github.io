@@ -6,6 +6,7 @@ export default function sitemap() {
     '/team/',
     '/publications/',
     '/news/',
+    '/newsfeed/',
     '/awards/',
     '/events/',
     '/teaching/',

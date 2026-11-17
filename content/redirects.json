@@ -20,10 +20,6 @@
     "to": "/news/"
   },
   {
-    "from": "/newsfeed/",
-    "to": "/news/"
-  },
-  {
     "from": "/people/",
     "to": "/team/"
   },
