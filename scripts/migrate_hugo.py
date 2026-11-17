@@ -153,11 +153,11 @@ def load_people(out_public, collab_mode):
         person = {"id": pid, "name": name, "role": role, "status": status, "priority": priority, "topics": topics}
         if website:
             person["website"] = website
-        for ext in ("jpg", "jpeg", "png"):
-            av = folder / f"avatar.{ext}"
-            if av.is_file():
-                person["image"] = copy_asset(av, "resources/headshots", f"{pid}.{ext}", out_public)
-                break
+        # Legacy folders include "avatar .jpg" (stray space) and uppercase .PNG/.JPG
+        found = [f for f in folder.iterdir() if re.fullmatch(r"avatar\s*\.(jpe?g|png)", f.name, re.I)]
+        if found:
+            ext = found[0].suffix.lower().replace(".jpeg", ".jpg")
+            person["image"] = copy_asset(found[0], "resources/headshots", f"{pid}{ext}", out_public)
         else:
             note(f"- No avatar: {name} ({pid})")
         people.append(person)

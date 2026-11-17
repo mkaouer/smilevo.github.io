@@ -115,7 +115,8 @@
     "priority": 5,
     "topics": [
       "Software Engineering"
-    ]
+    ],
+    "image": "/resources/headshots/ricky-suberman.jpg"
   },
   {
     "id": "wajdi-aljedaani",
@@ -233,7 +234,8 @@
     "role": "Software Developer",
     "status": "alumni",
     "priority": 5,
-    "topics": []
+    "topics": [],
+    "image": "/resources/headshots/ashnil-n-vazirani.jpg"
   },
   {
     "id": "aymen-masmoudi",
@@ -278,7 +280,8 @@
     "priority": 5,
     "topics": [
       "Software Architecture"
-    ]
+    ],
+    "image": "/resources/headshots/benjamin-adepoju.jpg"
   },
   {
     "id": "brandon-palonis",
@@ -576,7 +579,8 @@
     "topics": [
       "Natural Language Processing",
       "Computer Vision."
-    ]
+    ],
+    "image": "/resources/headshots/mayuresh-nene.jpg"
   },
   {
     "id": "mazen-alotaibi",
@@ -639,7 +643,8 @@
       "Machine learning",
       "Python",
       "Statistics"
-    ]
+    ],
+    "image": "/resources/headshots/mrinal-chaudhari.jpg"
   },
   {
     "id": "murtaza-tamjeed",
@@ -672,7 +677,8 @@
     "role": "Software Engineer",
     "status": "alumni",
     "priority": 5,
-    "topics": []
+    "topics": [],
+    "image": "/resources/headshots/philip-t-rodriguez.jpg"
   },
   {
     "id": "priyadarshni-sagar",
@@ -695,7 +701,8 @@
     "topics": [
       "Interest 1",
       "Interest 2"
-    ]
+    ],
+    "image": "/resources/headshots/rana-alrubaye.png"
   },
   {
     "id": "sai-gowtham-kapa",
@@ -734,7 +741,8 @@
       "XR(VR/AR)",
       "UI/UX",
       "Mobile Applications"
-    ]
+    ],
+    "image": "/resources/headshots/simar-khanna.jpg"
   },
   {
     "id": "steve-simmons",
@@ -806,7 +814,8 @@
     "topics": [
       "Interest 1",
       "Interest 2"
-    ]
+    ],
+    "image": "/resources/headshots/tianjia-wang.jpg"
   },
   {
     "id": "tmax-jlateh",
@@ -818,7 +827,8 @@
       "Software Engineering",
       "Artificial Intelligence",
       "Cloud Engineering"
-    ]
+    ],
+    "image": "/resources/headshots/tmax-jlateh.jpg"
   },
   {
     "id": "vaibhavi-raut",
