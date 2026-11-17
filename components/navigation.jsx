@@ -6,6 +6,9 @@ const links = [
   ['/team/', 'Team'],
   ['/publications/', 'Publications'],
   ['/news/', 'News'],
+  ['/events/', 'Events'],
+  ['/teaching/', 'Teaching'],
+  ['/service/', 'Service'],
   ['/join/', 'Join us'],
 ];
 export default function Navigation({ extraLinks = [] }) {

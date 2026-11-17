@@ -32,10 +32,6 @@
     "to": "/publications/"
   },
   {
-    "from": "/event/",
-    "to": "/news/"
-  },
-  {
     "from": "/project/",
     "to": "/research/"
   },
@@ -1126,5 +1122,61 @@
   {
     "from": "/author/vinayak-sengupta/",
     "to": "/people/vinayak-sengupta/"
+  },
+  {
+    "from": "/event/",
+    "to": "/events/"
+  },
+  {
+    "from": "/event/mohamed-talk-nwit2022/",
+    "to": "/events/"
+  },
+  {
+    "from": "/event/iwor-recording2021/",
+    "to": "/events/"
+  },
+  {
+    "from": "/event/mohamed-talk-rittalks2021/",
+    "to": "/events/"
+  },
+  {
+    "from": "/event/hussein-talk-icsr2020/",
+    "to": "/events/"
+  },
+  {
+    "from": "/event/ali-mohamed-hussein-talk-icsr2020/",
+    "to": "/events/"
+  },
+  {
+    "from": "/event/hussein-talk-rpa2017/",
+    "to": "/events/"
+  },
+  {
+    "from": "/event/wajdi-talk-chi2020/",
+    "to": "/events/"
+  },
+  {
+    "from": "/event/narjes-talk-scc2020/",
+    "to": "/events/"
+  },
+  {
+    "from": "/event/curators-talk-senior-project2019/",
+    "to": "/events/"
+  },
+  {
+    "from": "/event/mkaouer-presentation-ssbse2019/",
+    "to": "/events/"
+  },
+  {
+    "from": "/event/meteor-talk-senior-project2017/",
+    "to": "/events/"
+  },
+  {
+    "from": "/event/mkaouer-presentation-ssbse2016/",
+    "to": "/events/"
+  },
+  {
+    "from": "/event/mkaouer-phd-defense-2016/",
+    "to": "/events/"
   }
 ]

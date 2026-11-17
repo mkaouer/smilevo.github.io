@@ -1,0 +1,34 @@
+[
+  {
+    "id": "swen-561-software-construction",
+    "title": "SWEN-561: Software Construction",
+    "term": "Fall 2024",
+    "year": 2024,
+    "description": "This course provides a foundation in software construction fundamentals and best practices. Students learn about design patterns, code quality, and maintainable software development.",
+    "image": "/resources/teaching/java.jpg"
+  },
+  {
+    "id": "swen-610-foundations-of-software-engineering",
+    "title": "SWEN-610: Foundations of Software Engineering",
+    "term": "Spring 2024",
+    "year": 2024,
+    "description": "Graduate-level course covering advanced software engineering concepts, software architecture, and project management in large-scale software development.",
+    "image": "/resources/teaching/maintenance.jpg"
+  },
+  {
+    "id": "csci-261-analysis-of-algorithms",
+    "title": "CSCI-261: Analysis of Algorithms",
+    "term": "Fall 2023",
+    "year": 2023,
+    "description": "Study of fundamental algorithms and data structures, including complexity analysis, sorting, searching, and graph algorithms.",
+    "image": "/resources/teaching/algorithms.jpg"
+  },
+  {
+    "id": "swen-746-applied-software-quality-engineering",
+    "title": "SWEN-746: Applied Software Quality Engineering",
+    "term": "Spring 2023",
+    "year": 2023,
+    "description": "Advanced course focusing on software quality assurance, testing strategies, code analysis, and software metrics.",
+    "image": "/resources/teaching/quality-eng.jpg"
+  }
+]
