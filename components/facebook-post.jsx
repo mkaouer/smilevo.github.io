@@ -19,8 +19,10 @@ export default function FacebookPost({ url }) {
     embed.current?.setAttribute('data-width', String(width));
     loadFacebookSdk()
       .then((FB) => {
-        if (cancelled || !embed.current) return;
-        FB.XFBML.parse(embed.current);
+        if (cancelled || !wrapper.current) return;
+        // parse() renders the fb-post elements *inside* the node it is given; passing the
+        // fb-post element itself does nothing, so hand it the wrapper.
+        FB.XFBML.parse(wrapper.current);
         timer = setTimeout(() => {
           if (!cancelled && !embed.current?.querySelector('iframe')) setBlocked(true);
         }, RENDER_TIMEOUT_MS);
@@ -34,7 +36,7 @@ export default function FacebookPost({ url }) {
 
   return (
     <div className="fb-post-wrap" ref={wrapper}>
-      <div className="fb-post" data-href={url} data-lazy="true" ref={embed} />
+      <div className="fb-post" data-href={url} ref={embed} />
       {blocked && (
         <p className="fb-blocked">
           This post could not be displayed here. It may be unavailable, or your browser may be
