@@ -1174,5 +1174,9 @@
   {
     "from": "/event/mkaouer-phd-defense-2016/",
     "to": "/events/"
+  },
+  {
+    "from": "/newsfeed/",
+    "to": "/social/"
   }
 ]

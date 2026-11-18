@@ -1,9 +1,9 @@
 'use client';
 import { useRef, useState } from 'react';
-import FacebookPost from '@/components/facebook-post';
-import { paginate } from '@/lib/facebook.mjs';
+import SocialPost from '@/components/social-post';
+import { paginate } from '@/lib/social.mjs';
 
-export default function FacebookFeed({ posts }) {
+export default function SocialFeed({ posts }) {
   const [page, setPage] = useState(1);
   const top = useRef(null);
   const view = paginate(posts, page);
@@ -14,12 +14,12 @@ export default function FacebookFeed({ posts }) {
   return (
     <div ref={top} className="fb-feed">
       {view.items.map((post) => (
-        <article key={`${view.page}-${post.url}`} className="fb-feed-item">
-          <FacebookPost url={post.url} />
+        <article key={`${view.page}-${post.id}`} className="fb-feed-item">
+          <SocialPost post={post} />
         </article>
       ))}
       {view.pages > 1 && (
-        <nav className="fb-pagination" aria-label="Newsfeed pages">
+        <nav className="fb-pagination" aria-label="Social media feed pages">
           <button type="button" disabled={view.page === 1} onClick={() => show(view.page - 1)}>
             Previous
           </button>

@@ -352,21 +352,34 @@ test('optional portrait framing and venue labels reject invalid editorial values
   assert.match(validateContent(data).join(), /venueShort/);
 });
 
-test('facebook posts must be unique public post URLs', () => {
+test('social posts must be valid, unique Facebook or LinkedIn posts', () => {
   const base = fixture();
-  const ok = {
-    ...base,
-    facebook: [{ id: 'fb-1', url: 'https://www.facebook.com/someone/posts/123' }],
+  const fb = {
+    id: 'fb-1',
+    platform: 'facebook',
+    url: 'https://www.facebook.com/someone/posts/123',
   };
-  assert.deepEqual(validateContent(ok), []);
-  const dup = {
-    ...base,
-    facebook: [
-      { id: 'fb-1', url: 'https://www.facebook.com/someone/posts/123' },
-      { id: 'fb-2', url: 'https://www.facebook.com/someone/posts/123' },
-    ],
-  };
-  assert.match(validateContent(dup).join(), /duplicate Facebook post URL/);
-  const bad = { ...base, facebook: [{ id: 'fb-3', url: 'https://example.com/posts/1' }] };
-  assert.match(validateContent(bad).join(), /facebook\.com/);
+  const li = { id: 'li-1', platform: 'linkedin', urn: 'urn:li:share:456', height: 900 };
+  assert.deepEqual(validateContent({ ...base, social: [fb, li] }), []);
+  assert.match(
+    validateContent({ ...base, social: [fb, { ...fb, id: 'fb-2' }] }).join(),
+    /duplicate post/,
+  );
+  assert.match(
+    validateContent({ ...base, social: [li, { ...li, id: 'li-2' }] }).join(),
+    /duplicate post/,
+  );
+  assert.match(
+    validateContent({ ...base, social: [{ ...fb, url: 'https://example.com/posts/1' }] }).join(),
+    /facebook\.com/,
+  );
+  assert.match(
+    validateContent({ ...base, social: [{ ...li, urn: 'share:456' }] }).join(),
+    /urn:li:share/,
+  );
+  assert.match(validateContent({ ...base, social: [{ ...li, height: 50 }] }).join(), /height/);
+  assert.match(
+    validateContent({ ...base, social: [{ id: 'x-1', platform: 'twitter' }] }).join(),
+    /platform/,
+  );
 });

@@ -1,9 +1,9 @@
 'use client';
 import { useState } from 'react';
-import FacebookPost from '@/components/facebook-post';
-import { wrapIndex } from '@/lib/facebook.mjs';
+import SocialPost from '@/components/social-post';
+import { CAROUSEL_MAX_HEIGHT, wrapIndex } from '@/lib/social.mjs';
 
-export default function FacebookCarousel({ posts }) {
+export default function SocialCarousel({ posts }) {
   const [index, setIndex] = useState(0);
   if (!posts.length) return null;
   const go = (next) => setIndex(wrapIndex(next, posts.length));
@@ -13,7 +13,7 @@ export default function FacebookCarousel({ posts }) {
       className="fb-carousel"
       role="region"
       aria-roledescription="carousel"
-      aria-label="Latest Facebook posts"
+      aria-label="Latest social media posts"
       onKeyDown={(event) => {
         if (event.key === 'ArrowLeft') go(index - 1);
         if (event.key === 'ArrowRight') go(index + 1);
@@ -46,7 +46,7 @@ export default function FacebookCarousel({ posts }) {
         aria-label={`Post ${index + 1} of ${posts.length}`}
         aria-live="polite"
       >
-        <FacebookPost key={post.url} url={post.url} />
+        <SocialPost key={post.id} post={post} maxHeight={CAROUSEL_MAX_HEIGHT} />
       </div>
       {posts.length > 1 && (
         <div className="fb-dots" role="group" aria-label="Choose a post">

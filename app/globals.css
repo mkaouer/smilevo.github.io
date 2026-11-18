@@ -1282,3 +1282,39 @@ h2 + .news-item {
     background: rgba(255, 255, 255, 0.85);
   }
 }
+
+/* Social media posts: platform badge and LinkedIn embed */
+.social-post {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.social-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: var(--wash);
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+}
+.social-post .fb-post-wrap,
+.social-post .li-post-wrap {
+  margin-top: 28px;
+}
+.li-post-wrap {
+  width: 100%;
+  max-width: 504px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.li-post {
+  width: 100%;
+  max-width: 504px;
+  border: 0;
+}
