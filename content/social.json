@@ -159,5 +159,75 @@
     "date": "2020-06-22",
     "url": "https://www.facebook.com/mkaouer/posts/10164471645320453",
     "approxDate": true
+  },
+  {
+    "id": "li-7464786297065230336",
+    "platform": "linkedin",
+    "date": "2026-05-25",
+    "urn": "urn:li:ugcPost:7464786297065230336",
+    "height": 1029
+  },
+  {
+    "id": "li-7461084990982864897",
+    "platform": "linkedin",
+    "date": "2026-05-15",
+    "urn": "urn:li:share:7461084990982864897",
+    "height": 537
+  },
+  {
+    "id": "li-7445257163414958080",
+    "platform": "linkedin",
+    "date": "2026-04-01",
+    "urn": "urn:li:ugcPost:7445257163414958080",
+    "height": 627
+  },
+  {
+    "id": "li-7431713364621393920",
+    "platform": "linkedin",
+    "date": "2026-02-23",
+    "urn": "urn:li:ugcPost:7431713364621393920",
+    "height": 876
+  },
+  {
+    "id": "li-7435294992539201536",
+    "platform": "linkedin",
+    "date": "2026-03-05",
+    "urn": "urn:li:ugcPost:7435294992539201536",
+    "height": 1344
+  },
+  {
+    "id": "li-7408174175095271424",
+    "platform": "linkedin",
+    "date": "2025-12-20",
+    "urn": "urn:li:share:7408174175095271424",
+    "height": 1347
+  },
+  {
+    "id": "li-7394486673914580992",
+    "platform": "linkedin",
+    "date": "2025-11-12",
+    "urn": "urn:li:ugcPost:7394486673914580992",
+    "height": 627
+  },
+  {
+    "id": "fb-pfbid029dqTMyR3y",
+    "platform": "facebook",
+    "date": "2026-04-15",
+    "approxDate": true,
+    "url": "https://www.facebook.com/mkaouer/posts/pfbid029dqTMyR3ycHKgxweLaBuXh5ya7LJ7xk2F8oCxXrQee7k14UibKnp37VA9PRxqzpsl"
+  },
+  {
+    "id": "fb-pfbid02bjhvN7uqC",
+    "platform": "facebook",
+    "date": "2026-01-15",
+    "approxDate": true,
+    "url": "https://www.facebook.com/mkaouer/posts/pfbid02bjhvN7uqCNZmUVcJQKpPtagUYFH7LoqXMc9rYcCS97FtJVCpxUR2kraKb9Zm5bzRl"
+  },
+  {
+    "id": "fb-pfbid02VQYPNkVY2",
+    "platform": "facebook",
+    "date": "2025-10-15",
+    "approxDate": true,
+    "url": "https://www.facebook.com/mkaouer/posts/pfbid02VQYPNkVY2C7aWGBGcYGgBuQAQ8RU17iruoSvYikAtgg9Vk3gMrviDpFYvygpuPddl"
   }
 ]

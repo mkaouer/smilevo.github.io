@@ -27,6 +27,7 @@ test('carousel index wraps in both directions', () => {
 
 test('only public-post style Facebook URLs are accepted', () => {
   assert.ok(validFacebookPostUrl('https://www.facebook.com/mkaouer/posts/10170794214640453'));
+  assert.ok(validFacebookPostUrl('https://www.facebook.com/mkaouer/posts/pfbid02abcXYZ'));
   assert.ok(!validFacebookPostUrl('http://www.facebook.com/mkaouer/posts/1'));
   assert.ok(!validFacebookPostUrl('https://evil.example/facebook.com/mkaouer/posts/1'));
   assert.ok(!validFacebookPostUrl('javascript:alert(1)'));
