@@ -536,8 +536,8 @@
       "Jonathan I. Maletic"
     ],
     "year": 2025,
-    "type": "preprint",
-    "venue": "CoRR",
+    "type": "conference",
+    "venue": "2025 IEEE/ACM 33th International Conference on Program Comprehension (ICPC)",
     "doi": "10.48550/arxiv.2504.17038",
     "url": "https://doi.org/10.48550/arxiv.2504.17038",
     "personIds": [
@@ -545,8 +545,7 @@
       "mohamed-wiem-mkaouer",
       "eman-abdullah-alomar",
       "anthony-peruma"
-    ],
-    "status": "preprint"
+    ]
   },
   {
     "id": "bessghaier-2025-understanding",
@@ -1104,16 +1103,15 @@
       "Ali Ouni"
     ],
     "year": 2023,
-    "type": "preprint",
-    "venue": "CoRR",
+    "type": "article",
+    "venue": "IEEE Transactions on Software Engineering",
     "doi": "10.48550/arxiv.2312.12600",
     "url": "https://doi.org/10.48550/arxiv.2312.12600",
     "personIds": [
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer",
       "ali-ouni"
-    ],
-    "status": "preprint"
+    ]
   },
   {
     "id": "daaji-2023-bpel",
@@ -1609,8 +1607,8 @@
       "Ali Ouni"
     ],
     "year": 2022,
-    "type": "preprint",
-    "venue": "CoRR",
+    "type": "conference",
+    "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
     "doi": "10.48550/arxiv.2203.14404",
     "url": "https://doi.org/10.48550/arxiv.2203.14404",
     "personIds": [
@@ -1618,8 +1616,7 @@
       "moataz-chouchen",
       "mohamed-wiem-mkaouer",
       "ali-ouni"
-    ],
-    "status": "preprint"
+    ]
   },
   {
     "id": "saidani-2022-detecting",
@@ -1838,8 +1835,8 @@
       "Ali Ouni"
     ],
     "year": 2022,
-    "type": "preprint",
-    "venue": "CoRR",
+    "type": "conference",
+    "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
     "doi": "10.48550/arxiv.2203.05660",
     "url": "https://doi.org/10.48550/arxiv.2203.05660",
     "personIds": [
@@ -1848,8 +1845,7 @@
       "christian-newman",
       "mohamed-wiem-mkaouer",
       "ali-ouni"
-    ],
-    "status": "preprint"
+    ]
   },
   {
     "id": "alomar-2022-refactoring",
@@ -2527,14 +2523,13 @@
       "Mohamed Wiem Mkaouer"
     ],
     "year": 2021,
-    "type": "preprint",
-    "venue": "CoRR",
+    "type": "article",
+    "venue": "Empirical Software Engineering",
     "personIds": [
       "moataz-chouchen",
       "ali-ouni",
       "mohamed-wiem-mkaouer"
-    ],
-    "status": "preprint"
+    ]
   },
   {
     "id": "ye-2021-recommending",
@@ -2663,15 +2658,14 @@
       "Christian D. Newman"
     ],
     "year": 2021,
-    "type": "preprint",
-    "venue": "CoRR",
+    "type": "conference",
+    "venue": "2021 IEEE/ACM 29th International Conference on Program Comprehension (ICPC)",
     "personIds": [
       "anthony-peruma",
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer",
       "christian-newman"
-    ],
-    "status": "preprint"
+    ]
   },
   {
     "id": "chouchen-2021-whoreview",
