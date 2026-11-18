@@ -1,5 +1,228 @@
 [
   {
+    "id": "draoui-2026-improving",
+    "title": "Improving Data Leakage Detection in Machine Learning Notebooks through Static Slicing and Structured LLM Prompts",
+    "authors": "Taha Draoui and Mohamed Wiem Mkaouer and Christian D. Newman",
+    "authorNames": [
+      "Taha Draoui",
+      "Mohamed Wiem Mkaouer",
+      "Christian D. Newman"
+    ],
+    "year": 2026,
+    "type": "article",
+    "venue": "Proceedings of the ACM on Software Engineering",
+    "personIds": [
+      "taha-draoui",
+      "mohamed-wiem-mkaouer",
+      "christian-newman"
+    ]
+  },
+  {
+    "id": "sambaturu-2026-enhancing",
+    "title": "Enhancing GitHub Actions Failure Explanations: Log Preprocessing and Prompt Optimization with LLMs",
+    "authors": "Venkata Sai Sravya Sambaturu and Meriem Mastouri and Belhassen Khefacha and Ameen Vathimattom Ashraf and Rafique Agyare and Mohamed Wiem Mkaouer",
+    "authorNames": [
+      "Venkata Sai Sravya Sambaturu",
+      "Meriem Mastouri",
+      "Belhassen Khefacha",
+      "Ameen Vathimattom Ashraf",
+      "Rafique Agyare",
+      "Mohamed Wiem Mkaouer"
+    ],
+    "year": 2026,
+    "type": "conference",
+    "venue": "ISEC 2026 (Research Papers)",
+    "personIds": [
+      "belhassen-khefacha",
+      "mohamed-wiem-mkaouer"
+    ]
+  },
+  {
+    "id": "sghaier-2026-backportcheck",
+    "title": "BackportCheck: An Open-Source Tool to Support Backport Decisions in Large Software Ecosystems",
+    "authors": "Salma Sghaier and Mohamed Anas Daoud and Marouene Chaieb and Moataz Chouchen and Mohammad Hamdaqa and Mohamed Wiem Mkaouer",
+    "authorNames": [
+      "Salma Sghaier",
+      "Mohamed Anas Daoud",
+      "Marouene Chaieb",
+      "Moataz Chouchen",
+      "Mohammad Hamdaqa",
+      "Mohamed Wiem Mkaouer"
+    ],
+    "year": 2026,
+    "type": "conference",
+    "venue": "ESEC/FSE 2026 Companion (Tool Demonstrations)",
+    "personIds": [
+      "moataz-chouchen",
+      "mohamed-wiem-mkaouer"
+    ]
+  },
+  {
+    "id": "boussema-2026-ampsrd",
+    "title": "AMP-SRD: An Agentic Multi-Pipeline Framework for Characterizing Semantic, Structural, and Performance Regressions Introduced by Code Changes",
+    "authors": "Sabrine Boussema and Brahim Hnich and Ali Ben Mrad and Mohamed Wiem Mkaouer",
+    "authorNames": [
+      "Sabrine Boussema",
+      "Brahim Hnich",
+      "Ali Ben Mrad",
+      "Mohamed Wiem Mkaouer"
+    ],
+    "year": 2026,
+    "type": "conference",
+    "venue": "ICAART 2026",
+    "personIds": [
+      "mohamed-wiem-mkaouer"
+    ]
+  },
+  {
+    "id": "masmoudi-2026-preliminary",
+    "title": "A Preliminary Study on How AI Coding Agents Describe Refactoring Activities",
+    "authors": "Aymen Masmoudi and Belhassen Khefacha and Andrew Haralambous and Eman Abdullah AlOmar and Mohamed Wiem Mkaouer",
+    "authorNames": [
+      "Aymen Masmoudi",
+      "Belhassen Khefacha",
+      "Andrew Haralambous",
+      "Eman Abdullah AlOmar",
+      "Mohamed Wiem Mkaouer"
+    ],
+    "year": 2026,
+    "type": "conference",
+    "venue": "COMPSAC 2026",
+    "personIds": [
+      "aymen-masmoudi",
+      "belhassen-khefacha",
+      "eman-abdullah-alomar",
+      "mohamed-wiem-mkaouer"
+    ]
+  },
+  {
+    "id": "abdelhafidh-2026-personalizing",
+    "title": "Personalizing LLMs for Financial Regulation Using RAG and Knowledge Graphs: A Case Study at Regnology",
+    "authors": "Amal Ben Abdelhafidh and Montassar Ben Messaoud and Mohamed Tounsi and Mohamed Wiem Mkaouer",
+    "authorNames": [
+      "Amal Ben Abdelhafidh",
+      "Montassar Ben Messaoud",
+      "Mohamed Tounsi",
+      "Mohamed Wiem Mkaouer"
+    ],
+    "year": 2026,
+    "type": "conference",
+    "venue": "COMPSAC 2026",
+    "personIds": [
+      "mohamed-wiem-mkaouer"
+    ]
+  },
+  {
+    "id": "alomar-2026-anticopypaster",
+    "title": "AntiCopyPaster 3.0: Just-in-Time Clone Refactoring",
+    "authors": "Eman Abdullah AlOmar and Jacob Ashkenas and Robert Feliciano and Matthew Angelakos and Dimitrios Haralamppopoulos and Xing Qian and Mohamed Wiem Mkaouer and Ali Ouni",
+    "authorNames": [
+      "Eman Abdullah AlOmar",
+      "Jacob Ashkenas",
+      "Robert Feliciano",
+      "Matthew Angelakos",
+      "Dimitrios Haralamppopoulos",
+      "Xing Qian",
+      "Mohamed Wiem Mkaouer",
+      "Ali Ouni"
+    ],
+    "year": 2026,
+    "type": "article",
+    "venue": "ACM Transactions on Software Engineering and Methodology",
+    "personIds": [
+      "eman-abdullah-alomar",
+      "mohamed-wiem-mkaouer",
+      "ali-ouni"
+    ]
+  },
+  {
+    "id": "khalifa-2026-explainable",
+    "title": "Toward Explainable and Automated Software License Checking via RAG and Knowledge Graphs",
+    "authors": "Ilyes Ben Khalifa and Montassar Ben Messaoud and Mohamed Wiem Mkaouer",
+    "authorNames": [
+      "Ilyes Ben Khalifa",
+      "Montassar Ben Messaoud",
+      "Mohamed Wiem Mkaouer"
+    ],
+    "year": 2026,
+    "type": "article",
+    "venue": "IEEE Software",
+    "personIds": [
+      "mohamed-wiem-mkaouer"
+    ]
+  },
+  {
+    "id": "draoui-2026-data",
+    "title": "Understanding How Data Leakage Manifests in Real-World Machine Learning Notebooks",
+    "authors": "Taha Draoui and Zeineb Elmabrouk and Mohamed Wiem Mkaouer and Montassar Ben Messaoud and Ilyes Jenhani and Christian D. Newman and Houssem Souari",
+    "authorNames": [
+      "Taha Draoui",
+      "Zeineb Elmabrouk",
+      "Mohamed Wiem Mkaouer",
+      "Montassar Ben Messaoud",
+      "Ilyes Jenhani",
+      "Christian D. Newman",
+      "Houssem Souari"
+    ],
+    "year": 2026,
+    "type": "article",
+    "venue": "Information and Software Technology",
+    "personIds": [
+      "taha-draoui",
+      "mohamed-wiem-mkaouer",
+      "christian-newman"
+    ]
+  },
+  {
+    "id": "venkatakrishnan-2026-libshift",
+    "title": "LibShift Search: A Similarity-Driven Model for Mapping Deprecated Python API Methods to Current Alternatives",
+    "authors": "Anushkrishna Venkatakrishnan and Bader Alkhazi and Mohamed Wiem Mkaouer",
+    "authorNames": [
+      "Anushkrishna Venkatakrishnan",
+      "Bader Alkhazi",
+      "Mohamed Wiem Mkaouer"
+    ],
+    "year": 2026,
+    "type": "article",
+    "venue": "Information and Software Technology",
+    "personIds": [
+      "mohamed-wiem-mkaouer"
+    ]
+  },
+  {
+    "id": "mrad-2026-effectiveness",
+    "title": "On the Effectiveness of Large Language Models in Predicting New Method Names after Code Modifications",
+    "authors": "Ali Ben Mrad and Abdoul Majid O. Thiombiano and Mohamed Wiem Mkaouer and Brahim Hnich",
+    "authorNames": [
+      "Ali Ben Mrad",
+      "Abdoul Majid O. Thiombiano",
+      "Mohamed Wiem Mkaouer",
+      "Brahim Hnich"
+    ],
+    "year": 2026,
+    "type": "article",
+    "venue": "Information and Software Technology",
+    "personIds": [
+      "mohamed-wiem-mkaouer"
+    ]
+  },
+  {
+    "id": "khalifa-2026-lark",
+    "title": "LARK: License Analysis with RAG and Knowledge Graphs",
+    "authors": "Ilyes Ben Khalifa and Montassar Ben Messaoud and Mohamed Wiem Mkaouer",
+    "authorNames": [
+      "Ilyes Ben Khalifa",
+      "Montassar Ben Messaoud",
+      "Mohamed Wiem Mkaouer"
+    ],
+    "year": 2026,
+    "type": "article",
+    "venue": "Information and Software Technology",
+    "personIds": [
+      "mohamed-wiem-mkaouer"
+    ]
+  },
+  {
     "id": "bessghaier-2026-searchbased",
     "title": "A search-based file recommendation approach for infrastructure-as-code evolution",
     "authors": "Narjes Bessghaier and Ali Ouni and Mohammed Sayagh and Mohamed Wiem Mkaouer",
@@ -40,6 +263,24 @@
     ]
   },
   {
+    "id": "alanqari-2025-assessing",
+    "title": "Assessing Refactoring in Education: A Systematic Literature Review on Evaluation, Goals, and Impact",
+    "authors": "Sarah Alanqari and Mohamed Wiem Mkaouer and Christian D. Newman",
+    "authorNames": [
+      "Sarah Alanqari",
+      "Mohamed Wiem Mkaouer",
+      "Christian D. Newman"
+    ],
+    "year": 2025,
+    "type": "conference",
+    "venue": "FIE 2025",
+    "personIds": [
+      "sarah-alanqari",
+      "mohamed-wiem-mkaouer",
+      "christian-newman"
+    ]
+  },
+  {
     "id": "littauer-2025-quick",
     "title": "10 quick tips for making your software outlive your job",
     "authors": "Richard Littauer and Greg Wilson and Jan Ainali and Eman Abdullah AlOmar and Sylwester Arabas and Yanina Bellini Saibene and Kris Bubendorfer and Kaylea Champion and Clare Dillon and Jouni Helske and Pieter Huybrechts and Daniel S. Katz and Chang Liao and David Lippert and Fang Liu and Pierre Marshall and Daniel R. McCloy and Ian McInerney and Mohamed Wiem Mkaouer and Priyanka Ojha and Christoph Treude and Ethan P. White",
@@ -68,14 +309,15 @@
       "Ethan P. White"
     ],
     "year": 2025,
-    "type": "article",
+    "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2505.06484",
     "url": "https://doi.org/10.48550/arxiv.2505.06484",
     "personIds": [
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer"
-    ]
+    ],
+    "status": "preprint"
   },
   {
     "id": "bouaziz-2025-empirical",
@@ -153,7 +395,7 @@
       "Ali Ouni"
     ],
     "year": 2025,
-    "type": "article",
+    "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2509.08090",
     "url": "https://doi.org/10.48550/arxiv.2509.08090",
@@ -163,7 +405,8 @@
       "mohamed-wiem-mkaouer",
       "christian-newman",
       "ali-ouni"
-    ]
+    ],
+    "status": "preprint"
   },
   {
     "id": "messaoud-2025-detecting",
@@ -196,13 +439,14 @@
       "Mohamed Wiem Mkaouer"
     ],
     "year": 2025,
-    "type": "article",
+    "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2503.18565",
     "url": "https://doi.org/10.48550/arxiv.2503.18565",
     "personIds": [
       "mohamed-wiem-mkaouer"
-    ]
+    ],
+    "status": "preprint"
   },
   {
     "id": "hnich-2025-from",
@@ -234,13 +478,14 @@
       "Mohamed Wiem Mkaouer"
     ],
     "year": 2025,
-    "type": "article",
+    "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2505.01459",
     "url": "https://doi.org/10.48550/arxiv.2505.01459",
     "personIds": [
       "mohamed-wiem-mkaouer"
-    ]
+    ],
+    "status": "preprint"
   },
   {
     "id": "newman-2025-structure",
@@ -291,7 +536,7 @@
       "Jonathan I. Maletic"
     ],
     "year": 2025,
-    "type": "article",
+    "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2504.17038",
     "url": "https://doi.org/10.48550/arxiv.2504.17038",
@@ -300,7 +545,8 @@
       "mohamed-wiem-mkaouer",
       "eman-abdullah-alomar",
       "anthony-peruma"
-    ]
+    ],
+    "status": "preprint"
   },
   {
     "id": "bessghaier-2025-understanding",
@@ -341,6 +587,22 @@
     "doi": "10.1109/ase63991.2025.00163",
     "url": "https://doi.org/10.1109/ase63991.2025.00163",
     "personIds": [
+      "mohamed-wiem-mkaouer"
+    ]
+  },
+  {
+    "id": "alomar-2024-can",
+    "title": "How can We Leverage Static Analysis and Large Language Models to Engage Students in Software Quality Improvement",
+    "authors": "Eman Abdullah AlOmar and Mohamed Wiem Mkaouer",
+    "authorNames": [
+      "Eman Abdullah AlOmar",
+      "Mohamed Wiem Mkaouer"
+    ],
+    "year": 2024,
+    "type": "conference",
+    "venue": "Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 2",
+    "personIds": [
+      "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer"
     ]
   },
@@ -574,7 +836,7 @@
   },
   {
     "id": "chouchen-2024-how",
-    "title": "How Do So ware Developers Use ChatGPT? An Exploratory Study on GitHub Pull Requests",
+    "title": "How Do Software Developers Use ChatGPT? An Exploratory Study on GitHub Pull Requests",
     "authors": "Moataz Chouchen and Narjes Bessghaier and Mahi Begoug and Ali Ouni and Eman Abdullah AlOmar and Mohamed Wiem Mkaouer",
     "authorNames": [
       "Moataz Chouchen",
@@ -608,7 +870,7 @@
       "Ali Ouni"
     ],
     "year": 2024,
-    "type": "article",
+    "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2402.06013",
     "url": "https://doi.org/10.48550/arxiv.2402.06013",
@@ -617,7 +879,8 @@
       "mohamed-wiem-mkaouer",
       "christian-newman",
       "ali-ouni"
-    ]
+    ],
+    "status": "preprint"
   },
   {
     "id": "peruma-2024-insights",
@@ -699,7 +962,7 @@
       "Mohamed Wiem Mkaouer"
     ],
     "year": 2024,
-    "type": "article",
+    "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2408.01751",
     "url": "https://doi.org/10.48550/arxiv.2408.01751",
@@ -707,7 +970,8 @@
       "anthony-peruma",
       "christian-newman",
       "mohamed-wiem-mkaouer"
-    ]
+    ],
+    "status": "preprint"
   },
   {
     "id": "messaoud-2024-prduplichecker",
@@ -771,6 +1035,22 @@
     ]
   },
   {
+    "id": "shoaibi-2023-software",
+    "title": "Understanding Software Performance Challenges an Empirical Study on Stack Overflow",
+    "authors": "Deema Adeeb Al Shoaibi and Mohamed Wiem Mkaouer",
+    "authorNames": [
+      "Deema Adeeb Al Shoaibi",
+      "Mohamed Wiem Mkaouer"
+    ],
+    "year": 2023,
+    "type": "conference",
+    "venue": "2023 International Conference on Code Quality (ICCQ)",
+    "personIds": [
+      "deema-alshoaibi",
+      "mohamed-wiem-mkaouer"
+    ]
+  },
+  {
     "id": "ouni-2023-empirical",
     "title": "An Empirical Study on Continuous Integration Trends, Topics and Challenges in Stack Overflow",
     "authors": "Ali Ouni and Islem Saidani and Eman Abdullah AlOmar and Mohamed Wiem Mkaouer",
@@ -803,7 +1083,7 @@
       "Christian D. Newman"
     ],
     "year": 2023,
-    "type": "article",
+    "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2303.00169",
     "url": "https://doi.org/10.48550/arxiv.2303.00169",
@@ -811,27 +1091,8 @@
       "anthony-peruma",
       "mohamed-wiem-mkaouer",
       "christian-newman"
-    ]
-  },
-  {
-    "id": "alomar-2023-automating",
-    "title": "Automating Source Code Refactoring in the Classroom",
-    "authors": "Eman Abdullah AlOmar and Mohamed Wiem Mkaouer and Ali Ouni",
-    "authorNames": [
-      "Eman Abdullah AlOmar",
-      "Mohamed Wiem Mkaouer",
-      "Ali Ouni"
     ],
-    "year": 2023,
-    "type": "article",
-    "venue": "CoRR",
-    "doi": "10.48550/arxiv.2311.10753",
-    "url": "https://doi.org/10.48550/arxiv.2311.10753",
-    "personIds": [
-      "eman-abdullah-alomar",
-      "mohamed-wiem-mkaouer",
-      "ali-ouni"
-    ]
+    "status": "preprint"
   },
   {
     "id": "alomar-2023-behind",
@@ -843,7 +1104,7 @@
       "Ali Ouni"
     ],
     "year": 2023,
-    "type": "article",
+    "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2312.12600",
     "url": "https://doi.org/10.48550/arxiv.2312.12600",
@@ -851,7 +1112,8 @@
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer",
       "ali-ouni"
-    ]
+    ],
+    "status": "preprint"
   },
   {
     "id": "daaji-2023-bpel",
@@ -885,7 +1147,7 @@
       "Stephanie Ludi"
     ],
     "year": 2023,
-    "type": "article",
+    "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2303.04234",
     "url": "https://doi.org/10.48550/arxiv.2303.04234",
@@ -893,7 +1155,8 @@
       "wajdi-aljedaani",
       "mohamed-wiem-mkaouer",
       "anthony-peruma"
-    ]
+    ],
+    "status": "preprint"
   },
   {
     "id": "messaoud-2023-duplicate",
@@ -927,7 +1190,7 @@
       "Ali Ouni"
     ],
     "year": 2023,
-    "type": "article",
+    "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2311.00256",
     "url": "https://doi.org/10.48550/arxiv.2311.00256",
@@ -937,7 +1200,8 @@
       "mohamed-wiem-mkaouer",
       "christian-newman",
       "ali-ouni"
-    ]
+    ],
+    "status": "preprint"
   },
   {
     "id": "aljedaani-2023-online",
@@ -1018,7 +1282,7 @@
       "Aditya Thakur"
     ],
     "year": 2023,
-    "type": "article",
+    "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2302.03416",
     "url": "https://doi.org/10.48550/arxiv.2302.03416",
@@ -1027,7 +1291,8 @@
       "mohamed-wiem-mkaouer",
       "ali-ouni",
       "amit-dilip-kini"
-    ]
+    ],
+    "status": "preprint"
   },
   {
     "id": "palonis-2023-largescale",
@@ -1124,14 +1389,15 @@
       "Mohamed Wiem Mkaouer"
     ],
     "year": 2023,
-    "type": "article",
+    "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2302.05554",
     "url": "https://doi.org/10.48550/arxiv.2302.05554",
     "personIds": [
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer"
-    ]
+    ],
+    "status": "preprint"
   },
   {
     "id": "aljedaani-2023-teachers",
@@ -1201,6 +1467,67 @@
     ]
   },
   {
+    "id": "aljedaani-2022-automatic",
+    "title": "Automatic Classification of Accessibility User Reviews in Android Apps",
+    "authors": "Wajdi Aljedaani and Mohamed Wiem Mkaouer and Stephanie Ludi and Yasir Javed",
+    "authorNames": [
+      "Wajdi Aljedaani",
+      "Mohamed Wiem Mkaouer",
+      "Stephanie Ludi",
+      "Yasir Javed"
+    ],
+    "year": 2022,
+    "type": "conference",
+    "venue": "2022 7th International Conference on Data Science and Machine Learning Applications (CDMA)",
+    "personIds": [
+      "wajdi-aljedaani",
+      "mohamed-wiem-mkaouer"
+    ]
+  },
+  {
+    "id": "alomar-2022-exploratory",
+    "title": "An Exploratory Study on Refactoring Documentation in Issues Handling",
+    "authors": "Eman Abdullah AlOmar and Anthony Peruma and Mohamed Wiem Mkaouer and Christian D. Newman and Ali Ouni",
+    "authorNames": [
+      "Eman Abdullah AlOmar",
+      "Anthony Peruma",
+      "Mohamed Wiem Mkaouer",
+      "Christian D. Newman",
+      "Ali Ouni"
+    ],
+    "year": 2022,
+    "type": "conference",
+    "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+    "personIds": [
+      "eman-abdullah-alomar",
+      "anthony-peruma",
+      "mohamed-wiem-mkaouer",
+      "christian-newman",
+      "ali-ouni"
+    ]
+  },
+  {
+    "id": "alshoaibi-2022-detection",
+    "title": "On the detection of performance regression introducing code changes: Experience from the git project",
+    "authors": "Deema Alshoaibi and Ikram Chaabane and Kevin Hannigan and Ali Ouni and Mohamed Wiem Mkaouer",
+    "authorNames": [
+      "Deema Alshoaibi",
+      "Ikram Chaabane",
+      "Kevin Hannigan",
+      "Ali Ouni",
+      "Mohamed Wiem Mkaouer"
+    ],
+    "year": 2022,
+    "type": "conference",
+    "venue": "2022 IEEE 29th Annual Software Technology Conference (STC)",
+    "personIds": [
+      "deema-alshoaibi",
+      "kevin-hannigan",
+      "ali-ouni",
+      "mohamed-wiem-mkaouer"
+    ]
+  },
+  {
     "id": "arias-2022-accessibility",
     "title": "Accessibility Feedback in Mobile Application Reviews: A Dataset of Reviews and Accessibility Guidelines",
     "authors": "Jose E. Reyes Arias and Kale Kurtzhall and Di Pham and Mohamed Wiem Mkaouer and Yasmine N. El-Glaly",
@@ -1218,53 +1545,6 @@
     "url": "https://doi.org/10.1145/3491101.3519625",
     "personIds": [
       "mohamed-wiem-mkaouer"
-    ]
-  },
-  {
-    "id": "newman-2022-ensemble",
-    "title": "An Ensemble Approach for Annotating Source Code Identifiers With Part-of-Speech Tags",
-    "authors": "Christian D. Newman and Michael John Decker and Reem S. Alsuhaibani and Anthony Peruma and Mohamed Wiem Mkaouer and Satyajit Mohapatra and Tejal Vishnoi and Marcos Zampieri and Timothy J. Sheldon and Emily Hill",
-    "authorNames": [
-      "Christian D. Newman",
-      "Michael John Decker",
-      "Reem S. Alsuhaibani",
-      "Anthony Peruma",
-      "Mohamed Wiem Mkaouer",
-      "Satyajit Mohapatra",
-      "Tejal Vishnoi",
-      "Marcos Zampieri",
-      "Timothy J. Sheldon",
-      "Emily Hill"
-    ],
-    "year": 2022,
-    "type": "article",
-    "venue": "IEEE Trans. Software Eng.",
-    "doi": "10.1109/tse.2021.3098242",
-    "url": "https://doi.org/10.1109/tse.2021.3098242",
-    "personIds": [
-      "christian-newman",
-      "anthony-peruma",
-      "mohamed-wiem-mkaouer"
-    ]
-  },
-  {
-    "id": "alomar-2022-exploratory",
-    "title": "An Exploratory Study on How Software Reuse is Discussed in Stack Overflow",
-    "authors": "Eman Abdullah AlOmar and Mohamed Wiem Mkaouer and Ali Ouni and Christian Newman",
-    "authorNames": [
-      "Eman Abdullah AlOmar",
-      "Mohamed Wiem Mkaouer",
-      "Ali Ouni",
-      "Christian Newman"
-    ],
-    "year": 2022,
-    "type": "article",
-    "venue": "Reuse in Emerging Software Engineering Practices",
-    "personIds": [
-      "eman-abdullah-alomar",
-      "mohamed-wiem-mkaouer",
-      "ali-ouni",
-      "christian-newman"
     ]
   },
   {
@@ -1329,7 +1609,7 @@
       "Ali Ouni"
     ],
     "year": 2022,
-    "type": "article",
+    "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2203.14404",
     "url": "https://doi.org/10.48550/arxiv.2203.14404",
@@ -1338,7 +1618,8 @@
       "moataz-chouchen",
       "mohamed-wiem-mkaouer",
       "ali-ouni"
-    ]
+    ],
+    "status": "preprint"
   },
   {
     "id": "saidani-2022-detecting",
@@ -1358,55 +1639,6 @@
       "islem-saidani",
       "ali-ouni",
       "mohamed-wiem-mkaouer"
-    ]
-  },
-  {
-    "id": "alomar-2022-finding",
-    "title": "Finding the Needle in a Haystack: On the Automatic Identification of Accessibility User Reviews",
-    "authors": "Eman Abdullah AlOmar and Wajdi Aljedaani and Murtaza Tamjeed and Mohamed Wiem Mkaouer and Yasmine N. El-Glaly",
-    "authorNames": [
-      "Eman Abdullah AlOmar",
-      "Wajdi Aljedaani",
-      "Murtaza Tamjeed",
-      "Mohamed Wiem Mkaouer",
-      "Yasmine N. El-Glaly"
-    ],
-    "year": 2022,
-    "type": "article",
-    "venue": "CoRR",
-    "doi": "10.48550/arxiv.2210.09947",
-    "url": "https://doi.org/10.48550/arxiv.2210.09947",
-    "personIds": [
-      "eman-abdullah-alomar",
-      "wajdi-aljedaani",
-      "murtaza-tamjeed",
-      "mohamed-wiem-mkaouer"
-    ]
-  },
-  {
-    "id": "peruma-2022-how",
-    "title": "How do i refactor this? An empirical study on refactoring trends and topics in Stack Overflow",
-    "authors": "Anthony Peruma and Steven Simmons and Eman Abdullah AlOmar and Christian D. Newman and Mohamed Wiem Mkaouer and Ali Ouni",
-    "authorNames": [
-      "Anthony Peruma",
-      "Steven Simmons",
-      "Eman Abdullah AlOmar",
-      "Christian D. Newman",
-      "Mohamed Wiem Mkaouer",
-      "Ali Ouni"
-    ],
-    "year": 2022,
-    "type": "article",
-    "venue": "Empir. Softw. Eng.",
-    "doi": "10.1007/s10664-021-10045-x",
-    "url": "https://doi.org/10.1007/s10664-021-10045-x",
-    "personIds": [
-      "anthony-peruma",
-      "steve-simmons",
-      "eman-abdullah-alomar",
-      "christian-newman",
-      "mohamed-wiem-mkaouer",
-      "ali-ouni"
     ]
   },
   {
@@ -1434,7 +1666,9 @@
       "christian-newman",
       "mohamed-wiem-mkaouer",
       "ali-ouni"
-    ]
+    ],
+    "doi": "10.1007/s10664-021-10045-x",
+    "url": "https://doi.org/10.1007/s10664-021-10045-x"
   },
   {
     "id": "sellami-2022-improving",
@@ -1593,51 +1827,6 @@
     ]
   },
   {
-    "id": "soui-2022-impact",
-    "title": "On the Impact of Aesthetic Defects on the Maintainability of Mobile Graphical User Interfaces: An Empirical Study",
-    "authors": "Makram Soui and Mabrouka Chouchane and Narjes Bessghaier and Mohamed Wiem Mkaouer and Marouane Kessentini",
-    "authorNames": [
-      "Makram Soui",
-      "Mabrouka Chouchane",
-      "Narjes Bessghaier",
-      "Mohamed Wiem Mkaouer",
-      "Marouane Kessentini"
-    ],
-    "year": 2022,
-    "type": "article",
-    "venue": "Inf. Syst. Frontiers",
-    "doi": "10.1007/s10796-020-10100-w",
-    "url": "https://doi.org/10.1007/s10796-020-10100-w",
-    "personIds": [
-      "mohamed-wiem-mkaouer",
-      "marouane-kessentini"
-    ]
-  },
-  {
-    "id": "marmolejos-2022-use",
-    "title": "On the use of textual feature extraction techniques to support the automated detection of refactoring documentation",
-    "authors": "Licelot Marmolejos and Eman Abdullah AlOmar and Mohamed Wiem Mkaouer and Christian D. Newman and Ali Ouni",
-    "authorNames": [
-      "Licelot Marmolejos",
-      "Eman Abdullah AlOmar",
-      "Mohamed Wiem Mkaouer",
-      "Christian D. Newman",
-      "Ali Ouni"
-    ],
-    "year": 2022,
-    "type": "article",
-    "venue": "Innov. Syst. Softw. Eng.",
-    "doi": "10.1007/s11334-021-00388-5",
-    "url": "https://doi.org/10.1007/s11334-021-00388-5",
-    "personIds": [
-      "licelot-marmolejos",
-      "eman-abdullah-alomar",
-      "mohamed-wiem-mkaouer",
-      "christian-newman",
-      "ali-ouni"
-    ]
-  },
-  {
     "id": "peruma-2022-refactoring",
     "title": "Refactoring Debt: Myth or Reality? An Exploratory Study on the Relationship Between Technical Debt and Refactoring",
     "authors": "Anthony Peruma and Eman Abdullah AlOmar and Christian D. Newman and Mohamed Wiem Mkaouer and Ali Ouni",
@@ -1649,7 +1838,7 @@
       "Ali Ouni"
     ],
     "year": 2022,
-    "type": "article",
+    "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2203.05660",
     "url": "https://doi.org/10.48550/arxiv.2203.05660",
@@ -1659,7 +1848,8 @@
       "christian-newman",
       "mohamed-wiem-mkaouer",
       "ali-ouni"
-    ]
+    ],
+    "status": "preprint"
   },
   {
     "id": "alomar-2022-refactoring",
@@ -1714,34 +1904,9 @@
       "ali-ouni",
       "christian-newman",
       "mohamed-wiem-mkaouer"
-    ]
-  },
-  {
-    "id": "alomar-2022-satdbailiffmining",
-    "title": "SATDBailiff-mining and tracking self-admitted technical debt",
-    "authors": "Eman Abdullah AlOmar and Ben Christians and Mihal Busho and Ahmed Hamad AlKhalid and Ali Ouni and Christian D. Newman and Mohamed Wiem Mkaouer",
-    "authorNames": [
-      "Eman Abdullah AlOmar",
-      "Ben Christians",
-      "Mihal Busho",
-      "Ahmed Hamad AlKhalid",
-      "Ali Ouni",
-      "Christian D. Newman",
-      "Mohamed Wiem Mkaouer"
     ],
-    "year": 2022,
-    "type": "article",
-    "venue": "Sci. Comput. Program.",
     "doi": "10.1016/j.scico.2021.102693",
-    "url": "https://doi.org/10.1016/j.scico.2021.102693",
-    "personIds": [
-      "eman-abdullah-alomar",
-      "ben-christians",
-      "mihal-busho",
-      "ali-ouni",
-      "christian-newman",
-      "mohamed-wiem-mkaouer"
-    ]
+    "url": "https://doi.org/10.1016/j.scico.2021.102693"
   },
   {
     "id": "alshoaibi-2022-searchbased",
@@ -1835,6 +2000,25 @@
     ]
   },
   {
+    "id": "hamdi-2021-empirical2",
+    "title": "An empirical study on code smells co-occurrences in android applications",
+    "authors": "Oumayma Hamdi and Ali Ouni and Eman Abdullah AlOmar and Mohamed Wiem Mkaouer",
+    "authorNames": [
+      "Oumayma Hamdi",
+      "Ali Ouni",
+      "Eman Abdullah AlOmar",
+      "Mohamed Wiem Mkaouer"
+    ],
+    "year": 2021,
+    "type": "conference",
+    "venue": "2021 36th IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW)",
+    "personIds": [
+      "ali-ouni",
+      "eman-abdullah-alomar",
+      "mohamed-wiem-mkaouer"
+    ]
+  },
+  {
     "id": "bessghaier-2021-longitudinal",
     "title": "A longitudinal exploratory study on code smells in server side web applications",
     "authors": "Narjes Bessghaier and Ali Ouni and Mohamed Wiem Mkaouer",
@@ -1917,7 +2101,9 @@
       "christian-newman",
       "anthony-peruma",
       "mohamed-wiem-mkaouer"
-    ]
+    ],
+    "doi": "10.1109/tse.2021.3098242",
+    "url": "https://doi.org/10.1109/tse.2021.3098242"
   },
   {
     "id": "lyu-2021-experimental",
@@ -1962,31 +2148,9 @@
       "moataz-chouchen",
       "ali-ouni",
       "mohamed-wiem-mkaouer"
-    ]
-  },
-  {
-    "id": "chouchen-2021-antipatterns",
-    "title": "Anti-patterns in Modern Code Review: Symptoms and Prevalence",
-    "authors": "Moataz Chouchen and Ali Ouni and Raula Gaikovina Kula and Dong Wang and Patanamon Thongtanunam and Mohamed Wiem Mkaouer and Kenichi Matsumoto",
-    "authorNames": [
-      "Moataz Chouchen",
-      "Ali Ouni",
-      "Raula Gaikovina Kula",
-      "Dong Wang",
-      "Patanamon Thongtanunam",
-      "Mohamed Wiem Mkaouer",
-      "Kenichi Matsumoto"
     ],
-    "year": 2021,
-    "type": "conference",
-    "venue": "SANER",
     "doi": "10.1109/saner50967.2021.00060",
-    "url": "https://doi.org/10.1109/saner50967.2021.00060",
-    "personIds": [
-      "moataz-chouchen",
-      "ali-ouni",
-      "mohamed-wiem-mkaouer"
-    ]
+    "url": "https://doi.org/10.1109/saner50967.2021.00060"
   },
   {
     "id": "ghadhab-2021-augmenting",
@@ -2003,28 +2167,6 @@
     "venue": "Information and Software Technology",
     "personIds": [
       "mohamed-wiem-mkaouer"
-    ]
-  },
-  {
-    "id": "alomar-2021-behind",
-    "title": "Behind the Scenes: On the Relationship Between Developer Experience and Refactoring",
-    "authors": "Eman Abdullah AlOmar and Anthony Peruma and Mohamed Wiem Mkaouer and Christian D. Newman and Ali Ouni",
-    "authorNames": [
-      "Eman Abdullah AlOmar",
-      "Anthony Peruma",
-      "Mohamed Wiem Mkaouer",
-      "Christian D. Newman",
-      "Ali Ouni"
-    ],
-    "year": 2021,
-    "type": "article",
-    "venue": "CoRR",
-    "personIds": [
-      "eman-abdullah-alomar",
-      "anthony-peruma",
-      "mohamed-wiem-mkaouer",
-      "christian-newman",
-      "ali-ouni"
     ]
   },
   {
@@ -2048,29 +2190,9 @@
       "ali-ouni",
       "moataz-chouchen",
       "mohamed-wiem-mkaouer"
-    ]
-  },
-  {
-    "id": "saidani-2021-bfdetector",
-    "title": "BF-detector: an automated tool for CI build failure detection",
-    "authors": "Islem Saidani and Ali Ouni and Moataz Chouchen and Mohamed Wiem Mkaouer",
-    "authorNames": [
-      "Islem Saidani",
-      "Ali Ouni",
-      "Moataz Chouchen",
-      "Mohamed Wiem Mkaouer"
     ],
-    "year": 2021,
-    "type": "conference",
-    "venue": "ESEC/SIGSOFT FSE",
     "doi": "10.1145/3468264.3473115",
-    "url": "https://doi.org/10.1145/3468264.3473115",
-    "personIds": [
-      "islem-saidani",
-      "ali-ouni",
-      "moataz-chouchen",
-      "mohamed-wiem-mkaouer"
-    ]
+    "url": "https://doi.org/10.1145/3468264.3473115"
   },
   {
     "id": "sagar-2021-comparing",
@@ -2139,57 +2261,9 @@
       "wajdi-aljedaani",
       "murtaza-tamjeed",
       "mohamed-wiem-mkaouer"
-    ]
-  },
-  {
-    "id": "peruma-2021-how",
-    "title": "How Do I Refactor This? An Empirical Study on Refactoring Trends and Topics in Stack Overflow",
-    "authors": "Anthony Peruma and Steven Simmons and Eman Abdullah AlOmar and Christian D. Newman and Mohamed Wiem Mkaouer and Ali Ouni",
-    "authorNames": [
-      "Anthony Peruma",
-      "Steven Simmons",
-      "Eman Abdullah AlOmar",
-      "Christian D. Newman",
-      "Mohamed Wiem Mkaouer",
-      "Ali Ouni"
     ],
-    "year": 2021,
-    "type": "article",
-    "venue": "CoRR",
-    "personIds": [
-      "anthony-peruma",
-      "steve-simmons",
-      "eman-abdullah-alomar",
-      "christian-newman",
-      "mohamed-wiem-mkaouer",
-      "ali-ouni"
-    ]
-  },
-  {
-    "id": "alomar-2021-how",
-    "title": "How we refactor and how we document it? On the use of supervised machine learning algorithms to classify refactoring documentation",
-    "authors": "Eman Abdullah AlOmar and Anthony Peruma and Mohamed Wiem Mkaouer and Christian D. Newman and Ali Ouni and Marouane Kessentini",
-    "authorNames": [
-      "Eman Abdullah AlOmar",
-      "Anthony Peruma",
-      "Mohamed Wiem Mkaouer",
-      "Christian D. Newman",
-      "Ali Ouni",
-      "Marouane Kessentini"
-    ],
-    "year": 2021,
-    "type": "article",
-    "venue": "Expert Syst. Appl.",
-    "doi": "10.1016/j.eswa.2020.114176",
-    "url": "https://doi.org/10.1016/j.eswa.2020.114176",
-    "personIds": [
-      "eman-abdullah-alomar",
-      "anthony-peruma",
-      "mohamed-wiem-mkaouer",
-      "christian-newman",
-      "ali-ouni",
-      "marouane-kessentini"
-    ]
+    "doi": "10.48550/arxiv.2210.09947",
+    "url": "https://doi.org/10.48550/arxiv.2210.09947"
   },
   {
     "id": "alomar-2021-we",
@@ -2216,7 +2290,9 @@
       "christian-newman",
       "ali-ouni",
       "marouane-kessentini"
-    ]
+    ],
+    "doi": "10.1016/j.eswa.2020.114176",
+    "url": "https://doi.org/10.1016/j.eswa.2020.114176"
   },
   {
     "id": "lyu-2021-improving",
@@ -2277,26 +2353,9 @@
     "personIds": [
       "marouane-kessentini",
       "mohamed-wiem-mkaouer"
-    ]
-  },
-  {
-    "id": "almhana-2021-methodlevel",
-    "title": "Method-level bug localization using hybrid multi-objective search",
-    "authors": "Rafi Almhana and Marouane Kessentini and Wiem Mkaouer",
-    "authorNames": [
-      "Rafi Almhana",
-      "Marouane Kessentini",
-      "Wiem Mkaouer"
     ],
-    "year": 2021,
-    "type": "article",
-    "venue": "Inf. Softw. Technol.",
     "doi": "10.1016/j.infsof.2020.106474",
-    "url": "https://doi.org/10.1016/j.infsof.2020.106474",
-    "personIds": [
-      "marouane-kessentini",
-      "mohamed-wiem-mkaouer"
-    ]
+    "url": "https://doi.org/10.1016/j.infsof.2020.106474"
   },
   {
     "id": "alomar-2021-mining",
@@ -2317,25 +2376,6 @@
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer",
       "ali-ouni"
-    ]
-  },
-  {
-    "id": "daaji-2021-multi",
-    "title": "Multi-criteria Web Services Selection: Balancing the Quality of Design and Quality of Service",
-    "authors": "Marwa Daaji and Ali Ouni and Mohamed Mohsen Gammoudi and Salah Bouktif and Mohamed Wiem Mkaouer",
-    "authorNames": [
-      "Marwa Daaji",
-      "Ali Ouni",
-      "Mohamed Mohsen Gammoudi",
-      "Salah Bouktif",
-      "Mohamed Wiem Mkaouer"
-    ],
-    "year": 2021,
-    "type": "article",
-    "venue": "ACM Transactions on Internet Technology (TOIT)",
-    "personIds": [
-      "ali-ouni",
-      "mohamed-wiem-mkaouer"
     ]
   },
   {
@@ -2384,29 +2424,6 @@
     ]
   },
   {
-    "id": "alomar-2021-documentation",
-    "title": "On the Documentation of Refactoring Types",
-    "authors": "Eman Abdullah AlOmar and Jiaqian Liu and Kenneth Addo and Mohamed Wiem Mkaouer and Christian D. Newman and Ali Ouni and Zhe Yu",
-    "authorNames": [
-      "Eman Abdullah AlOmar",
-      "Jiaqian Liu",
-      "Kenneth Addo",
-      "Mohamed Wiem Mkaouer",
-      "Christian D. Newman",
-      "Ali Ouni",
-      "Zhe Yu"
-    ],
-    "year": 2021,
-    "type": "article",
-    "venue": "CoRR",
-    "personIds": [
-      "eman-abdullah-alomar",
-      "mohamed-wiem-mkaouer",
-      "christian-newman",
-      "ali-ouni"
-    ]
-  },
-  {
     "id": "soui-2021-impact",
     "title": "On the Impact of Aesthetic Defects on the Maintainability of Mobile Graphical User Interfaces: An Empirical Study",
     "authors": "Makram Soui and Mabrouka Chouchane and Narjes Bessghaier and Mohamed Wiem Mkaouer and Marouane Kessentini",
@@ -2424,7 +2441,9 @@
     "personIds": [
       "mohamed-wiem-mkaouer",
       "marouane-kessentini"
-    ]
+    ],
+    "doi": "10.1007/s10796-020-10100-w",
+    "url": "https://doi.org/10.1007/s10796-020-10100-w"
   },
   {
     "id": "saidani-2021-impact",
@@ -2471,7 +2490,9 @@
       "mohamed-wiem-mkaouer",
       "christian-newman",
       "ali-ouni"
-    ]
+    ],
+    "doi": "10.1007/s11334-021-00388-5",
+    "url": "https://doi.org/10.1007/s11334-021-00388-5"
   },
   {
     "id": "golubev-2021-one",
@@ -2506,13 +2527,14 @@
       "Mohamed Wiem Mkaouer"
     ],
     "year": 2021,
-    "type": "article",
+    "type": "preprint",
     "venue": "CoRR",
     "personIds": [
       "moataz-chouchen",
       "ali-ouni",
       "mohamed-wiem-mkaouer"
-    ]
+    ],
+    "status": "preprint"
   },
   {
     "id": "ye-2021-recommending",
@@ -2555,31 +2577,6 @@
       "mohamed-wiem-mkaouer",
       "ali-ouni",
       "marouane-kessentini"
-    ]
-  },
-  {
-    "id": "alomar-2021-satdbailiff",
-    "title": "SATDBailiff- Mining and Tracking Self-Admitted Technical Debt",
-    "authors": "Eman Abdullah AlOmar and Ben Christians and Mihal Busho and Ahmed Hamad AlKhalid and Ali Ouni and Christian D. Newman and Mohamed Wiem Mkaouer",
-    "authorNames": [
-      "Eman Abdullah AlOmar",
-      "Ben Christians",
-      "Mihal Busho",
-      "Ahmed Hamad AlKhalid",
-      "Ali Ouni",
-      "Christian D. Newman",
-      "Mohamed Wiem Mkaouer"
-    ],
-    "year": 2021,
-    "type": "article",
-    "venue": "CoRR",
-    "personIds": [
-      "eman-abdullah-alomar",
-      "ben-christians",
-      "mihal-busho",
-      "ali-ouni",
-      "christian-newman",
-      "mohamed-wiem-mkaouer"
     ]
   },
   {
@@ -2631,26 +2628,6 @@
     ]
   },
   {
-    "id": "alomar-2021-automatic",
-    "title": "Toward the automatic classification of Self-Affirmed Refactoring",
-    "authors": "Eman Abdullah AlOmar and Mohamed Wiem Mkaouer and Ali Ouni",
-    "authorNames": [
-      "Eman Abdullah AlOmar",
-      "Mohamed Wiem Mkaouer",
-      "Ali Ouni"
-    ],
-    "year": 2021,
-    "type": "article",
-    "venue": "J. Syst. Softw.",
-    "doi": "10.1016/j.jss.2020.110821",
-    "url": "https://doi.org/10.1016/j.jss.2020.110821",
-    "personIds": [
-      "eman-abdullah-alomar",
-      "mohamed-wiem-mkaouer",
-      "ali-ouni"
-    ]
-  },
-  {
     "id": "alomar-2021-toward",
     "title": "Toward the automatic classification of self-affirmed refactoring",
     "authors": "Eman Abdullah AlOmar and Mohamed Wiem Mkaouer and Ali Ouni",
@@ -2669,7 +2646,9 @@
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer",
       "ali-ouni"
-    ]
+    ],
+    "doi": "10.1016/j.jss.2020.110821",
+    "url": "https://doi.org/10.1016/j.jss.2020.110821"
   },
   {
     "id": "peruma-2021-grammar",
@@ -2684,14 +2663,15 @@
       "Christian D. Newman"
     ],
     "year": 2021,
-    "type": "article",
+    "type": "preprint",
     "venue": "CoRR",
     "personIds": [
       "anthony-peruma",
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer",
       "christian-newman"
-    ]
+    ],
+    "status": "preprint"
   },
   {
     "id": "chouchen-2021-whoreview",
@@ -2728,11 +2708,12 @@
       "Travis Desell"
     ],
     "year": 2020,
-    "type": "article",
+    "type": "preprint",
     "venue": "CoRR",
     "personIds": [
       "mohamed-wiem-mkaouer"
-    ]
+    ],
+    "status": "preprint"
   },
   {
     "id": "alomar-2020-exploratory",
@@ -2933,55 +2914,9 @@
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer",
       "ali-ouni"
-    ]
-  },
-  {
-    "id": "alrubaye-2020-how",
-    "title": "How Does Library Migration Impact Software Quality and Comprehension? An Empirical Study",
-    "authors": "Hussein Alrubaye and Deema Alshoaibi and Eman Abdullah AlOmar and Mohamed Wiem Mkaouer and Ali Ouni",
-    "authorNames": [
-      "Hussein Alrubaye",
-      "Deema Alshoaibi",
-      "Eman Abdullah AlOmar",
-      "Mohamed Wiem Mkaouer",
-      "Ali Ouni"
     ],
-    "year": 2020,
-    "type": "conference",
-    "venue": "ICSR",
     "doi": "10.1007/978-3-030-64694-3_15",
-    "url": "https://doi.org/10.1007/978-3-030-64694-3_15",
-    "personIds": [
-      "hussein-alrubaye",
-      "deema-alshoaibi",
-      "eman-abdullah-alomar",
-      "mohamed-wiem-mkaouer",
-      "ali-ouni"
-    ]
-  },
-  {
-    "id": "alomar-2020-how",
-    "title": "How We Refactor and How We Document it? On the Use of Supervised Machine Learning Algorithms to Classify Refactoring Documentation",
-    "authors": "Eman Abdullah AlOmar and Anthony Peruma and Mohamed Wiem Mkaouer and Christian D. Newman and Ali Ouni and Marouane Kessentini",
-    "authorNames": [
-      "Eman Abdullah AlOmar",
-      "Anthony Peruma",
-      "Mohamed Wiem Mkaouer",
-      "Christian D. Newman",
-      "Ali Ouni",
-      "Marouane Kessentini"
-    ],
-    "year": 2020,
-    "type": "article",
-    "venue": "CoRR",
-    "personIds": [
-      "eman-abdullah-alomar",
-      "anthony-peruma",
-      "mohamed-wiem-mkaouer",
-      "christian-newman",
-      "ali-ouni",
-      "marouane-kessentini"
-    ]
+    "url": "https://doi.org/10.1007/978-3-030-64694-3_15"
   },
   {
     "id": "bogart-2020-increasing",
@@ -3066,28 +3001,6 @@
     ]
   },
   {
-    "id": "mkaouer-2020-manyobjective",
-    "title": "Many-Objective Software Remodularization using NSGA-III",
-    "authors": "Mohamed Wiem Mkaouer and Marouane Kessentini and Adnan Shaout and Patrice Koligheu and Slim Bechikh and Kalyanmoy Deb and Ali Ouni",
-    "authorNames": [
-      "Mohamed Wiem Mkaouer",
-      "Marouane Kessentini",
-      "Adnan Shaout",
-      "Patrice Koligheu",
-      "Slim Bechikh",
-      "Kalyanmoy Deb",
-      "Ali Ouni"
-    ],
-    "year": 2020,
-    "type": "article",
-    "venue": "CoRR",
-    "personIds": [
-      "mohamed-wiem-mkaouer",
-      "marouane-kessentini",
-      "ali-ouni"
-    ]
-  },
-  {
     "id": "sarwar-2020-multi",
     "title": "Multi-label Classification of Commit Messages using Transfer Learning",
     "authors": "Muhammad Usman Sarwar and Sarim Zafar and Mohamed Wiem Mkaouer and Gursimran Singh Walia and Muhammad Zubair Malik",
@@ -3103,27 +3016,9 @@
     "venue": "2020 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)",
     "personIds": [
       "mohamed-wiem-mkaouer"
-    ]
-  },
-  {
-    "id": "sarwar-2020-multilabel",
-    "title": "Multi-label Classification of Commit Messages using Transfer Learning",
-    "authors": "Muhammad Usman Sarwar and Sarim Zafar and Mohamed Wiem Mkaouer and Gursimran Singh Walia and Muhammad Zubair Malik",
-    "authorNames": [
-      "Muhammad Usman Sarwar",
-      "Sarim Zafar",
-      "Mohamed Wiem Mkaouer",
-      "Gursimran Singh Walia",
-      "Muhammad Zubair Malik"
     ],
-    "year": 2020,
-    "type": "conference",
-    "venue": "ISSRE Workshops",
     "doi": "10.1109/issrew51248.2020.00034",
-    "url": "https://doi.org/10.1109/issrew51248.2020.00034",
-    "personIds": [
-      "mohamed-wiem-mkaouer"
-    ]
+    "url": "https://doi.org/10.1109/issrew51248.2020.00034"
   },
   {
     "id": "almarimi-2020-detection",
@@ -3277,24 +3172,6 @@
     ]
   },
   {
-    "id": "alomar-2020-automatic",
-    "title": "Toward the Automatic Classification of Self-Affirmed Refactoring",
-    "authors": "Eman Abdullah AlOmar and Mohamed Wiem Mkaouer and Ali Ouni",
-    "authorNames": [
-      "Eman Abdullah AlOmar",
-      "Mohamed Wiem Mkaouer",
-      "Ali Ouni"
-    ],
-    "year": 2020,
-    "type": "article",
-    "venue": "CoRR",
-    "personIds": [
-      "eman-abdullah-alomar",
-      "mohamed-wiem-mkaouer",
-      "ali-ouni"
-    ]
-  },
-  {
     "id": "peruma-2020-tsdetect",
     "title": "tsDetect: an open source test smells detection tool",
     "authors": "Anthony Peruma and Khalid Almalki and Christian D Newman and Mohamed Wiem Mkaouer and Ali Ouni and Fabio Palomba",
@@ -3352,26 +3229,9 @@
     "venue": "International Conference on Knowledge Science, Engineering and Management",
     "personIds": [
       "mohamed-wiem-mkaouer"
-    ]
-  },
-  {
-    "id": "messaoud-2019-multilabel",
-    "title": "A Multi-label Active Learning Approach for Mobile App User Review Classification",
-    "authors": "Montassar Ben Messaoud and Ilyes Jenhani and Nermine Ben Jemaa and Mohamed Wiem Mkaouer",
-    "authorNames": [
-      "Montassar Ben Messaoud",
-      "Ilyes Jenhani",
-      "Nermine Ben Jemaa",
-      "Mohamed Wiem Mkaouer"
     ],
-    "year": 2019,
-    "type": "conference",
-    "venue": "KSEM (1)",
     "doi": "10.1007/978-3-030-29551-6_71",
-    "url": "https://doi.org/10.1007/978-3-030-29551-6_71",
-    "personIds": [
-      "mohamed-wiem-mkaouer"
-    ]
+    "url": "https://doi.org/10.1007/978-3-030-29551-6_71"
   },
   {
     "id": "alomar-2019-can",
@@ -3441,14 +3301,15 @@
       "Marouane Kessentini"
     ],
     "year": 2019,
-    "type": "article",
+    "type": "preprint",
     "venue": "CoRR",
     "personIds": [
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer",
       "ali-ouni",
       "marouane-kessentini"
-    ]
+    ],
+    "status": "preprint"
   },
   {
     "id": "safdari-2019-learning",
@@ -3471,27 +3332,6 @@
       "wajdi-aljedaani",
       "bladimir-baez-baez",
       "mohamed-wiem-mkaouer"
-    ]
-  },
-  {
-    "id": "alrubaye-2019-learning",
-    "title": "Learning to Recommend Third-Party Library Migration Opportunities at the API Level",
-    "authors": "Hussein Alrubaye and Mohamed Wiem Mkaouer and Igor Khokhlov and Leon Reznik and Ali Ouni and Jason Mcgoff",
-    "authorNames": [
-      "Hussein Alrubaye",
-      "Mohamed Wiem Mkaouer",
-      "Igor Khokhlov",
-      "Leon Reznik",
-      "Ali Ouni",
-      "Jason Mcgoff"
-    ],
-    "year": 2019,
-    "type": "article",
-    "venue": "CoRR",
-    "personIds": [
-      "hussein-alrubaye",
-      "mohamed-wiem-mkaouer",
-      "ali-ouni"
     ]
   },
   {
@@ -3643,27 +3483,8 @@
     ]
   },
   {
-    "id": "saidani-2019-towards",
-    "title": "Towards Automated Microservices Extraction Using Muti-objective Evolutionary Search",
-    "authors": "Islem Saidani and Ali Ouni and Mohamed Wiem Mkaouer and Aymen Saied",
-    "authorNames": [
-      "Islem Saidani",
-      "Ali Ouni",
-      "Mohamed Wiem Mkaouer",
-      "Aymen Saied"
-    ],
-    "year": 2019,
-    "type": "conference",
-    "venue": "International Conference on Service-Oriented Computing",
-    "personIds": [
-      "islem-saidani",
-      "ali-ouni",
-      "mohamed-wiem-mkaouer"
-    ]
-  },
-  {
     "id": "alrubaye-2019-variability",
-    "title": "Variability in Library Evolution",
+    "title": "Variability in Library Evolution: An Exploratory Study on Open-Source Java Libraries",
     "authors": "Hussein Alrubaye and Mohamed Wiem and Anthony Peruma",
     "authorNames": [
       "Hussein Alrubaye",
@@ -3736,27 +3557,6 @@
     ]
   },
   {
-    "id": "alizadeh-2018-interactive",
-    "title": "An interactive and dynamic search-based approach to software refactoring recommendations",
-    "authors": "Vahid Alizadeh and Marouane Kessentini and Mohamed Wiem Mkaouer and Mel Ocinneide and Ali Ouni and Yuanfang Cai",
-    "authorNames": [
-      "Vahid Alizadeh",
-      "Marouane Kessentini",
-      "Mohamed Wiem Mkaouer",
-      "Mel Ocinneide",
-      "Ali Ouni",
-      "Yuanfang Cai"
-    ],
-    "year": 2018,
-    "type": "article",
-    "venue": "IEEE Transactions on Software Engineering",
-    "personIds": [
-      "marouane-kessentini",
-      "mohamed-wiem-mkaouer",
-      "ali-ouni"
-    ]
-  },
-  {
     "id": "alrubaye-2018-automating",
     "title": "Automating the detection of third-party Java library migration at the function level.",
     "authors": "Hussein Alrubaye and Mohamed Wiem Mkaouer",
@@ -3769,29 +3569,6 @@
     "venue": "CASCON",
     "personIds": [
       "hussein-alrubaye",
-      "mohamed-wiem-mkaouer"
-    ]
-  },
-  {
-    "id": "mcburney-2018-prioritizing",
-    "title": "Towards Prioritizing Documentation Effort",
-    "authors": "Paul W. McBurney and Siyuan Jiang and Marouane Kessentini and Nicholas A. Kraft and Ameer Armaly and Mohamed Wiem Mkaouer and Collin McMillan",
-    "authorNames": [
-      "Paul W. McBurney",
-      "Siyuan Jiang",
-      "Marouane Kessentini",
-      "Nicholas A. Kraft",
-      "Ameer Armaly",
-      "Mohamed Wiem Mkaouer",
-      "Collin McMillan"
-    ],
-    "year": 2018,
-    "type": "article",
-    "venue": "IEEE Trans. Software Eng.",
-    "doi": "10.1109/tse.2017.2716950",
-    "url": "https://doi.org/10.1109/tse.2017.2716950",
-    "personIds": [
-      "marouane-kessentini",
       "mohamed-wiem-mkaouer"
     ]
   },
@@ -3854,26 +3631,9 @@
     "image": "/resources/thumbnails/chester-2017-m.jpg",
     "personIds": [
       "mohamed-wiem-mkaouer"
-    ]
-  },
-  {
-    "id": "chester-2017-mperm",
-    "title": "M-Perm: A Lightweight Detector for Android Permission Gaps",
-    "authors": "Piper Chester and Chris Jones and Mohamed Wiem Mkaouer and Daniel E. Krutz",
-    "authorNames": [
-      "Piper Chester",
-      "Chris Jones",
-      "Mohamed Wiem Mkaouer",
-      "Daniel E. Krutz"
     ],
-    "year": 2017,
-    "type": "conference",
-    "venue": "MOBILESoft@ICSE",
     "doi": "10.1109/mobilesoft.2017.23",
-    "url": "https://doi.org/10.1109/mobilesoft.2017.23",
-    "personIds": [
-      "mohamed-wiem-mkaouer"
-    ]
+    "url": "https://doi.org/10.1109/mobilesoft.2017.23"
   },
   {
     "id": "shoenberger-2017-use",
@@ -3913,25 +3673,9 @@
     "image": "/resources/thumbnails/dennis-2017-p.jpg",
     "personIds": [
       "mohamed-wiem-mkaouer"
-    ]
-  },
-  {
-    "id": "dennis-2017-plint",
-    "title": "P-Lint: A Permission Smell Detector for Android Applications",
-    "authors": "Colton Dennis and Daniel E. Krutz and Mohamed Wiem Mkaouer",
-    "authorNames": [
-      "Colton Dennis",
-      "Daniel E. Krutz",
-      "Mohamed Wiem Mkaouer"
     ],
-    "year": 2017,
-    "type": "conference",
-    "venue": "MOBILESoft@ICSE",
     "doi": "10.1109/mobilesoft.2017.24",
-    "url": "https://doi.org/10.1109/mobilesoft.2017.24",
-    "personIds": [
-      "mohamed-wiem-mkaouer"
-    ]
+    "url": "https://doi.org/10.1109/mobilesoft.2017.24"
   },
   {
     "id": "soui-2017-plain",
@@ -3972,7 +3716,9 @@
     "personIds": [
       "marouane-kessentini",
       "mohamed-wiem-mkaouer"
-    ]
+    ],
+    "doi": "10.1109/tse.2017.2716950",
+    "url": "https://doi.org/10.1109/tse.2017.2716950"
   },
   {
     "id": "krutz-2017-added",
@@ -3993,27 +3739,9 @@
     "personIds": [
       "anthony-peruma",
       "mohamed-wiem-mkaouer"
-    ]
-  },
-  {
-    "id": "krutz-2017-who",
-    "title": "Who Added That Permission to My App? An Analysis of Developer Permission Changes in Open Source Android Apps",
-    "authors": "Daniel E. Krutz and Nuthan Munaiah and Anthony Peruma and Mohamed Wiem Mkaouer",
-    "authorNames": [
-      "Daniel E. Krutz",
-      "Nuthan Munaiah",
-      "Anthony Peruma",
-      "Mohamed Wiem Mkaouer"
     ],
-    "year": 2017,
-    "type": "conference",
-    "venue": "MOBILESoft@ICSE",
     "doi": "10.1109/mobilesoft.2017.5",
-    "url": "https://doi.org/10.1109/mobilesoft.2017.5",
-    "personIds": [
-      "anthony-peruma",
-      "mohamed-wiem-mkaouer"
-    ]
+    "url": "https://doi.org/10.1109/mobilesoft.2017.5"
   },
   {
     "id": "mkaouer-2016-interactive",
@@ -4115,31 +3843,9 @@
       "mohamed-wiem-mkaouer",
       "marouane-kessentini",
       "ali-ouni"
-    ]
-  },
-  {
-    "id": "mkaouer-2015-manyobjective",
-    "title": "Many-Objective Software Remodularization Using NSGA-III",
-    "authors": "Wiem Mkaouer and Marouane Kessentini and Adnan Shaout and Patrice Koligheu and Slim Bechikh and Kalyanmoy Deb and Ali Ouni",
-    "authorNames": [
-      "Wiem Mkaouer",
-      "Marouane Kessentini",
-      "Adnan Shaout",
-      "Patrice Koligheu",
-      "Slim Bechikh",
-      "Kalyanmoy Deb",
-      "Ali Ouni"
     ],
-    "year": 2015,
-    "type": "article",
-    "venue": "ACM Trans. Softw. Eng. Methodol.",
     "doi": "10.1145/2729974",
-    "url": "https://doi.org/10.1145/2729974",
-    "personIds": [
-      "mohamed-wiem-mkaouer",
-      "marouane-kessentini",
-      "ali-ouni"
-    ]
+    "url": "https://doi.org/10.1145/2729974"
   },
   {
     "id": "mkaouer-2014-robust",
@@ -4179,24 +3885,6 @@
     "description": "There is a growing need for scalable search-based software engineering approaches that address software engineering problems where a large number of objectives are to be optimized. Software refactoring is one of these problems where a refactoring sequence is sought that optimizes several software metrics. Most of the existing refactoring work uses a large set of quality metrics to evaluate the software design after applying refactoring operations, but current search-based software engineering approaches are limited to using a maximum of five metrics. We propose for the first time a scalable search-based software engineering approach based on a newly proposed evolutionary optimization method NSGA-III where there are 15 different objectives to be optimized. In our approach, automated refactoring solutions are evaluated using a set of 15 distinct quality metrics. We evaluated this approach on seven large open source systems and found that, on average, more than 92% of code smells were corrected. Statistical analysis of our experiments over 31 runs shows that NSGA-III performed significantly better than two other many-objective techniques (IBEA and MOEA/D), a multiobjective algorithm (NSGA-II) and two mono-objective approaches, hence demonstrating that our NSGA-III approach represents the new state of the art in fully-automated refactoring.",
     "pdf": "/resources/pubpdfs/mkaouer-2014-high.pdf",
     "image": "/resources/thumbnails/mkaouer-2014-high.jpg",
-    "personIds": [
-      "mohamed-wiem-mkaouer",
-      "marouane-kessentini"
-    ]
-  },
-  {
-    "id": "mkaouer-2014-o",
-    "title": "High dimensional search-based software engineering: finding tradeoffs among 15 objectives for automating software refactoring using NSGA-III",
-    "authors": "MW Mkaouer and M Kessentini and S Bechikh and K Deb",
-    "authorNames": [
-      "MW Mkaouer",
-      "M Kessentini",
-      "S Bechikh",
-      "K Deb"
-    ],
-    "year": 2014,
-    "type": "conference",
-    "venue": "Proceedings of the 2014 Annual Conference on Genetic and Evolutionary Computation",
     "personIds": [
       "mohamed-wiem-mkaouer",
       "marouane-kessentini"
@@ -4282,26 +3970,8 @@
     "personIds": [
       "mohamed-wiem-mkaouer",
       "marouane-kessentini"
-    ]
-  },
-  {
-    "id": "mkaouer-2013-preferencebased",
-    "title": "Preference-based multi-objective software modelling",
-    "authors": "Mohamed Wiem Mkaouer and Marouane Kessentini and Slim Bechikh and Daniel R. Tauritz",
-    "authorNames": [
-      "Mohamed Wiem Mkaouer",
-      "Marouane Kessentini",
-      "Slim Bechikh",
-      "Daniel R. Tauritz"
     ],
-    "year": 2013,
-    "type": "conference",
-    "venue": "CMSBSE@ICSE",
     "doi": "10.1109/cmsbse.2013.6605712",
-    "url": "https://doi.org/10.1109/cmsbse.2013.6605712",
-    "personIds": [
-      "mohamed-wiem-mkaouer",
-      "marouane-kessentini"
-    ]
+    "url": "https://doi.org/10.1109/cmsbse.2013.6605712"
   }
 ]
