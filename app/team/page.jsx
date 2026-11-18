@@ -3,10 +3,10 @@ import Link from 'next/link';
 import { people, alumni, safeUrl } from '@/lib/content';
 import PageHeading from '@/components/page-heading';
 export const metadata = { title: 'People', alternates: { canonical: '/team/' } };
-function PersonGrid({ members, headingLevel = 3 }) {
+function PersonGrid({ members, headingLevel = 3, compact = false }) {
   const Heading = `h${headingLevel}`;
   return (
-    <div className="people-grid">
+    <div className={compact ? 'people-grid people-grid-compact' : 'people-grid'}>
       {members.map((p) => (
         <article className="person-card" key={p.id}>
           <Link href={`/people/${p.id}/`}>
@@ -26,11 +26,11 @@ function PersonGrid({ members, headingLevel = 3 }) {
 export default function Team() {
   const members = people.filter((p) => p.status === 'member');
   const visitors = people.filter((p) => p.status === 'visitor');
-  const mergedAlumni = [...alumni];
-  for (const p of people.filter((p) => p.status === 'alumni')) {
-    if (!mergedAlumni.some((a) => a.name.toLowerCase().startsWith(p.name.toLowerCase())))
-      mergedAlumni.push({ name: `${p.name}, ${p.role}`, site: p.website });
-  }
+  const pastMembers = people.filter((p) => p.status === 'alumni');
+  // Entries in content/alumni.json that have no profile of their own stay as a plain list.
+  const listOnly = alumni.filter(
+    (a) => !pastMembers.some((p) => p.name.toLowerCase() === a.name.toLowerCase()),
+  );
   return (
     <>
       <PageHeading title="Our Group" />
@@ -43,13 +43,16 @@ export default function Team() {
       )}
       <section className="section">
         <h2>Past members</h2>
-        <ul className="alumni-list">
-          {mergedAlumni.map((a) => (
-            <li key={a.name}>
-              {safeUrl(a.site) ? <a href={safeUrl(a.site)}>{a.name}</a> : a.name}
-            </li>
-          ))}
-        </ul>
+        <PersonGrid members={pastMembers} compact />
+        {listOnly.length > 0 && (
+          <ul className="alumni-list">
+            {listOnly.map((a) => (
+              <li key={a.name}>
+                {safeUrl(a.site) ? <a href={safeUrl(a.site)}>{a.name}</a> : a.name}
+              </li>
+            ))}
+          </ul>
+        )}
       </section>
     </>
   );
