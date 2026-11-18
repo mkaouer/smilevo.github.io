@@ -357,9 +357,17 @@ test('social posts must be valid, unique Facebook or LinkedIn posts', () => {
   const fb = {
     id: 'fb-1',
     platform: 'facebook',
+    date: '2022-06-12',
+    approxDate: true,
     url: 'https://www.facebook.com/someone/posts/123',
   };
-  const li = { id: 'li-1', platform: 'linkedin', urn: 'urn:li:share:456', height: 900 };
+  const li = {
+    id: 'li-1',
+    platform: 'linkedin',
+    date: '2026-10-01',
+    urn: 'urn:li:share:456',
+    height: 900,
+  };
   assert.deepEqual(validateContent({ ...base, social: [fb, li] }), []);
   assert.match(
     validateContent({ ...base, social: [fb, { ...fb, id: 'fb-2' }] }).join(),

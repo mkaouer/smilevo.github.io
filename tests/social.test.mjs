@@ -7,6 +7,7 @@ import {
   validLinkedInUrn,
   linkedInEmbedUrl,
   linkedInPostUrl,
+  sortNewestFirst,
 } from '../lib/social.mjs';
 
 test('pagination clamps pages and slices 10 per page by default', () => {
@@ -46,4 +47,21 @@ test('LinkedIn urns are validated and turned into embed and post links', () => {
     linkedInPostUrl('urn:li:share:1'),
     'https://www.linkedin.com/feed/update/urn:li:share:1/',
   );
+});
+
+test('posts sort newest first and keep file order for the same date', () => {
+  const posts = [
+    { id: 'a', date: '2022-06-12' },
+    { id: 'b', date: '2026-10-01' },
+    { id: 'c', date: '2022-06-12' },
+    { id: 'd', date: '2025-04-09' },
+  ];
+  assert.deepEqual(
+    sortNewestFirst(posts).map((p) => p.id),
+    ['b', 'd', 'a', 'c'],
+  );
+  assert.deepEqual(
+    posts.map((p) => p.id),
+    ['a', 'b', 'c', 'd'],
+  ); // input is not mutated
 });
