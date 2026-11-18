@@ -8,7 +8,9 @@ const links = [
   ['/news/', 'News'],
   ['/social/', 'Social media'],
   ['/events/', 'Events'],
+  ['/funding/', 'Funding'],
   ['/teaching/', 'Teaching'],
+  ['/talks/', 'Talks'],
   ['/service/', 'Service'],
   ['/join/', 'Join us'],
 ];
