@@ -654,5 +654,230 @@
     "year": 2014,
     "text": "Journal of Systems and Software",
     "url": "https://www.journals.elsevier.com/journal-of-systems-and-software"
+  },
+  {
+    "id": "2026-general-co-chair-african-fall-school-on-software-engineering-and-ai-as",
+    "year": 2026,
+    "text": "General Co-Chair, African Fall School on Software Engineering and AI (ASEAI)"
+  },
+  {
+    "id": "2026-nier-rene-track-co-chair-symposium-on-search-based-software-engineerin",
+    "year": 2026,
+    "text": "NIER/RENE Track Co-Chair, Symposium on Search-Based Software Engineering (SSBSE)"
+  },
+  {
+    "id": "2026-program-committee-international-conference-on-program-comprehension-ic",
+    "year": 2026,
+    "text": "Program Committee, International Conference on Program Comprehension (ICPC): research and tool demonstration tracks"
+  },
+  {
+    "id": "2026-program-committee-icse-student-research-competition",
+    "year": 2026,
+    "text": "Program Committee, ICSE Student Research Competition"
+  },
+  {
+    "id": "2026-program-committee-esec-fse-posters",
+    "year": 2026,
+    "text": "Program Committee, ESEC/FSE Posters"
+  },
+  {
+    "id": "2026-program-committee-symposium-on-search-based-software-engineering-ssbse",
+    "year": 2026,
+    "text": "Program Committee, Symposium on Search-Based Software Engineering (SSBSE): challenge track"
+  },
+  {
+    "id": "2026-program-committee-acm-technical-symposium-on-computer-science-educatio",
+    "year": 2026,
+    "text": "Program Committee, ACM Technical Symposium on Computer Science Education (SIGCSE TS)"
+  },
+  {
+    "id": "2025-general-co-chair-african-winter-school-on-software-engineering-and-ai-",
+    "year": 2025,
+    "text": "General Co-Chair, African Winter School on Software Engineering and AI (ASEAI)"
+  },
+  {
+    "id": "2025-publicity-and-social-media-co-chair-acm-ieee-international-conference-",
+    "year": 2025,
+    "text": "Publicity and Social Media Co-Chair, ACM/IEEE International Conference on Model Driven Engineering Languages and Systems (MODELS)"
+  },
+  {
+    "id": "2025-organizing-committee-ieee-conference-on-software-engineering-education",
+    "year": 2025,
+    "text": "Organizing Committee, IEEE Conference on Software Engineering Education and Training (CSEE&T)"
+  },
+  {
+    "id": "2025-program-committee-international-conference-on-automated-software-engin",
+    "year": 2025,
+    "text": "Program Committee, International Conference on Automated Software Engineering (ASE): research papers and NIER"
+  },
+  {
+    "id": "2025-program-committee-international-conference-on-software-maintenance-and",
+    "year": 2025,
+    "text": "Program Committee, International Conference on Software Maintenance and Evolution (ICSME)"
+  },
+  {
+    "id": "2025-program-committee-working-conference-on-source-code-analysis-and-manip",
+    "year": 2025,
+    "text": "Program Committee, Working Conference on Source Code Analysis and Manipulation (SCAM)"
+  },
+  {
+    "id": "2025-program-committee-esec-fse-software-engineering-education",
+    "year": 2025,
+    "text": "Program Committee, ESEC/FSE: Software Engineering Education"
+  },
+  {
+    "id": "2025-program-committee-icse-demonstrations",
+    "year": 2025,
+    "text": "Program Committee, ICSE Demonstrations"
+  },
+  {
+    "id": "2025-program-committee-msr-industry-track",
+    "year": 2025,
+    "text": "Program Committee, MSR Industry Track"
+  },
+  {
+    "id": "2025-program-committee-icpc-tool-demonstration-and-era-tracks",
+    "year": 2025,
+    "text": "Program Committee, ICPC: tool demonstration and ERA tracks"
+  },
+  {
+    "id": "2025-ph-d-examination-committees-khaled-badawy-western-ontario-university-m",
+    "year": 2025,
+    "text": "Ph.D. examination committees: Khaled Badawy (Western Ontario University); Muhammad Irfan, Awais Khan and Muhammud Farooq (University of Michigan-Flint)"
+  },
+  {
+    "id": "2025-um-flint-program-director-of-software-engineering-admissions-and-artif",
+    "year": 2025,
+    "text": "UM-Flint: Program Director of Software Engineering Admissions and Artificial Intelligence Admissions"
+  },
+  {
+    "id": "2025-um-flint-tenure-track-hiring-committee-fall-2025-graduate-program-dire",
+    "year": 2025,
+    "text": "UM-Flint: Tenure-Track Hiring Committee (Fall 2025), Graduate Program Directors Council, Ph.D. Admission Committee, Graduate Webinars"
+  },
+  {
+    "id": "2025-um-flint-research-officer-hiring-committee-and-research-administrator-",
+    "year": 2025,
+    "text": "UM-Flint: Research Officer Hiring Committee and Research Administrator Hiring Committee"
+  },
+  {
+    "id": "2024-program-committee-international-conference-on-automated-software-engin",
+    "year": 2024,
+    "text": "Program Committee, International Conference on Automated Software Engineering (ASE)"
+  },
+  {
+    "id": "2024-program-committee-international-conference-on-software-maintenance-and",
+    "year": 2024,
+    "text": "Program Committee, International Conference on Software Maintenance and Evolution (ICSME)"
+  },
+  {
+    "id": "2024-program-committee-esec-fse",
+    "year": 2024,
+    "text": "Program Committee, ESEC/FSE"
+  },
+  {
+    "id": "2024-program-committee-icse-seet-and-icse-demonstrations",
+    "year": 2024,
+    "text": "Program Committee, ICSE-SEET and ICSE Demonstrations"
+  },
+  {
+    "id": "2024-program-committee-techdebt-emerging-researchers-forum",
+    "year": 2024,
+    "text": "Program Committee, TechDebt Emerging Researchers' Forum"
+  },
+  {
+    "id": "2024-program-committee-forge",
+    "year": 2024,
+    "text": "Program Committee, FORGE"
+  },
+  {
+    "id": "2024-program-committee-international-workshop-on-software-security",
+    "year": 2024,
+    "text": "Program Committee, International Workshop on Software Security"
+  },
+  {
+    "id": "2024-session-chair-scam-2024-maintenance",
+    "year": 2024,
+    "text": "Session Chair, SCAM 2024 (Maintenance)"
+  },
+  {
+    "id": "2024-session-chair-icsme-2024-session-4-software-maintenance-and-refactorin",
+    "year": 2024,
+    "text": "Session Chair, ICSME 2024 (Session 4: Software Maintenance and Refactoring)"
+  },
+  {
+    "id": "2024-ph-d-examination-committees-husam-m-a-el-asfour-and-fateh-mohamed-ali-",
+    "year": 2024,
+    "text": "Ph.D. examination committees: Husam M. A. El Asfour and Fateh Mohamed Ali Adhnouss (Western Ontario University); Ning Tao (University College Dublin)"
+  },
+  {
+    "id": "2024-um-flint-program-director-of-software-engineering-admissions-and-artif",
+    "year": 2024,
+    "text": "UM-Flint: Program Director of Software Engineering Admissions and Artificial Intelligence Admissions"
+  },
+  {
+    "id": "2024-um-flint-tenure-track-hiring-committee-spring-2024-graduate-programs-d",
+    "year": 2024,
+    "text": "UM-Flint: Tenure-Track Hiring Committee (Spring 2024), Graduate Programs Directors Council, Ph.D. Admission Committee, Graduate Studies Director Hiring Committee, Graduate Webinars"
+  },
+  {
+    "id": "2024-um-flint-institutional-analysis-director-search-committee",
+    "year": 2024,
+    "text": "UM-Flint: Institutional Analysis Director Search Committee"
+  },
+  {
+    "id": "2023-program-committee-msr-industry-track",
+    "year": 2023,
+    "text": "Program Committee, MSR Industry Track"
+  },
+  {
+    "id": "2023-program-committee-esec-fse-demonstrations",
+    "year": 2023,
+    "text": "Program Committee, ESEC/FSE Demonstrations"
+  },
+  {
+    "id": "2023-program-committee-acm-ieee-international-symposium-on-empirical-softwa",
+    "year": 2023,
+    "text": "Program Committee, ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)"
+  },
+  {
+    "id": "2023-program-committee-mobilesoft",
+    "year": 2023,
+    "text": "Program Committee, MobileSoft"
+  },
+  {
+    "id": "2023-program-committee-iticse",
+    "year": 2023,
+    "text": "Program Committee, ITiCSE"
+  },
+  {
+    "id": "2023-program-committee-icse-seet",
+    "year": 2023,
+    "text": "Program Committee, ICSE-SEET"
+  },
+  {
+    "id": "2023-program-committee-evoapp",
+    "year": 2023,
+    "text": "Program Committee, EvoAPP"
+  },
+  {
+    "id": "2023-program-committee-sigcse-technical-symposium",
+    "year": 2023,
+    "text": "Program Committee, SIGCSE Technical Symposium"
+  },
+  {
+    "id": "2023-program-committee-international-conference-on-program-comprehension-ic",
+    "year": 2023,
+    "text": "Program Committee, International Conference on Program Comprehension (ICPC)"
+  },
+  {
+    "id": "2023-program-committee-international-conference-on-software-maintenance-and",
+    "year": 2023,
+    "text": "Program Committee, International Conference on Software Maintenance and Evolution (ICSME)"
+  },
+  {
+    "id": "2023-rit-graduate-council-member-and-muslim-student-association-advisor",
+    "year": 2023,
+    "text": "RIT: Graduate Council member and Muslim Student Association advisor"
   }
 ]
