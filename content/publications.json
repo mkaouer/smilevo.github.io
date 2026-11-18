@@ -961,16 +961,15 @@
       "Mohamed Wiem Mkaouer"
     ],
     "year": 2024,
-    "type": "preprint",
-    "venue": "CoRR",
+    "type": "conference",
+    "venue": "2024 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
     "doi": "10.48550/arxiv.2408.01751",
     "url": "https://doi.org/10.48550/arxiv.2408.01751",
     "personIds": [
       "anthony-peruma",
       "christian-newman",
       "mohamed-wiem-mkaouer"
-    ],
-    "status": "preprint"
+    ]
   },
   {
     "id": "messaoud-2024-prduplichecker",
@@ -3797,11 +3796,14 @@
   },
   {
     "id": "mkaouer-2016-slim",
-    "title": "Slim Bechikh, Mel Ó Cinnéide, and Kalyanmoy Deb. On the use of many quality attributes for software refactoring: a many-objective search-based software engineering approach",
-    "authors": "Mohamed Wiem Mkaouer and Marouane Kessentini",
+    "title": "On the use of many quality attributes for software refactoring: a many-objective search-based software engineering approach",
+    "authors": "Mohamed Wiem Mkaouer and Marouane Kessentini and Slim Bechikh and Mel Ó Cinnéide and Kalyanmoy Deb",
     "authorNames": [
       "Mohamed Wiem Mkaouer",
-      "Marouane Kessentini"
+      "Marouane Kessentini",
+      "Slim Bechikh",
+      "Mel Ó Cinnéide",
+      "Kalyanmoy Deb"
     ],
     "year": 2016,
     "type": "article",
