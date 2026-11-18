@@ -27,7 +27,16 @@ export default async function Person({ params }) {
   const updates = relatedNews(news, 'personIds', p.id, { awards, projects });
   return (
     <>
-      <PageHeading title={p.name} eyebrow={p.status === 'alumni' ? 'Past member' : undefined} />
+      <PageHeading
+        title={p.name}
+        eyebrow={
+          p.status === 'alumni'
+            ? 'Past member'
+            : p.status === 'collaborator'
+              ? 'Collaborator'
+              : undefined
+        }
+      />
       <div className="profile">
         {p.image && <PersonPhoto person={p} />}
         <div>

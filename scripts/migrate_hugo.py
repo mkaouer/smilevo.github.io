@@ -6,7 +6,7 @@ Usage (from the repo root, with the Hugo folders still present):
     pip install pyyaml
     python3 scripts/migrate_hugo.py                # write to _migration/ for review
     python3 scripts/migrate_hugo.py --apply        # write straight into content/ and public/
-    python3 scripts/migrate_hugo.py --collaborators visitor|alumni|skip
+    python3 scripts/migrate_hugo.py --collaborators collaborator|alumni|visitor|skip
 
 Nothing in the Hugo folders is modified or deleted. Re-running is safe (output is regenerated).
 A human-readable report of everything that needs review is written to _migration/REPORT.md.
@@ -136,7 +136,7 @@ def load_people(out_public, collab_mode):
             if collab_mode == "skip":
                 note(f"- Collaborator skipped (no profile): {name}")
                 # keep a minimal record so paper links still resolve
-            status = "alumni" if collab_mode in ("alumni", "skip") else "visitor"
+            status = {"collaborator": "collaborator", "visitor": "visitor"}.get(collab_mode, "alumni")
         pid = slug(folder.name)
         role = clean_str(fm.get("role")) or GROUP_ROLE.get(group, "Member")
         topics = []
@@ -392,7 +392,7 @@ def load_service():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true", help="write into content/ and public/ instead of _migration/")
-    ap.add_argument("--collaborators", choices=["alumni", "visitor", "skip"], default="alumni")
+    ap.add_argument("--collaborators", choices=["collaborator", "alumni", "visitor", "skip"], default="collaborator")
     args = ap.parse_args()
 
     out = ROOT if args.apply else ROOT / "_migration"

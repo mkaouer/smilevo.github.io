@@ -169,7 +169,7 @@
     "id": "ali-ouni",
     "name": "Ali Ouni",
     "role": "Associate Professor",
-    "status": "alumni",
+    "status": "collaborator",
     "priority": 5,
     "topics": [
       "Interest 1",
@@ -192,7 +192,7 @@
     "id": "anthony-peruma",
     "name": "Anthony Peruma",
     "role": "Collaborator",
-    "status": "alumni",
+    "status": "collaborator",
     "priority": 5,
     "topics": [
       "Software Quality",
@@ -310,7 +310,7 @@
     "id": "christian-newman",
     "name": "Christian D. Newman",
     "role": "Assistant Professor",
-    "status": "alumni",
+    "status": "collaborator",
     "priority": 5,
     "topics": [
       "Program Comprehension",
@@ -408,7 +408,7 @@
     "id": "islem-saidani",
     "name": "Islem Saidani",
     "role": "Ph.D. Candidate at ETS Montreal",
-    "status": "alumni",
+    "status": "collaborator",
     "priority": 5,
     "topics": [
       "Software Engineering",
@@ -551,7 +551,7 @@
     "id": "marouane-kessentini",
     "name": "Marouane Kessentini",
     "role": "Collaborator",
-    "status": "alumni",
+    "status": "collaborator",
     "priority": 5,
     "topics": [
       "Interest 1",
@@ -609,7 +609,7 @@
     "id": "moataz-chouchen",
     "name": "Moataz Chouchen",
     "role": "Ph.D. Candidate at ETS Montreal",
-    "status": "alumni",
+    "status": "collaborator",
     "priority": 5,
     "topics": [
       "Software Engineering",
@@ -726,7 +726,8 @@
       "Software Quality",
       "Code Refactoring",
       "Educational Tools in Computing"
-    ]
+    ],
+    "image": "/resources/headshots/sarah-alanqari.jpg"
   },
   {
     "id": "simar-khanna",
