@@ -447,7 +447,7 @@
   {
     "id": "arpita-kale",
     "name": "Arpita Kale",
-    "role": "Implementation Manager",
+    "role": "Technical Project Manager",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -457,7 +457,6 @@
     ],
     "image": "/resources/headshots/arpita-kale.jpg",
     "bio": "Detail oriented and performance focused professional with knowledge and skills in the software development life cycle, honed from a solid educational background and hands-on experience",
-    "organization": "Annex Cloud",
     "links": {
       "linkedin": "https://www.linkedin.com/in/arpita-kale/"
     }
@@ -719,7 +718,7 @@
   {
     "id": "ebtesam-alsogaih",
     "name": "Ebtesam Alsogaih",
-    "role": "Software engineer | IT Project Manager",
+    "role": "IT Project Manager",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -727,7 +726,6 @@
       "problem solving"
     ],
     "image": "/resources/headshots/ebtesam-alsogaih.jpg",
-    "organization": "VEDA Holding | SALA Entertainment",
     "education": [
       {
         "degree": "MS in Computer Software Engineering",
@@ -1126,7 +1124,7 @@
   {
     "id": "majed-alqahtani",
     "name": "Majed Alqahtani",
-    "role": "Alumnus",
+    "role": "Software Engineer and IT Project Manager",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -1375,7 +1373,7 @@
   {
     "id": "murtaza-tamjeed",
     "name": "Murtaza Tamjeed",
-    "role": "PhD student in Software Engineering Department",
+    "role": "Accessibility and Responsible AI Researcher",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -1383,7 +1381,7 @@
       "Software Accessibility"
     ],
     "image": "/resources/headshots/murtaza-tamjeed.jpg",
-    "organization": "Golisano College of Computing and Information Sciences",
+    "organization": "Yahoo",
     "education": [
       {
         "degree": "PhD in Computer and Information Science",
