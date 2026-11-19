@@ -536,6 +536,28 @@ footer {
 .profile h2 {
   margin-bottom: 12px;
 }
+.profile-org {
+  margin: 0 0 12px;
+  color: var(--muted, #555);
+}
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 18px;
+  list-style: none;
+  margin: 0 0 14px;
+  padding: 0;
+}
+.profile-about p {
+  max-width: 70ch;
+}
+.education-list {
+  margin: 0;
+  padding-left: 1.2em;
+}
+.education-list li {
+  margin-bottom: 6px;
+}
 .tags {
   display: flex;
   flex-wrap: wrap;
