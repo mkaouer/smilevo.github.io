@@ -92,15 +92,12 @@
         "institution": "Rochester Institute of Technology",
         "years": "2017-2022"
       }
-    ],
-    "links": {
-      "linkedin": "https://www.linkedin.com/in/dante-secada-oz/"
-    }
+    ]
   },
   {
     "id": "diego-hilario-barinas",
     "name": "Diego Hilario Barinas",
-    "role": "Quality Engineer",
+    "role": "Software Engineer",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -128,7 +125,7 @@
   {
     "id": "diosdavi-lara-reyes",
     "name": "Diosdavi Lara Reyes",
-    "role": "Software Engineer",
+    "role": "Lead Software Engineer",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -137,7 +134,7 @@
     ],
     "image": "/resources/headshots/diosdavi-lara-reyes.jpg",
     "bio": "6+ years of professional experience working mainly on web technologies, with strong knowledge of the core concepts of software design & development. Proven ability to leverage full-stack expertise to build interactive, scalable and secure applications with quality code. High aptitude for learning new skills and developing professionally.\n\nCurrent tech stack: Golang, .NET Core, React, PostgreSQL",
-    "organization": "CBP / Crestview",
+    "organization": "Tredium Solutions",
     "education": [
       {
         "degree": "MS in Software Engineering",
@@ -178,7 +175,7 @@
       }
     ],
     "links": {
-      "linkedin": "https://www.linkedin.com/in/eric-t-a3a598138/"
+      "linkedin": "https://www.linkedin.com/in/erictiano/"
     }
   },
   {
@@ -278,7 +275,7 @@
   {
     "id": "abdullah-alsaleh",
     "name": "Abdullah Alsaleh",
-    "role": "Alumnus",
+    "role": "Data Scientist",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -303,7 +300,8 @@
       "github": "https://github.com/AbdullahA93",
       "linkedin": "http://linkedin.com/in/abdullah-alsaleh-730334a7",
       "cv": "/files/Abdullah_CV_2021.pdf"
-    }
+    },
+    "organization": "Ministry of Human Resources and Social Development"
   },
   {
     "id": "ahmed-hamad",
@@ -369,14 +367,14 @@
   {
     "id": "andrew-di-stasi",
     "name": "Andrew Di Stasi",
-    "role": "Software Engineer",
+    "role": "Solutions Architect",
     "status": "alumni",
     "priority": 5,
     "topics": [
       "Software Engineering"
     ],
     "image": "/resources/headshots/andrew-di-stasi.jpg",
-    "organization": "Innovative Solutions",
+    "organization": "Protagona",
     "education": [
       {
         "degree": "MS in Software Engineering",
@@ -576,14 +574,14 @@
   {
     "id": "brandon-palonis",
     "name": "Brandon Palonis",
-    "role": "Tech Intern",
+    "role": "Software Engineer",
     "status": "alumni",
     "priority": 5,
     "topics": [
       "Software Engineering"
     ],
     "image": "/resources/headshots/brandon-palonis.jpg",
-    "organization": "Capital One",
+    "organization": "Estes Express Lines",
     "education": [
       {
         "degree": "MS in Software Engineering",
@@ -690,7 +688,7 @@
   {
     "id": "devan-lad",
     "name": "Devan Lad",
-    "role": "Alumnus",
+    "role": "Software Developer",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -715,7 +713,8 @@
       "github": "https://github.com/devandhrew",
       "linkedin": "https://www.linkedin.com/in/devan-lad/",
       "cv": "/files/Devan_Lad_Resume.pdf"
-    }
+    },
+    "organization": "General Motors"
   },
   {
     "id": "ebtesam-alsogaih",
@@ -742,7 +741,7 @@
       }
     ],
     "links": {
-      "linkedin": "https://www.linkedin.com/in/ebtesam-alsogaih-a2b5b4190/?originalSubdomain=sa"
+      "linkedin": "https://www.linkedin.com/in/ebtesam-alsogaih-a2b5b4190/"
     }
   },
   {
@@ -803,7 +802,7 @@
       "Software Engineering"
     ],
     "image": "/resources/headshots/hiten-gupta.jpg",
-    "organization": "IBM",
+    "organization": "Rubrik",
     "education": [
       {
         "degree": "MS in Software Engineering",
@@ -914,7 +913,7 @@
   {
     "id": "kemar-james",
     "name": "Kemar James",
-    "role": "Alumnus",
+    "role": "Software Engineer",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -937,7 +936,7 @@
     ],
     "links": {
       "github": "https://github.com/k3mar",
-      "linkedin": "https://www.linkedin.com/in/kemar-james-6b196a6b/",
+      "linkedin": "https://www.linkedin.com/in/kemar-james/",
       "cv": "/files/SE_MS_Kemar_James_Resume_RIT.pdf",
       "email": "kkj7854@rit.edu"
     }
@@ -945,7 +944,7 @@
   {
     "id": "kevin-hannigan",
     "name": "Kevin Hannigan",
-    "role": "Software Engineer",
+    "role": "Staff Engineer",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -962,13 +961,13 @@
       }
     ],
     "links": {
-      "linkedin": "https://www.linkedin.com/in/kevin-hannigan-63570bb4/"
+      "linkedin": "https://www.linkedin.com/in/kevin-hannigan-z/"
     }
   },
   {
     "id": "khalid-almalki",
     "name": "Khalid Saeed Almalki",
-    "role": "Software Engineer",
+    "role": "iOS Lead",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -977,7 +976,7 @@
     ],
     "image": "/resources/headshots/khalid-almalki.jpg",
     "bio": "Software Engineering. Interests include: software quality, refactoring and mobile development (SWIFT)",
-    "organization": "STC",
+    "organization": "stc",
     "education": [
       {
         "degree": "MS in Software Engineering",
@@ -1022,7 +1021,7 @@
   {
     "id": "kirtana-suresh",
     "name": "Kirtana Suresh",
-    "role": "Data Engineer",
+    "role": "Senior Data Engineer",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -1031,7 +1030,7 @@
     ],
     "image": "/resources/headshots/kirtana-suresh.jpg",
     "bio": "Certified AWS Solutions Architect Associate",
-    "organization": "SmartBiz Loans",
+    "organization": "Chime",
     "education": [
       {
         "degree": "MS in Software Engineering",
@@ -1075,7 +1074,7 @@
   {
     "id": "leonardo-emmanuel-abreu-pena",
     "name": "Leonardo Emmanuel Abreu Peña",
-    "role": "Alumnus",
+    "role": "Software Engineer",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -1099,7 +1098,8 @@
     "links": {
       "linkedin": "https://www.linkedin.com/in/leonardo-abreu-pena",
       "cv": "/files/Resume-Leonardo_Abreu.pdf"
-    }
+    },
+    "organization": "Leadgogo"
   },
   {
     "id": "licelot-marmolejos",
@@ -1121,10 +1121,7 @@
         "degree": "BS in Software Engineering",
         "institution": "Rochester Institute of Technology"
       }
-    ],
-    "links": {
-      "linkedin": "https://www.facebook.com/denisse.marmolejos"
-    }
+    ]
   },
   {
     "id": "majed-alqahtani",
@@ -1183,7 +1180,7 @@
   {
     "id": "max-mendelson",
     "name": "Max Mendelson",
-    "role": "Cybersecurity Associate",
+    "role": "Cyber/IT Risk Lead Examiner",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -1251,13 +1248,13 @@
       }
     ],
     "links": {
-      "linkedin": "https://www.linkedin.com/in/mazen-alotaibi/?fbclid=IwAR1rENUSVz5MYmzPCY4y4SdDXOze8lpFcNVgo_3FfJNZ62gDxECtr132Iao"
+      "linkedin": "https://www.linkedin.com/in/mazen-alotaibi/"
     }
   },
   {
     "id": "mihal-busho",
     "name": "Mihal Busho",
-    "role": "Senior Associate, Cloud & Digital",
+    "role": "Lead Software Engineer",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -1455,15 +1452,12 @@
         "institution": "Rochester Institute of Technology",
         "years": "2019-2021"
       }
-    ],
-    "links": {
-      "linkedin": "https://www.linkedin.com/in/pssagar/?fbclid=IwAR0yfBRgTTOH9XJzfyGvKtgDF6ns6zgXG_rERvTJe7hRWLfrdWbrMQbTdG8"
-    }
+    ]
   },
   {
     "id": "rana-alrubaye",
     "name": "Rana Alrubaye",
-    "role": "TEALS Teacher Volunteer",
+    "role": "Software Test Engineer",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -1472,7 +1466,7 @@
     ],
     "image": "/resources/headshots/rana-alrubaye.jpg",
     "bio": "Rana Alrubaye received her bachelor's degree from the University of Diyala College of Engineering in the computer engineering department.  She completed her master's degree in software engineering at Rochester Institute of Technology. Her research interest is API migration, machine learning, modeling, data mining. She worked as a research assistant in a different research area for three semesters.",
-    "organization": "Golisano College of Computing and Information Sciences",
+    "organization": "Microsoft",
     "education": [
       {
         "degree": "MS in Software Engineering",
@@ -1487,7 +1481,7 @@
   {
     "id": "sai-gowtham-kapa",
     "name": "Sai Gowtham Kapa",
-    "role": "Alumnus",
+    "role": "Test Lead",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -1509,9 +1503,10 @@
       }
     ],
     "links": {
-      "linkedin": "https://www.linkedin.com/in/sai-gowtham-kapa-058455141/",
+      "linkedin": "https://www.linkedin.com/in/sai-gowtham-kapa/",
       "cv": "/files/Sai_Gowtham_Kapa_Resume.pdf"
-    }
+    },
+    "organization": "Mindex"
   },
   {
     "id": "sarah-alanqari",
@@ -1629,14 +1624,13 @@
     ],
     "links": {
       "github": "https://github.com/salmassari",
-      "linkedin": "https://www.linkedin.com/in/sultan-almassari-ba72a199/",
       "cv": "/files/Almassari_SultanCVv9.1.pdf"
     }
   },
   {
     "id": "sultan-mira",
     "name": "Sultan Mira",
-    "role": "Software Engineer",
+    "role": "Principal Engineer",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -1647,7 +1641,7 @@
     ],
     "image": "/resources/headshots/sultan-mira.jpg",
     "bio": "System Development Specialist",
-    "organization": "TAHAKOM",
+    "organization": "HUMAIN",
     "education": [
       {
         "degree": "MS in Software Engineering",
@@ -1656,7 +1650,7 @@
       }
     ],
     "links": {
-      "linkedin": "https://www.linkedin.com/in/sultanmira/?fbclid=IwAR14oUMYQ9sRd7edty81AgeijU07Q_um9LSXzZcrzSIMRp072mBNAae9m20"
+      "linkedin": "https://www.linkedin.com/in/sultanmira/"
     }
   },
   {
@@ -1680,7 +1674,7 @@
   {
     "id": "thomas-tribunella",
     "name": "Thomas Tribunella",
-    "role": "Alumnus",
+    "role": "Lead Software Engineer",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -1705,7 +1699,8 @@
       "github": "https://github.com/tjtiv",
       "linkedin": "https://www.linkedin.com/in/thomas-tribunella-4416a8ba/",
       "cv": "/files/Thomas_Tribunella-Resume-2021_03_30.pdf"
-    }
+    },
+    "organization": "M&T Bank"
   },
   {
     "id": "tianjia-wang",
@@ -1791,7 +1786,7 @@
   {
     "id": "vinayak-sengupta",
     "name": "Vinayak Sengupta",
-    "role": "Alumnus",
+    "role": "Data Scientist",
     "status": "alumni",
     "priority": 5,
     "topics": [
@@ -1814,9 +1809,10 @@
     ],
     "links": {
       "github": "https://github.com/vinzlercodes",
-      "linkedin": "https://www.linkedin.com/in/vinayak-sengupta-022a86bb",
+      "linkedin": "https://www.linkedin.com/in/vinayak-sengupta/",
       "email": "vs4016@rit.edu"
-    }
+    },
+    "organization": "Aible"
   },
   {
     "id": "lobna-ghadhab",
