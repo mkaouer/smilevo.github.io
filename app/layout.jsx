@@ -32,14 +32,6 @@ export default function RootLayout({ children }) {
               ...(gallery.length ? [['/pictures/', 'Pictures']] : []),
             ]}
           />
-          <div className="sidebar-bottom">
-            <p>
-              University of Michigan-Flint
-              <br />
-              College of Innovation &amp; Technology
-            </p>
-            <a href="https://umflint.edu/">Flint, MI</a>
-          </div>
         </aside>
         <div className="site-body">
           <main id="main" tabIndex={-1}>
