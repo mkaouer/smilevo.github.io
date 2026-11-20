@@ -648,7 +648,8 @@
       "developer needs"
     ],
     "image": "/resources/thumbnails/alomar-2025-chatgpt.jpg",
-    "imageSource": "generated"
+    "imageSource": "generated",
+    "pdf": "https://arxiv.org/pdf/2509.08090"
   },
   {
     "id": "messaoud-2025-detecting",
@@ -707,7 +708,8 @@
     "arxivId": "2503.18565",
     "image": "/resources/thumbnails/thiombiano-2025-distilxlstm.jpg",
     "imageSource": "paper",
-    "imageCaption": "Our distillation framework with frozen embedding layer and classification head initialized"
+    "imageCaption": "Our distillation framework with frozen embedding layer and classification head initialized",
+    "pdf": "https://arxiv.org/pdf/2503.18565"
   },
   {
     "id": "hnich-2025-from",
@@ -774,7 +776,8 @@
     ],
     "image": "/resources/thumbnails/thiombiano-2025-moxe.jpg",
     "imageSource": "paper",
-    "imageCaption": "The MoxE architecture with an xLSTM sequence mixer (composed with one sLSTM unit and one"
+    "imageCaption": "The MoxE architecture with an xLSTM sequence mixer (composed with one sLSTM unit and one",
+    "pdf": "https://arxiv.org/pdf/2505.01459"
   },
   {
     "id": "newman-2025-structure",
@@ -819,7 +822,8 @@
       "conjunctions"
     ],
     "image": "/resources/thumbnails/newman-2025-structure.jpg",
-    "imageSource": "generated"
+    "imageSource": "generated",
+    "pdf": "https://arxiv.org/pdf/2505.18444"
   },
   {
     "id": "newman-2025-scalar",
@@ -864,7 +868,8 @@
       "scalars"
     ],
     "image": "/resources/thumbnails/newman-2025-scalar.jpg",
-    "imageSource": "generated"
+    "imageSource": "generated",
+    "pdf": "https://arxiv.org/pdf/2504.17038"
   },
   {
     "id": "bessghaier-2025-understanding",
@@ -1115,7 +1120,8 @@
     ],
     "image": "/resources/thumbnails/alomar-2024-automating.jpg",
     "imageSource": "paper",
-    "imageCaption": "JDeodorant workflow."
+    "imageCaption": "JDeodorant workflow.",
+    "pdf": "https://arxiv.org/pdf/2311.10753"
   },
   {
     "id": "alomar-2024-behind",
@@ -1138,7 +1144,8 @@
       "mohamed-wiem-mkaouer",
       "christian-newman",
       "ali-ouni"
-    ]
+    ],
+    "pdf": "/resources/pubpdfs/alomar-2024-behind.pdf"
   },
   {
     "id": "alomar-2024-cultivating",
@@ -1379,7 +1386,8 @@
     ],
     "image": "/resources/thumbnails/alomar-2024-how.jpg",
     "imageSource": "paper",
-    "imageCaption": "Overview of our experiment design."
+    "imageCaption": "Overview of our experiment design.",
+    "pdf": "https://arxiv.org/pdf/2402.06013"
   },
   {
     "id": "peruma-2024-insights",
@@ -1417,7 +1425,8 @@
       "software engineering education"
     ],
     "image": "/resources/thumbnails/peruma-2024-insights.jpg",
-    "imageSource": "generated"
+    "imageSource": "generated",
+    "pdf": "https://arxiv.org/pdf/2404.10185"
   },
   {
     "id": "chouchen-2024-multicr",
@@ -1524,7 +1533,8 @@
       "coding standards"
     ],
     "image": "/resources/thumbnails/peruma-2024-rationale.jpg",
-    "imageSource": "generated"
+    "imageSource": "generated",
+    "pdf": "https://arxiv.org/pdf/2408.01751"
   },
   {
     "id": "messaoud-2024-prduplichecker",
@@ -1722,7 +1732,8 @@
     ],
     "image": "/resources/thumbnails/takebayashi-2023-exploratory.jpg",
     "imageSource": "paper",
-    "imageCaption": "Overview of our experiment design."
+    "imageCaption": "Overview of our experiment design.",
+    "pdf": "https://arxiv.org/pdf/2303.00169"
   },
   {
     "id": "alomar-2023-behind",
@@ -1759,7 +1770,8 @@
     ],
     "image": "/resources/thumbnails/alomar-2023-behind.jpg",
     "imageSource": "paper",
-    "imageCaption": "Literature search process."
+    "imageCaption": "Literature search process.",
+    "pdf": "https://arxiv.org/pdf/2312.12600"
   },
   {
     "id": "daaji-2023-bpel",
@@ -1825,7 +1837,8 @@
       "software quality"
     ],
     "image": "/resources/thumbnails/aljedaani-2023-test.jpg",
-    "imageSource": "generated"
+    "imageSource": "generated",
+    "pdf": "https://arxiv.org/pdf/2303.04234"
   },
   {
     "id": "messaoud-2023-duplicate",
@@ -1899,7 +1912,8 @@
     ],
     "image": "/resources/thumbnails/alomar-2023-how.jpg",
     "imageSource": "paper",
-    "imageCaption": "Overview of the study methodology."
+    "imageCaption": "Overview of the study methodology.",
+    "pdf": "https://arxiv.org/pdf/2311.00256"
   },
   {
     "id": "aljedaani-2023-online",
@@ -1933,7 +1947,8 @@
       "COVID-19 pandemic",
       "higher education",
       "accessibility"
-    ]
+    ],
+    "pdf": "https://link.springer.com/content/pdf/10.1007/s10209-022-00897-5.pdf"
   },
   {
     "id": "almarimi-2023-improving",
@@ -2033,7 +2048,8 @@
     "description": "Refactoring is a critical task in software maintenance, and is usually performed to enforce better design and coding practices, while coping with design defects. The Extract Method refactoring is widely used for merging duplicate code fragments into a single new method. Several studies attempted to recommend Extract Method refactoring opportunities using different techniques, including program slicing, program dependency graph analysis, change history analysis, structural similarity, and feature extraction. However, irrespective of the method, most of the existing approaches interfere with the developer's workflow: they require the developer to stop coding and analyze the suggested opportunities, and also consider all refactoring suggestions in the entire project without focusing on the development context. To increase the adoption of the Extract Method refactoring, in this paper, we aim to investigate the effectiveness of machine learning and deep learning algorithms for its recommendation while maintaining the workflow of the developer. The proposed approach relies on mining prior applied Extract Method refactorings and extracting their features to train a deep learning classifier that detects them in the user's code. We implemented our approach as a plugin for IntelliJ IDEA called AntiCopyPaster. To develop our approach, we trained and evaluated various popular models on a dataset of 18,942 code fragments from 13 Open Source Apache projects. The results show that the best model is the Convolutional Neural Network (CNN), which recommends appropriate Extract Method refactorings with an F-measure of 0.82. We also conducted a qualitative study with 72 developers to evaluate the usefulness of the developed plugin. The results show that developers tend to appreciate the idea of the approach and are satisfied with various aspects of the plugin's operation.",
     "arxivId": "2302.03416",
     "image": "/resources/thumbnails/alomar-2023-justintime.jpg",
-    "imageSource": "generated"
+    "imageSource": "generated",
+    "pdf": "https://arxiv.org/pdf/2302.03416"
   },
   {
     "id": "palonis-2023-largescale",
@@ -2100,7 +2116,8 @@
       "Gerrit",
       "developer engagement",
       "socio-technical factors"
-    ]
+    ],
+    "pdf": "/resources/pubpdfs/chouchen-2023-learning.pdf"
   },
   {
     "id": "khlifi-2023-multilabel",
@@ -2195,7 +2212,8 @@
       "false positives"
     ],
     "image": "/resources/thumbnails/alomar-2023-use.jpg",
-    "imageSource": "generated"
+    "imageSource": "generated",
+    "pdf": "https://arxiv.org/pdf/2302.05554"
   },
   {
     "id": "aljedaani-2023-teachers",
@@ -2370,7 +2388,8 @@
     ],
     "image": "/resources/thumbnails/alomar-2022-exploratory.jpg",
     "imageSource": "paper",
-    "imageCaption": "Overview of our experiment design."
+    "imageCaption": "Overview of our experiment design.",
+    "pdf": "/resources/pubpdfs/alomar-2022-exploratory.pdf"
   },
   {
     "id": "alshoaibi-2022-detection",
@@ -2482,7 +2501,8 @@
     ],
     "image": "/resources/thumbnails/alomar-2022-anticopypaster.jpg",
     "imageSource": "paper",
-    "imageCaption": "The pipeline of AntiCopyPaster. Top: training the model, bottom: using the plugin."
+    "imageCaption": "The pipeline of AntiCopyPaster. Top: training the model, bottom: using the plugin.",
+    "pdf": "https://arxiv.org/pdf/2112.15230"
   },
   {
     "id": "aljedaani-2022-automatically",
@@ -2517,7 +2537,8 @@
       "sentiment analysis",
       "Arabic tweets",
       "social media perception"
-    ]
+    ],
+    "pdf": "https://link.springer.com/content/pdf/10.1007/s13278-022-00946-0.pdf"
   },
   {
     "id": "alomar-2022-code",
@@ -2543,7 +2564,8 @@
     "arxivId": "2203.14404",
     "image": "/resources/thumbnails/alomar-2022-code.jpg",
     "imageSource": "paper",
-    "imageCaption": "Overview of our experiment design."
+    "imageCaption": "Overview of our experiment design.",
+    "pdf": "/resources/pubpdfs/alomar-2022-code.pdf"
   },
   {
     "id": "saidani-2022-detecting",
@@ -2906,7 +2928,8 @@
     ],
     "image": "/resources/thumbnails/peruma-2022-refactoring.jpg",
     "imageSource": "paper",
-    "imageCaption": "Overview of our experiment design."
+    "imageCaption": "Overview of our experiment design.",
+    "pdf": "/resources/pubpdfs/peruma-2022-refactoring.pdf"
   },
   {
     "id": "alomar-2022-refactoring",
@@ -3961,7 +3984,8 @@
     ],
     "image": "/resources/thumbnails/chouchen-2021-predicting.jpg",
     "imageSource": "paper",
-    "imageCaption": "Framework overview."
+    "imageCaption": "Framework overview.",
+    "pdf": "/resources/pubpdfs/chouchen-2021-predicting.pdf"
   },
   {
     "id": "ye-2021-recommending",
@@ -4168,7 +4192,8 @@
     ],
     "image": "/resources/thumbnails/peruma-2021-grammar.jpg",
     "imageSource": "paper",
-    "imageCaption": "Overview of our experiment design."
+    "imageCaption": "Overview of our experiment design.",
+    "pdf": "/resources/pubpdfs/peruma-2021-grammar.pdf"
   },
   {
     "id": "chouchen-2021-whoreview",
@@ -4237,7 +4262,8 @@
       "Xavier initialization"
     ],
     "image": "/resources/thumbnails/lyu-2020-experimental.jpg",
-    "imageSource": "generated"
+    "imageSource": "generated",
+    "pdf": "https://arxiv.org/pdf/2009.09644"
   },
   {
     "id": "alomar-2020-exploratory",
@@ -4380,7 +4406,8 @@
       "functional diversity",
       "software reuse",
       "mobile app ecosystem"
-    ]
+    ],
+    "pdf": "/resources/pubpdfs/chouchen-2020-androlib.pdf"
   },
   {
     "id": "soui-2020-assessing",
@@ -4474,7 +4501,8 @@
       "identifier names",
       "program comprehension",
       "source code evolution"
-    ]
+    ],
+    "pdf": "/resources/pubpdfs/peruma-2020-contextualizing.pdf"
   },
   {
     "id": "alomar-2020-developers",
@@ -4618,7 +4646,8 @@
       "automated detection",
       "C4.5 decision tree",
       "community metrics"
-    ]
+    ],
+    "pdf": "/resources/pubpdfs/almarimi-2020-learning.pdf"
   },
   {
     "id": "alkhazi-2020-learning",
@@ -4652,7 +4681,8 @@
       "adaptive ranking",
       "open-source Java projects",
       "BIRT"
-    ]
+    ],
+    "pdf": "/resources/pubpdfs/alkhazi-2020-learning.pdf"
   },
   {
     "id": "alrubaye-2020-learning",
@@ -4688,7 +4718,8 @@
     ],
     "image": "/resources/thumbnails/alrubaye-2020-learning.jpg",
     "imageSource": "paper",
-    "imageCaption": "The proposed RAPIM approach for method APIs mapping recommendation."
+    "imageCaption": "The proposed RAPIM approach for method APIs mapping recommendation.",
+    "pdf": "https://arxiv.org/pdf/1906.02882"
   },
   {
     "id": "sarwar-2020-multi",
@@ -4757,7 +4788,8 @@
       "social network analysis"
     ],
     "image": "/resources/thumbnails/almarimi-2020-detection.jpg",
-    "imageSource": "generated"
+    "imageSource": "generated",
+    "pdf": "/resources/pubpdfs/almarimi-2020-detection.pdf"
   },
   {
     "id": "bessghaier-2020-diffusion",
@@ -4825,7 +4857,8 @@
       "named entity recognition"
     ],
     "image": "/resources/thumbnails/newman-2020-generation.jpg",
-    "imageSource": "generated"
+    "imageSource": "generated",
+    "pdf": "/resources/pubpdfs/newman-2020-generation.pdf"
   },
   {
     "id": "saidani-2020-prediction",
@@ -4845,7 +4878,8 @@
       "ali-ouni",
       "moataz-chouchen",
       "mohamed-wiem-mkaouer"
-    ]
+    ],
+    "pdf": "/resources/pubpdfs/saidani-2020-prediction.pdf"
   },
   {
     "id": "alomar-2020-relationship",
@@ -5142,7 +5176,8 @@
       "developer productivity"
     ],
     "image": "/resources/thumbnails/peruma-2019-contextualizing.jpg",
-    "imageSource": "generated"
+    "imageSource": "generated",
+    "pdf": "/resources/pubpdfs/peruma-2019-contextualizing.pdf"
   },
   {
     "id": "alomar-2019-design",
@@ -5176,7 +5211,8 @@
       "software maintenance"
     ],
     "image": "/resources/thumbnails/alomar-2019-design.jpg",
-    "imageSource": "generated"
+    "imageSource": "generated",
+    "pdf": "https://arxiv.org/pdf/1907.04797"
   },
   {
     "id": "safdari-2019-learning",
@@ -5770,7 +5806,8 @@
       "mobile user interface",
       "usability evaluation",
       "user interface design"
-    ]
+    ],
+    "pdf": "/resources/pubpdfs/soui-2017-plain.pdf"
   },
   {
     "id": "mcburney-2017-towards",
@@ -5902,7 +5939,8 @@
       "search-based software engineering",
       "NSGA-III",
       "multi-objective optimization"
-    ]
+    ],
+    "pdf": "/resources/pubpdfs/mkaouer-2016-use.pdf"
   },
   {
     "id": "almhana-2016-recommending",

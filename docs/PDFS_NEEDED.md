@@ -1,0 +1,101 @@
+# Papers still without a PDF
+
+These papers have no PDF on the site and no open-access copy was found (arXiv, Unpaywall, OpenAlex, HAL, your `preprint/` folder, the old Hugo site). Drop the file into `public/resources/pubpdfs/<id>.pdf` and set `"pdf": "/resources/pubpdfs/<id>.pdf"` on the entry, or send the files and they will be added.
+
+| Year | Id | Title | Venue | DOI |
+| --- | --- | --- | --- | --- |
+| 2026 | `masmoudi-2026-preliminary` | A Preliminary Study on How AI Coding Agents Describe Refactoring Activities | COMPSAC 2026 | [10.1109/compsac69091.2026.00078](https://doi.org/10.1109/compsac69091.2026.00078) |
+| 2026 | `bessghaier-2026-searchbased` | A search-based file recommendation approach for infrastructure-as-code evolution | J. Syst. Softw. | [10.1016/j.jss.2025.112746](https://doi.org/10.1016/j.jss.2025.112746) |
+| 2026 | `boussema-2026-ampsrd` | AMP-SRD: An Agentic Multi-Pipeline Framework for Characterizing Semantic, Structural, and Performance Regressions Introduced by Code Changes | ICAART 2026 | [10.5220/0014489500004052](https://doi.org/10.5220/0014489500004052) |
+| 2026 | `alomar-2026-anticopypaster` | AntiCopyPaster 3.0: Just-in-Time Clone Refactoring | ACM Transactions on Software Engineering and Methodology |  |
+| 2026 | `sghaier-2026-backportcheck` | BackportCheck: An Open-Source Tool to Support Backport Decisions in Large Software Ecosystems | ESEC/FSE 2026 Companion (Tool Demonstrations) | [10.1145/3803437.3806423](https://doi.org/10.1145/3803437.3806423) |
+| 2026 | `sambaturu-2026-enhancing` | Enhancing GitHub Actions Failure Explanations: Log Preprocessing and Prompt Optimization with LLMs | ISEC 2026 (Research Papers) | [10.1145/3796563.3796608](https://doi.org/10.1145/3796563.3796608) |
+| 2026 | `messaoud-2026-hierarchical` | Hierarchical multi-label classification for concrete defects: An industrial case study at Vermeg | J. Syst. Softw. | [10.1016/j.jss.2025.112588](https://doi.org/10.1016/j.jss.2025.112588) |
+| 2026 | `draoui-2026-improving` | Improving Data Leakage Detection in Machine Learning Notebooks through Static Slicing and Structured LLM Prompts | Proceedings of the ACM on Software Engineering | [10.1145/3808199](https://doi.org/10.1145/3808199) |
+| 2026 | `khalifa-2026-lark` | LARK: License Analysis with RAG and Knowledge Graphs | Information and Software Technology | [10.1016/j.infsof.2026.108164](https://doi.org/10.1016/j.infsof.2026.108164) |
+| 2026 | `venkatakrishnan-2026-libshift` | LibShift Search: A Similarity-Driven Model for Mapping Deprecated Python API Methods to Current Alternatives | Information and Software Technology | [10.1016/j.infsof.2026.108305](https://doi.org/10.1016/j.infsof.2026.108305) |
+| 2026 | `mrad-2026-effectiveness` | On the Effectiveness of Large Language Models in Predicting New Method Names after Code Modifications | Information and Software Technology | [10.1016/j.infsof.2026.108179](https://doi.org/10.1016/j.infsof.2026.108179) |
+| 2026 | `abdelhafidh-2026-personalizing` | Personalizing LLMs for Financial Regulation Using RAG and Knowledge Graphs: A Case Study at Regnology | COMPSAC 2026 |  |
+| 2026 | `khalifa-2026-explainable` | Toward Explainable and Automated Software License Checking via RAG and Knowledge Graphs | IEEE Software | [10.1109/ms.2026.3677583](https://doi.org/10.1109/ms.2026.3677583) |
+| 2026 | `draoui-2026-data` | Understanding How Data Leakage Manifests in Real-World Machine Learning Notebooks | Information and Software Technology |  |
+| 2025 | `littauer-2025-quick` | 10 quick tips for making your software outlive your job | CoRR | [10.48550/arxiv.2505.06484](https://doi.org/10.48550/arxiv.2505.06484) |
+| 2025 | `bouaziz-2025-empirical` | An Empirical Study on Microservices Deployment Trends, Topics and Challenges in Stack Overflow | SANER | [10.1109/saner64311.2025.00019](https://doi.org/10.1109/saner64311.2025.00019) |
+| 2025 | `draoui-2025-analyzing` | Analyzing Vulnerability Overestimation in the Maven Ecosystem | MSR | [10.1109/msr66628.2025.00054](https://doi.org/10.1109/msr66628.2025.00054) |
+| 2025 | `alanqari-2025-assessing` | Assessing Refactoring in Education: A Systematic Literature Review on Evaluation, Goals, and Impact | FIE 2025 | [10.1109/fie63693.2025.11328472](https://doi.org/10.1109/fie63693.2025.11328472) |
+| 2025 | `ghadhab-2025-automated` | Automated Duplicate Bugs Detection: Do We Really Need All Bug Report Sections? | CoopIS | [10.1007/978-3-032-15538-2_46](https://doi.org/10.1007/978-3-032-15538-2_46) |
+| 2025 | `messaoud-2025-detecting` | Detecting Software Defects With Hierarchical Multilabel Classification: Insights From an Industrial Case Study | IT Prof. | [10.1109/mitp.2025.3605999](https://doi.org/10.1109/mitp.2025.3605999) |
+| 2025 | `hnich-2025-from` | From apologies to insights: extracting topics from ChatGPT apologetic responses | J. Decis. Syst. | [10.1080/12460125.2024.2438610](https://doi.org/10.1080/12460125.2024.2438610) |
+| 2025 | `bessghaier-2025-understanding` | Towards understanding code review practices for infrastructure-as-code: An empirical study on OpenStack projects | Empir. Softw. Eng. | [10.1007/s10664-025-10654-w](https://doi.org/10.1007/s10664-025-10654-w) |
+| 2025 | `gurramkonda-2025-vrtestsniffer` | VRTestSniffer: Test Smell Detector for Virtual Reality (VR) Software Projects | ASE | [10.1109/ase63991.2025.00163](https://doi.org/10.1109/ase63991.2025.00163) |
+| 2024 | `aljedaani-2024-accessible` | Accessible Gaming Through Better Captions: A Study on Captions Preferences and Inclusivity of Deaf and Hard-of-Hearing Players | W4A | [10.1145/3677846.3677858](https://doi.org/10.1145/3677846.3677858) |
+| 2024 | `deo-2024-analyzing` | Analyzing Developer-ChatGPT Conversations for Software Refactoring: An Exploratory Study | MSR | [10.1145/3643991.3645082](https://doi.org/10.1145/3643991.3645082) |
+| 2024 | `alomar-2024-anticopypaster` | AntiCopyPaster: An Open-Source Ecosystem for Just-in-time Code Duplicates Extraction | SIGCSE (2) | [10.1145/3626253.3635436](https://doi.org/10.1145/3626253.3635436) |
+| 2024 | `mrad-2024-assessing` | Assessing Large Language Models Effectiveness in Outdated Method Renaming | ICSOC (1) | [10.1007/978-981-96-0805-8_18](https://doi.org/10.1007/978-981-96-0805-8_18) |
+| 2024 | `alomar-2024-cultivating` | Cultivating Software Quality Improvement in the Classroom: An Experience with ChatGPT | CSEE&T | [10.1109/cseet62301.2024.10663028](https://doi.org/10.1109/cseet62301.2024.10663028) |
+| 2024 | `aljedaani-2024-empirical` | Empirical Investigation of Accessibility Bug Reports in Mobile Platforms: A Chromium Case Study | CHI | [10.1145/3613904.3642508](https://doi.org/10.1145/3613904.3642508) |
+| 2024 | `begoug-2024-finegrained` | Fine-Grained Just-In-Time Defect Prediction at the Block Level in Infrastructure-as-Code (IaC) | MSR | [10.1145/3643991.3644934](https://doi.org/10.1145/3643991.3644934) |
+| 2024 | `aljedaani-2024-from` | From Boring to Boarding: Transforming Refactoring Education with Game-Based Learning | GAS | [10.1145/3643658.3643924](https://doi.org/10.1145/3643658.3643924) |
+| 2024 | `khelifi-2024-gitrev` | GitRev: An LLM-Based Gamification Framework for Modern Code Review Activities | SCAM | [10.1109/scam63643.2024.00031](https://doi.org/10.1109/scam63643.2024.00031) |
+| 2024 | `chouchen-2024-how` | How Do Software Developers Use ChatGPT? An Exploratory Study on GitHub Pull Requests | MSR | [10.1145/3643991.3645084](https://doi.org/10.1145/3643991.3645084) |
+| 2024 | `alomar-2024-can` | How can We Leverage Static Analysis and Large Language Models to Engage Students in Software Quality Improvement | Proceedings of the 55th ACM Technical Symposium on Computer  |  |
+| 2024 | `chouchen-2024-multicr` | MULTICR: Predicting Merged and Abandoned Code Changes in Modern Code Review Using Multi-Objective Search | ACM Trans. Softw. Eng. Methodol. | [10.1145/3680472](https://doi.org/10.1145/3680472) |
+| 2024 | `bessghaier-2024-prevalence` | On the Prevalence, Co-occurrence, and Impact of Infrastructure-as-Code Smells | SANER | [10.1109/saner60148.2024.00009](https://doi.org/10.1109/saner60148.2024.00009) |
+| 2024 | `messaoud-2024-prduplichecker` | PR-DupliChecker: detecting duplicate pull requests in Fork-based workflows | Int. J. Syst. Assur. Eng. Manag. | [10.1007/s13198-024-02361-4](https://doi.org/10.1007/s13198-024-02361-4) |
+| 2024 | `deshpande-2024-thirdparty` | Third-party software library migration at the method-level using multi-objective evolutionary search | Swarm Evol. Comput. | [10.1016/j.swevo.2023.101444](https://doi.org/10.1016/j.swevo.2023.101444) |
+| 2024 | `bessghaier-2024-what` | What Constitutes the Deployment and Runtime Configuration System? An Empirical Study on OpenStack Projects | ACM Trans. Softw. Eng. Methodol. | [10.1145/3607186](https://doi.org/10.1145/3607186) |
+| 2023 | `ouni-2023-empirical` | An Empirical Study on Continuous Integration Trends, Topics and Challenges in Stack Overflow | EASE | [10.1145/3593434.3593485](https://doi.org/10.1145/3593434.3593485) |
+| 2023 | `daaji-2023-bpel` | BPEL process defects prediction using multi-objective evolutionary search | J. Syst. Softw. | [10.1016/j.jss.2023.111767](https://doi.org/10.1016/j.jss.2023.111767) |
+| 2023 | `messaoud-2023-duplicate` | Duplicate Bug Report Detection Using an Attention-Based Neural Language Model | IEEE Trans. Reliab. | [10.1109/tr.2022.3193645](https://doi.org/10.1109/tr.2022.3193645) |
+| 2023 | `almarimi-2023-improving` | Improving the detection of community smells through socio-technical and sentiment analysis | J. Softw. Evol. Process. | [10.1002/smr.2505](https://doi.org/10.1002/smr.2505) |
+| 2023 | `alhindi-2023-issuelabeler` | Issue-Labeler: an ALBERT-based Jira Plugin for Issue Classification | MOBILESoft | [10.1109/mobilsoft59058.2023.00012](https://doi.org/10.1109/mobilsoft59058.2023.00012) |
+| 2023 | `palonis-2023-largescale` | Large-Scale Anonymized Text-based Disability Discourse Dataset | ASSETS | [10.1145/3597638.3614476](https://doi.org/10.1145/3597638.3614476) |
+| 2023 | `khlifi-2023-multilabel` | Multi-label Classification of Mobile Application User Reviews Using Neural Language Models | ECSQARU | [10.1007/978-3-031-45608-4_31](https://doi.org/10.1007/978-3-031-45608-4_31) |
+| 2023 | `ouni-2023-impact` | On the impact of single and co-occurrent refactorings on quality attributes in android applications | J. Syst. Softw. | [10.1016/j.jss.2023.111817](https://doi.org/10.1016/j.jss.2023.111817) |
+| 2023 | `aljedaani-2023-teachers` | Teachers Perspectives on Transition to Online Teaching Deaf and Hard-of-Hearing Students during the COVID-19 Pandemic: A Case Study | ISEC | [10.1145/3578527.3578531](https://doi.org/10.1145/3578527.3578531) |
+| 2023 | `aljedaani-2023-state` | The State of Accessibility in Blackboard: Survey and User Reviews Case Study | W4A | [10.1145/3587281.3587291](https://doi.org/10.1145/3587281.3587291) |
+| 2023 | `shoaibi-2023-software` | Understanding Software Performance Challenges an Empirical Study on Stack Overflow | 2023 International Conference on Code Quality (ICCQ) | [10.1109/iccq57276.2023.10114662](https://doi.org/10.1109/iccq57276.2023.10114662) |
+| 2023 | `begoug-2023-what` | What Do Infrastructure-as-Code Practitioners Discuss: An Empirical Study on Stack Overflow | ESEM | [10.1109/esem56168.2023.10304847](https://doi.org/10.1109/esem56168.2023.10304847) |
+| 2022 | `arias-2022-accessibility` | Accessibility Feedback in Mobile Application Reviews: A Dataset of Reviews and Accessibility Guidelines | CHI Extended Abstracts | [10.1145/3491101.3519625](https://doi.org/10.1145/3491101.3519625) |
+| 2022 | `aljedaani-2022-automatic` | Automatic Classification of Accessibility User Reviews in Android Apps | 2022 7th International Conference on Data Science and Machin | [10.1109/cdma54072.2022.00027](https://doi.org/10.1109/cdma54072.2022.00027) |
+| 2022 | `saidani-2022-detecting` | Detecting Continuous Integration Skip Commits Using Multi-Objective Evolutionary Search | IEEE Trans. Software Eng. | [10.1109/tse.2021.3129165](https://doi.org/10.1109/tse.2021.3129165) |
+| 2022 | `sellami-2022-improving` | Improving microservices extraction using evolutionary search | Inf. Softw. Technol. | [10.1016/j.infsof.2022.106996](https://doi.org/10.1016/j.infsof.2022.106996) |
+| 2022 | `alshoaibi-2022-learning` | Learning to characterize performance regression introducing code changes | SAC | [10.1145/3477314.3507150](https://doi.org/10.1145/3477314.3507150) |
+| 2022 | `daaji-2022-multicriteria` | Multi-criteria Web Services Selection: Balancing the Quality of Design and Quality of Service | ACM Trans. Internet Techn. | [10.1145/3446388](https://doi.org/10.1145/3446388) |
+| 2022 | `alexandre-2022-identification` | On the Identification of Third-Party Library Usage Patterns for Android Applications | EASE | [10.1145/3530019.3534083](https://doi.org/10.1145/3530019.3534083) |
+| 2022 | `alshoaibi-2022-detection` | On the detection of performance regression introducing code changes: Experience from the git project | 2022 IEEE 29th Annual Software Technology Conference (STC) | [10.1109/stc55697.2022.00036](https://doi.org/10.1109/stc55697.2022.00036) |
+| 2022 | `aljedaani-2022-identification` | On the identification of accessibility bug reports in open source systems | W4A | [10.1145/3493612.3520471](https://doi.org/10.1145/3493612.3520471) |
+| 2022 | `deshpande-2022-searchbased` | Search-Based Third-Party Library Migration at the Method-Level | EvoApplications | [10.1007/978-3-031-02462-7_12](https://doi.org/10.1007/978-3-031-02462-7_12) |
+| 2022 | `alshoaibi-2022-searchbased` | Search-based detection of code changes introducing performance regression | Swarm Evol. Comput. | [10.1016/j.swevo.2022.101101](https://doi.org/10.1016/j.swevo.2022.101101) |
+| 2022 | `aljedaani-2022-sentiment` | Sentiment analysis on Twitter data integrating TextBlob and deep learning models: The case of US airline industry | Knowl. Based Syst. | [10.1016/j.knosys.2022.109780](https://doi.org/10.1016/j.knosys.2022.109780) |
+| 2021 | `bessghaier-2021-longitudinal` | A longitudinal exploratory study on code smells in server side web applications | Software Quality Journal | [10.1007/s11219-021-09567-w](https://doi.org/10.1007/s11219-021-09567-w) |
+| 2021 | `hamdi-2021-longitudinal` | A longitudinal study of the impact of refactoring in android applications | Information and Software Technology |  |
+| 2021 | `hamdi-2021-empirical2` | An empirical study on code smells co-occurrences in android applications | 2021 36th IEEE/ACM International Conference on Automated Sof | [10.1109/asew52652.2021.00018](https://doi.org/10.1109/asew52652.2021.00018) |
+| 2021 | `ghadhab-2021-augmenting` | Augmenting commit classification by using fine-grained source code changes and a pre-trained deep neural language model | Information and Software Technology |  |
+| 2021 | `sagar-2021-comparing` | Comparing Commit Messages and Source Code Metrics for the Prediction Refactoring Activities | Algorithms | [10.3390/a14100289](https://doi.org/10.3390/a14100289) |
+| 2021 | `aljedaani-2021-learning` | Learning Sentiment Analysis for Accessibility User Reviews | ASE Workshops | [10.1109/asew52652.2021.00053](https://doi.org/10.1109/asew52652.2021.00053) |
+| 2021 | `ye-2021-recommending` | Recommending pull request reviewers based on code changes | Soft Computing | [10.1007/s00500-020-05559-3](https://doi.org/10.1007/s00500-020-05559-3) |
+| 2021 | `ouni-2021-search` | Search based software engineering: challenges, opportunities and recent applications | GECCO Companion | [10.1145/3449726.3461425](https://doi.org/10.1145/3449726.3461425) |
+| 2020 | `alizadeh-2020-interactive` | An Interactive and Dynamic Search-Based Approach to Software Refactoring Recommendations | IEEE Trans. Software Eng. | [10.1109/tse.2018.2872711](https://doi.org/10.1109/tse.2018.2872711) |
+| 2020 | `peruma-2020-exploratory` | An exploratory study on the refactoring of unit test files in android applications | Proceedings of the IEEE/ACM 42nd International Conference on | [10.1145/3387940.3392189](https://doi.org/10.1145/3387940.3392189) |
+| 2020 | `soui-2020-assessing` | Assessing the quality of mobile graphical user interfaces using multi-objective optimization | Soft Computing | [10.1007/s00500-019-04391-8](https://doi.org/10.1007/s00500-019-04391-8) |
+| 2020 | `soui-2020-bankruptcy` | Bankruptcy Prediction Using Stacked Auto-Encoders | Appl. Artif. Intell. | [10.1080/08839514.2019.1691849](https://doi.org/10.1080/08839514.2019.1691849) |
+| 2020 | `sarwar-2020-multi` | Multi-label Classification of Commit Messages using Transfer Learning | 2020 IEEE International Symposium on Software Reliability En | [10.1109/issrew51248.2020.00034](https://doi.org/10.1109/issrew51248.2020.00034) |
+| 2020 | `bessghaier-2020-diffusion` | On the Diffusion and Impact of Code Smells in Web Applications | International Conference on Services Computing | [10.1007/978-3-030-59592-0_5](https://doi.org/10.1007/978-3-030-59592-0_5) |
+| 2020 | `saidani-2020-web` | Web Service API Anti-patterns Detection as a Multi-label Learning Problem | International Conference on Web Services | [10.1007/978-3-030-59618-7_8](https://doi.org/10.1007/978-3-030-59618-7_8) |
+| 2019 | `messaoud-2019-multi` | A Multi-label Active Learning Approach for Mobile App User Review Classification | International Conference on Knowledge Science, Engineering a | [10.1007/978-3-030-29551-6_71](https://doi.org/10.1007/978-3-030-29551-6_71) |
+| 2019 | `alrubaye-2019-comparison` | Comparison of block-based and hybrid-based environments in transferring programming skills to text-based environments | Proceedings of the 29th Annual International Conference on C |  |
+| 2019 | `safdari-2019-learning` | Learning to rank faulty source files for dependent bug reports | Big Data: Learning, Analytics, and Applications | [10.1117/12.2519226](https://doi.org/10.1117/12.2519226) |
+| 2019 | `peruma-2019-distribution` | On the distribution of test smells in open source android applications: An exploratory study | Proceedings of the 29th Annual International Conference on C |  |
+| 2019 | `saidani-2019-automated` | Towards Automated Microservices Extraction Using Muti-objective Evolutionary Search | ICSOC | [10.1007/978-3-030-33702-5_5](https://doi.org/10.1007/978-3-030-33702-5_5) |
+| 2019 | `alrubaye-2019-variability` | Variability in Library Evolution: An Exploratory Study on Open-Source Java Libraries | Software Engineering for Variability Intensive Systems: Foun |  |
+| 2019 | `almarimi-2019-web` | Web service API recommendation for automated mashup creation using multi-objective evolutionary search | Applied Soft Computing | [10.1016/j.asoc.2019.105830](https://doi.org/10.1016/j.asoc.2019.105830) |
+| 2018 | `newman-2018-study` | A study on developer perception of transformation languages for refactoring | Proceedings of the 2nd International Workshop on Refactoring | [10.1145/3242163.3242170](https://doi.org/10.1145/3242163.3242170) |
+| 2018 | `peruma-2018-empirical` | An empirical investigation of how and why developers rename identifiers | Proceedings of the 2nd International Workshop on Refactoring | [10.1145/3242163.3242169](https://doi.org/10.1145/3242163.3242169) |
+| 2018 | `alrubaye-2018-automating` | Automating the detection of third-party Java library migration at the function level. | CASCON |  |
+
+## Files in `preprint/` that match no publication
+
+- `preprint/AlJedaani_MDPI21_preprint.pdf`: "I Cannot See You—The Perspectives of Deaf Students to Online Learning" (no matching entry; may be a missing publication)
+- old-site `icsme_ds2019.pdf`: "Characterizing Performance Regression Introducing Code Changes" (no matching entry)
+- old-site `ICSME19-preprint.pdf`: "Towards Better Understanding Developer Perception of Refactoring" (no matching entry)
+- `preprint/remaining/Islem Saidani/4. TSE_GP_CISkip_draft.pdf`: a draft of `saidani-2022-detecting`, not linked because it is a draft
