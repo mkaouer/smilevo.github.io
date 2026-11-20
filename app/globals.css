@@ -605,6 +605,11 @@ footer {
   color: var(--muted, #555);
   text-align: center;
 }
+.paper-badge {
+  display: block;
+  margin-top: 14px;
+  min-height: 24px;
+}
 .paper-citation {
   font-size: 14px;
   opacity: 0.8;
