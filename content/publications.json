@@ -18,7 +18,6 @@
     ],
     "description": "Data leakage remains a critical yet under-diagnosed issue in machine learning pipelines, leading to inflated results and unreliable deployments. Existing detection approaches rely on static rules that often miss open-coded manipulations and fail to capture the diversity of real-world notebooks. This paper introduces a novel methodology that integrates static slicing with large language models (LLMs) to improve leakage detection. We use a Datalog-based static analysis that isolates compact, provenance-aware slices corresponding to model training and evaluation pairs, and we pair these with structured LLM prompts that guide step-by-step reasoning about potential leakage for each isolated slice. Evaluated on a curated benchmark of Python notebooks from Kaggle and GitHub, our approach achieves state-of-the-art performance in both preprocessing and overlap leakage detection, improving F1 scores over the previous state-of-the-art by 22% for preprocessing leakage and 15% for overlap leakage. Beyond these improvements, our slicing-based methodology substantially outperforms end-to-end prompting, demonstrating that precise program slicing is key to enabling LLMs to reliably detect leakage. Our findings highlight the effectiveness of combining program slicing and prompt engineering for data leakage detection and establish the first systematic LLM-based solution for detecting data leakage in machine learning code.",
     "doi": "10.1145/3808199",
-    "url": "https://doi.org/10.1145/3808199",
     "volume": "3",
     "issue": "FSE",
     "pages": "4371-4392",
@@ -31,7 +30,9 @@
       "Datalog",
       "large language models",
       "prompt engineering"
-    ]
+    ],
+    "image": "/resources/thumbnails/draoui-2026-improving.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "sambaturu-2026-enhancing",
@@ -54,7 +55,6 @@
     ],
     "description": "Large Language Models (LLMs) have become a promising tool for automating CI/CD debugging. Specifically, LLM-based failure diagnosis in GitHub Actions (GA) workflows often takes longer than expected. This study examines how well different LLMs perform at diagnosing GA workflow failures. We start by introducing a novel approach for log processing that looks for error tag filters and structures raw log data, improving the quality of input for LLM. Additionally, we conduct a detailed evaluation of several enhanced prompt engineering strategies, including zero-shot, few-shot, and self-refinement, to identify the most useful methods for generating accurate and useful failure log descriptions. Our experiments with 100 GitHub Actions workflow logs show our approach works, showing significant improvements in the correctness, relevance, and clarity of failure diagnoses.",
     "doi": "10.1145/3796563.3796608",
-    "url": "https://doi.org/10.1145/3796563.3796608",
     "pages": "1-11",
     "publisher": "ACM",
     "openalexId": "W7159819733",
@@ -65,7 +65,9 @@
       "prompt engineering",
       "large language models",
       "few-shot prompting"
-    ]
+    ],
+    "image": "/resources/thumbnails/sambaturu-2026-enhancing.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "sghaier-2026-backportcheck",
@@ -87,7 +89,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1145/3803437.3806423",
-    "url": "https://doi.org/10.1145/3803437.3806423",
     "pages": "217-221",
     "publisher": "ACM",
     "openalexId": "W7169619267",
@@ -113,7 +114,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.5220/0014489500004052",
-    "url": "https://doi.org/10.5220/0014489500004052",
     "pages": "2115-2126",
     "publisher": "SCITEPRESS - Science and Technology Publications",
     "openalexId": "W7135194607",
@@ -147,7 +147,6 @@
     ],
     "description": "Refactoring is essential for maintaining and evolving software systems, yet we still have limited insight into how automated code-generation agents describe these changes in pull requests. In this study, we analyze refactoring-related pull requests produced by five AI coding agents, with a particular focus on how their intentions are communicated through pull request descriptions. To better understand recurring transformation patterns, we extract refactoring descriptors terms that capture different refactoring activities and use them to identify similarities across agents. We then classify the pull requests into three main categories: internal quality attributes, external quality attributes, and code smells. Our dataset includes 2,288 unique AIgenerated refactoring pull requests from OpenAI Codex, Devin, GitHub Copilot, Cursor, and Claude Code. The results reveal several limitations in how AI systems perform and document refactoring, highlighting the need for clearer and more structured communication in collaborative software development.",
     "doi": "10.1109/compsac69091.2026.00078",
-    "url": "https://doi.org/10.1109/compsac69091.2026.00078",
     "pages": "543-548",
     "publisher": "IEEE",
     "openalexId": "W7203834755",
@@ -158,7 +157,9 @@
       "code smells",
       "quality attributes",
       "OpenAI Codex"
-    ]
+    ],
+    "image": "/resources/thumbnails/masmoudi-2026-preliminary.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "abdelhafidh-2026-personalizing",
@@ -185,7 +186,9 @@
       "retrieval-augmented generation",
       "knowledge graph reasoning",
       "semantic search"
-    ]
+    ],
+    "image": "/resources/thumbnails/abdelhafidh-2026-personalizing.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "alomar-2026-anticopypaster",
@@ -218,7 +221,9 @@
       "code2vec",
       "software maintenance",
       "developer productivity"
-    ]
+    ],
+    "image": "/resources/thumbnails/alomar-2026-anticopypaster.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "khalifa-2026-explainable",
@@ -237,7 +242,6 @@
     ],
     "description": "Software development increasingly depends on large ecosystems of libraries, frameworks, and platforms, enabling faster delivery yet at the same time intensifying the challenge of license incompatibility. Such conflicts often remain undetected until late in the development lifecycle, where they are more costly and disruptive to resolve. Addressing such issues early is therefore essential for ensuring software robustness and long-term sustainability. To this end, we present LARK, a system that integrates Knowledge Graphs (KGs) with Large Language Models (LLMs) through Retrieval-Augmented Generation (RAG) to automate the detection of license incompatibilities while offering context-rich, citation-backed explanations. In an evaluation spanning 4,000 open-source and 100 proprietary Python projects, LARK achieves 98.1% license detection accuracy, a 96.2% compatibility F1 score, and improves explainability compared to existing methods. We anticipate that LARK will serve as a practical and scalable solution to mitigate legal risks and strengthen compliance in software development.",
     "doi": "10.1109/ms.2026.3677583",
-    "url": "https://doi.org/10.1109/ms.2026.3677583",
     "volume": "43",
     "issue": "6",
     "pages": "32-40",
@@ -250,7 +254,9 @@
       "large language models",
       "explainable AI",
       "open source software"
-    ]
+    ],
+    "image": "/resources/thumbnails/khalifa-2026-explainable.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "draoui-2026-data",
@@ -299,7 +305,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1016/j.infsof.2026.108305",
-    "url": "https://doi.org/10.1016/j.infsof.2026.108305",
     "volume": "200",
     "pages": "108305",
     "publisher": "Elsevier BV",
@@ -330,7 +335,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1016/j.infsof.2026.108179",
-    "url": "https://doi.org/10.1016/j.infsof.2026.108179",
     "volume": "197",
     "pages": "108179",
     "publisher": "Elsevier BV",
@@ -360,7 +364,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1016/j.infsof.2026.108164",
-    "url": "https://doi.org/10.1016/j.infsof.2026.108164",
     "volume": "197",
     "pages": "108164",
     "publisher": "Elsevier BV",
@@ -388,7 +391,6 @@
     "type": "article",
     "venue": "J. Syst. Softw.",
     "doi": "10.1016/j.jss.2025.112746",
-    "url": "https://doi.org/10.1016/j.jss.2025.112746",
     "personIds": [
       "ali-ouni",
       "mohamed-wiem-mkaouer"
@@ -421,7 +423,6 @@
     "type": "article",
     "venue": "J. Syst. Softw.",
     "doi": "10.1016/j.jss.2025.112588",
-    "url": "https://doi.org/10.1016/j.jss.2025.112588",
     "personIds": [
       "mohamed-wiem-mkaouer"
     ],
@@ -457,7 +458,6 @@
     ],
     "description": "Full Survey Paper. Refactoring plays a crucial role in improving software quality. Teaching refactoring is essential because it not only involves cleaning up code but also helps students develop critical skills such as writing readable code, managing technical debt, and applying design principles. However, students' attempts at refactoring can sometimes result in more complex code structures. While refactoring is a key component of software engineering and programming courses, little is known about how to holistically assess students' refactoring efforts. Unlike traditional programming evaluation, which typically relies on testing, evaluating refactored code is more subjective and context-dependent. To address this gap, we conducted a systematic literature review to understand how educators evaluate student refactoring efforts in computing courses. We reviewed 64 research papers related to software refactoring education. From this review, we identified various evaluation categories commonly used by educators, as well as the methods they employ for providing feedback. Our findings indicate that although refactoring tasks are frequently assigned, there is a lack of systematic approaches for assessing them. Upon examining existing practices, we identified three primary approaches: code structure checking, semantic evaluation, and peer review. However, we were unable to identify consistent assessment techniques across the reviewed papers, suggesting a lack of consensus in the field.",
     "doi": "10.1109/fie63693.2025.11328472",
-    "url": "https://doi.org/10.1109/fie63693.2025.11328472",
     "pages": "1-9",
     "publisher": "IEEE",
     "openalexId": "W7123453694",
@@ -468,7 +468,9 @@
       "semantic evaluation",
       "peer review",
       "feedback"
-    ]
+    ],
+    "image": "/resources/thumbnails/alanqari-2025-assessing.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "littauer-2025-quick",
@@ -502,14 +504,15 @@
     "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2505.06484",
-    "url": "https://doi.org/10.48550/arxiv.2505.06484",
     "personIds": [
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer"
     ],
     "status": "preprint",
     "description": "Loss of key personnel has always been a risk for research software projects. Key members of the team may have to step away due to illness or burnout, to care for a family member, from a loss of financial support, or because their career is going in a new direction. Today, though, political and financial changes are putting large numbers of researchers out of work simultaneously, potentially leaving large amounts of research software abandoned. This article presents ten tips to help researchers ensure that the software they have built will continue to be usable after they have left their present job -- whether in the course of voluntary career moves or researcher mobility, but particularly in cases of involuntary departure due to political or institutional changes.",
-    "arxivId": "2505.06484"
+    "arxivId": "2505.06484",
+    "image": "/resources/thumbnails/littauer-2025-quick.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "bouaziz-2025-empirical",
@@ -526,7 +529,6 @@
     "type": "conference",
     "venue": "SANER",
     "doi": "10.1109/saner64311.2025.00019",
-    "url": "https://doi.org/10.1109/saner64311.2025.00019",
     "personIds": [
       "ali-ouni",
       "mohamed-wiem-mkaouer"
@@ -542,7 +544,9 @@
       "topic modeling",
       "BERTopic",
       "containerization"
-    ]
+    ],
+    "image": "/resources/thumbnails/bouaziz-2025-empirical.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "draoui-2025-analyzing",
@@ -559,7 +563,6 @@
     "type": "conference",
     "venue": "MSR",
     "doi": "10.1109/msr66628.2025.00054",
-    "url": "https://doi.org/10.1109/msr66628.2025.00054",
     "personIds": [
       "taha-draoui",
       "chawki-ben-slimen",
@@ -575,7 +578,9 @@
       "vulnerability assessment",
       "attack surface",
       "open source software"
-    ]
+    ],
+    "image": "/resources/thumbnails/draoui-2025-analyzing.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "ghadhab-2025-automated",
@@ -591,7 +596,6 @@
     "type": "conference",
     "venue": "CoopIS",
     "doi": "10.1007/978-3-032-15538-2_46",
-    "url": "https://doi.org/10.1007/978-3-032-15538-2_46",
     "personIds": [
       "mohamed-wiem-mkaouer",
       "lobna-ghadhab"
@@ -625,7 +629,6 @@
     "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2509.08090",
-    "url": "https://doi.org/10.48550/arxiv.2509.08090",
     "personIds": [
       "eman-abdullah-alomar",
       "anthony-peruma",
@@ -643,7 +646,9 @@
       "large language models",
       "prompt templates",
       "developer needs"
-    ]
+    ],
+    "image": "/resources/thumbnails/alomar-2025-chatgpt.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "messaoud-2025-detecting",
@@ -660,7 +665,6 @@
     "type": "article",
     "venue": "IT Prof.",
     "doi": "10.1109/mitp.2025.3605999",
-    "url": "https://doi.org/10.1109/mitp.2025.3605999",
     "personIds": [
       "mohamed-wiem-mkaouer"
     ],
@@ -677,7 +681,9 @@
       "banking software",
       "agile software development",
       "large language models"
-    ]
+    ],
+    "image": "/resources/thumbnails/messaoud-2025-detecting.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "thiombiano-2025-distilxlstm",
@@ -693,7 +699,6 @@
     "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2503.18565",
-    "url": "https://doi.org/10.48550/arxiv.2503.18565",
     "personIds": [
       "mohamed-wiem-mkaouer"
     ],
@@ -718,7 +723,6 @@
     "type": "article",
     "venue": "J. Decis. Syst.",
     "doi": "10.1080/12460125.2024.2438610",
-    "url": "https://doi.org/10.1080/12460125.2024.2438610",
     "personIds": [
       "mohamed-wiem-mkaouer"
     ],
@@ -735,7 +739,9 @@
       "latent Dirichlet allocation",
       "topic extraction",
       "Claude"
-    ]
+    ],
+    "image": "/resources/thumbnails/hnich-2025-from.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "thiombiano-2025-moxe",
@@ -751,7 +757,6 @@
     "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2505.01459",
-    "url": "https://doi.org/10.48550/arxiv.2505.01459",
     "personIds": [
       "mohamed-wiem-mkaouer"
     ],
@@ -792,7 +797,6 @@
     "type": "article",
     "venue": "Empir. Softw. Eng.",
     "doi": "10.1007/s10664-025-10699-x",
-    "url": "https://doi.org/10.1007/s10664-025-10699-x",
     "personIds": [
       "christian-newman",
       "anthony-peruma",
@@ -813,7 +817,9 @@
       "program comprehension",
       "prepositions",
       "conjunctions"
-    ]
+    ],
+    "image": "/resources/thumbnails/newman-2025-structure.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "newman-2025-scalar",
@@ -838,7 +844,6 @@
     "type": "conference",
     "venue": "2025 IEEE/ACM 33th International Conference on Program Comprehension (ICPC)",
     "doi": "10.48550/arxiv.2504.17038",
-    "url": "https://doi.org/10.48550/arxiv.2504.17038",
     "personIds": [
       "christian-newman",
       "mohamed-wiem-mkaouer",
@@ -857,7 +862,9 @@
       "variable names",
       "gradient boosting classifier",
       "scalars"
-    ]
+    ],
+    "image": "/resources/thumbnails/newman-2025-scalar.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "bessghaier-2025-understanding",
@@ -874,7 +881,6 @@
     "type": "article",
     "venue": "Empir. Softw. Eng.",
     "doi": "10.1007/s10664-025-10654-w",
-    "url": "https://doi.org/10.1007/s10664-025-10654-w",
     "personIds": [
       "ali-ouni",
       "moataz-chouchen",
@@ -909,7 +915,6 @@
     "type": "conference",
     "venue": "ASE",
     "doi": "10.1109/ase63991.2025.00163",
-    "url": "https://doi.org/10.1109/ase63991.2025.00163",
     "personIds": [
       "mohamed-wiem-mkaouer"
     ],
@@ -923,7 +928,9 @@
       "control flow graph",
       "data flow graphs",
       "test case quality"
-    ]
+    ],
+    "image": "/resources/thumbnails/gurramkonda-2025-vrtestsniffer.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "alomar-2024-can",
@@ -949,7 +956,9 @@
       "software quality",
       "code review",
       "false positives"
-    ]
+    ],
+    "image": "/resources/thumbnails/alomar-2024-can.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "aljedaani-2024-accessible",
@@ -967,7 +976,6 @@
     "type": "conference",
     "venue": "W4A",
     "doi": "10.1145/3677846.3677858",
-    "url": "https://doi.org/10.1145/3677846.3677858",
     "personIds": [
       "wajdi-aljedaani",
       "mohamed-wiem-mkaouer"
@@ -997,7 +1005,6 @@
     "type": "conference",
     "venue": "MSR",
     "doi": "10.1145/3643991.3645082",
-    "url": "https://doi.org/10.1145/3643991.3645082",
     "personIds": [
       "mohamed-wiem-mkaouer"
     ],
@@ -1011,7 +1018,9 @@
       "GitHub",
       "Hacker News",
       "AI-assisted software development"
-    ]
+    ],
+    "image": "/resources/thumbnails/deo-2024-analyzing.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "alomar-2024-anticopypaster",
@@ -1025,7 +1034,6 @@
     "type": "conference",
     "venue": "SIGCSE (2)",
     "doi": "10.1145/3626253.3635436",
-    "url": "https://doi.org/10.1145/3626253.3635436",
     "personIds": [
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer"
@@ -1041,7 +1049,9 @@
       "IntelliJ IDEA plugin",
       "code reuse",
       "software maintenance"
-    ]
+    ],
+    "image": "/resources/thumbnails/alomar-2024-anticopypaster.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "mrad-2024-assessing",
@@ -1057,7 +1067,6 @@
     "type": "conference",
     "venue": "ICSOC (1)",
     "doi": "10.1007/978-981-96-0805-8_18",
-    "url": "https://doi.org/10.1007/978-981-96-0805-8_18",
     "personIds": [
       "mohamed-wiem-mkaouer"
     ],
@@ -1086,7 +1095,6 @@
     "type": "conference",
     "venue": "SIGCSE (1)",
     "doi": "10.1145/3626252.3630787",
-    "url": "https://doi.org/10.1145/3626252.3630787",
     "personIds": [
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer",
@@ -1124,7 +1132,6 @@
     "type": "article",
     "venue": "J. Softw. Evol. Process.",
     "doi": "10.1002/smr.2395",
-    "url": "https://doi.org/10.1002/smr.2395",
     "personIds": [
       "eman-abdullah-alomar",
       "anthony-peruma",
@@ -1145,7 +1152,6 @@
     "type": "conference",
     "venue": "CSEE&T",
     "doi": "10.1109/cseet62301.2024.10663028",
-    "url": "https://doi.org/10.1109/cseet62301.2024.10663028",
     "personIds": [
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer"
@@ -1160,7 +1166,9 @@
       "code review",
       "student perceptions",
       "software engineering education"
-    ]
+    ],
+    "image": "/resources/thumbnails/alomar-2024-cultivating.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "aljedaani-2024-empirical",
@@ -1176,7 +1184,6 @@
     "type": "conference",
     "venue": "CHI",
     "doi": "10.1145/3613904.3642508",
-    "url": "https://doi.org/10.1145/3613904.3642508",
     "personIds": [
       "wajdi-aljedaani",
       "mohamed-wiem-mkaouer",
@@ -1192,7 +1199,9 @@
       "chromium",
       "bug fix time",
       "access barriers"
-    ]
+    ],
+    "image": "/resources/thumbnails/aljedaani-2024-empirical.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "begoug-2024-finegrained",
@@ -1209,7 +1218,6 @@
     "type": "conference",
     "venue": "MSR",
     "doi": "10.1145/3643991.3644934",
-    "url": "https://doi.org/10.1145/3643991.3644934",
     "personIds": [
       "moataz-chouchen",
       "ali-ouni",
@@ -1227,7 +1235,9 @@
       "developer experience",
       "concept drift",
       "model retraining"
-    ]
+    ],
+    "image": "/resources/thumbnails/begoug-2024-finegrained.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "aljedaani-2024-from",
@@ -1249,7 +1259,6 @@
     ],
     "description": "Software Refactoring, a critical skill in software development, involves reorganizing code without altering its functionality. Despite its importance, many developers find refactoring complex and risky, often hesitating to adopt tools designed to assist in this process. To bridge this gap in this paper, we investigate the impact of gamification on the refactoring process and the usability of existing refactoring tools. Our research introduces RefGame, an innovative game-based tool that aims to enhance the learning experience in identifying and applying refactoring techniques. We used RefGame in an exploratory study that involved 322 computer science students. Then, we collected the feedback provided by these students via a survey. Our findings provide insight into the potential of gamification to make software refactoring education more accessible and effective, addressing the current challenges in teaching and learning refactoring techniques.",
     "doi": "10.1145/3643658.3643924",
-    "url": "https://doi.org/10.1145/3643658.3643924",
     "pages": "20-27",
     "publisher": "ACM",
     "openalexId": "W4401422765",
@@ -1260,7 +1269,9 @@
       "refactoring tools",
       "usability",
       "computer science students"
-    ]
+    ],
+    "image": "/resources/thumbnails/aljedaani-2024-from.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "khelifi-2024-gitrev",
@@ -1279,7 +1290,6 @@
     "type": "conference",
     "venue": "SCAM",
     "doi": "10.1109/scam63643.2024.00031",
-    "url": "https://doi.org/10.1109/scam63643.2024.00031",
     "personIds": [
       "moataz-chouchen",
       "ali-ouni",
@@ -1296,7 +1306,9 @@
       "developer motivation",
       "developer engagement",
       "browser extension"
-    ]
+    ],
+    "image": "/resources/thumbnails/khelifi-2024-gitrev.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "chouchen-2024-how",
@@ -1314,7 +1326,6 @@
     "type": "conference",
     "venue": "MSR",
     "doi": "10.1145/3643991.3645084",
-    "url": "https://doi.org/10.1145/3643991.3645084",
     "personIds": [
       "moataz-chouchen",
       "ali-ouni",
@@ -1332,7 +1343,9 @@
       "pull request review",
       "AI-assisted software development",
       "developer behavior"
-    ]
+    ],
+    "image": "/resources/thumbnails/chouchen-2024-how.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "alomar-2024-how",
@@ -1349,7 +1362,6 @@
     "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2402.06013",
-    "url": "https://doi.org/10.48550/arxiv.2402.06013",
     "personIds": [
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer",
@@ -1384,7 +1396,6 @@
     "type": "conference",
     "venue": "ITiCSE (1)",
     "doi": "10.1145/3649217.3653643",
-    "url": "https://doi.org/10.1145/3649217.3653643",
     "personIds": [
       "anthony-peruma",
       "eman-abdullah-alomar",
@@ -1404,7 +1415,9 @@
       "software testing education",
       "IDE plugin",
       "software engineering education"
-    ]
+    ],
+    "image": "/resources/thumbnails/peruma-2024-insights.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "chouchen-2024-multicr",
@@ -1419,7 +1432,6 @@
     "type": "article",
     "venue": "ACM Trans. Softw. Eng. Methodol.",
     "doi": "10.1145/3680472",
-    "url": "https://doi.org/10.1145/3680472",
     "personIds": [
       "moataz-chouchen",
       "ali-ouni",
@@ -1438,7 +1450,9 @@
       "model transparency",
       "cost-sensitive learning",
       "Gerrit"
-    ]
+    ],
+    "image": "/resources/thumbnails/chouchen-2024-multicr.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "bessghaier-2024-prevalence",
@@ -1456,7 +1470,6 @@
     "type": "conference",
     "venue": "SANER",
     "doi": "10.1109/saner60148.2024.00009",
-    "url": "https://doi.org/10.1109/saner60148.2024.00009",
     "personIds": [
       "ali-ouni",
       "mohamed-wiem-mkaouer"
@@ -1472,7 +1485,9 @@
       "infrastructure automation",
       "modularity",
       "code churn"
-    ]
+    ],
+    "image": "/resources/thumbnails/bessghaier-2024-prevalence.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "peruma-2024-rationale",
@@ -1491,7 +1506,6 @@
     "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2408.01751",
-    "url": "https://doi.org/10.48550/arxiv.2408.01751",
     "personIds": [
       "anthony-peruma",
       "christian-newman",
@@ -1508,7 +1522,9 @@
       "test documentation",
       "debugging",
       "coding standards"
-    ]
+    ],
+    "image": "/resources/thumbnails/peruma-2024-rationale.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "messaoud-2024-prduplichecker",
@@ -1525,7 +1541,6 @@
     "type": "article",
     "venue": "Int. J. Syst. Assur. Eng. Manag.",
     "doi": "10.1007/s13198-024-02361-4",
-    "url": "https://doi.org/10.1007/s13198-024-02361-4",
     "personIds": [
       "mohamed-wiem-mkaouer",
       "wajdi-aljedaani"
@@ -1558,7 +1573,6 @@
     "type": "article",
     "venue": "Swarm Evol. Comput.",
     "doi": "10.1016/j.swevo.2023.101444",
-    "url": "https://doi.org/10.1016/j.swevo.2023.101444",
     "personIds": [
       "mohamed-wiem-mkaouer",
       "ali-ouni"
@@ -1590,7 +1604,6 @@
     "type": "article",
     "venue": "ACM Trans. Softw. Eng. Methodol.",
     "doi": "10.1145/3607186",
-    "url": "https://doi.org/10.1145/3607186",
     "personIds": [
       "ali-ouni",
       "mohamed-wiem-mkaouer"
@@ -1608,7 +1621,9 @@
       "runtime configuration",
       "OpenStack",
       "YAML"
-    ]
+    ],
+    "image": "/resources/thumbnails/bessghaier-2024-what.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "shoaibi-2023-software",
@@ -1627,7 +1642,6 @@
     ],
     "description": "Performance is a quality aspect describing how the software is performing. Any performance degradation will further affect other quality aspects, such as usability. Software developers continuously conduct testing to ensure that code addition or changes do not damage existing functionalities or negatively affect the quality. Hence, developers set strategies to detect, locate and fix the regression if needed. In this paper, we provide an exploratory study on the challenges developers face in resolving performance regression. The study is based on the questions posted on a technical forum directed to performance regression. We collected 1828 questions discussing the regression of software execution time. All those questions are manually analyzed. The study resulted in a categorization of the challenges. We also discussed the difficulty level of performance regression issues within the developers community. This study provides insights to help developers during the software design and implementation to avoid regression causes.",
     "doi": "10.1109/iccq57276.2023.10114662",
-    "url": "https://doi.org/10.1109/iccq57276.2023.10114662",
     "pages": "1-15",
     "publisher": "IEEE",
     "openalexId": "W4375947530",
@@ -1638,7 +1652,9 @@
       "execution time",
       "developer challenges",
       "Stack Overflow"
-    ]
+    ],
+    "image": "/resources/thumbnails/shoaibi-2023-software.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "ouni-2023-empirical",
@@ -1654,7 +1670,6 @@
     "type": "conference",
     "venue": "EASE",
     "doi": "10.1145/3593434.3593485",
-    "url": "https://doi.org/10.1145/3593434.3593485",
     "personIds": [
       "ali-ouni",
       "islem-saidani",
@@ -1672,7 +1687,9 @@
       "software build",
       "software testing",
       "version control"
-    ]
+    ],
+    "image": "/resources/thumbnails/ouni-2023-empirical.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "takebayashi-2023-exploratory",
@@ -1688,7 +1705,6 @@
     "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2303.00169",
-    "url": "https://doi.org/10.48550/arxiv.2303.00169",
     "personIds": [
       "anthony-peruma",
       "mohamed-wiem-mkaouer",
@@ -1721,7 +1737,6 @@
     "type": "article",
     "venue": "IEEE Transactions on Software Engineering",
     "doi": "10.48550/arxiv.2312.12600",
-    "url": "https://doi.org/10.48550/arxiv.2312.12600",
     "personIds": [
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer",
@@ -1761,7 +1776,6 @@
     "type": "article",
     "venue": "J. Syst. Softw.",
     "doi": "10.1016/j.jss.2023.111767",
-    "url": "https://doi.org/10.1016/j.jss.2023.111767",
     "personIds": [
       "ali-ouni",
       "mohamed-wiem-mkaouer"
@@ -1793,7 +1807,6 @@
     "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2303.04234",
-    "url": "https://doi.org/10.48550/arxiv.2303.04234",
     "personIds": [
       "wajdi-aljedaani",
       "mohamed-wiem-mkaouer",
@@ -1810,7 +1823,9 @@
       "troubleshooting",
       "program comprehension",
       "software quality"
-    ]
+    ],
+    "image": "/resources/thumbnails/aljedaani-2023-test.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "messaoud-2023-duplicate",
@@ -1827,7 +1842,6 @@
     "type": "article",
     "venue": "IEEE Trans. Reliab.",
     "doi": "10.1109/tr.2022.3193645",
-    "url": "https://doi.org/10.1109/tr.2022.3193645",
     "personIds": [
       "mohamed-wiem-mkaouer",
       "lobna-ghadhab"
@@ -1845,7 +1859,9 @@
       "multilayer perceptron",
       "bug reports",
       "unstructured text classification"
-    ]
+    ],
+    "image": "/resources/thumbnails/messaoud-2023-duplicate.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "alomar-2023-how",
@@ -1862,7 +1878,6 @@
     "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2311.00256",
-    "url": "https://doi.org/10.48550/arxiv.2311.00256",
     "personIds": [
       "eman-abdullah-alomar",
       "anthony-peruma",
@@ -1902,7 +1917,6 @@
     "type": "article",
     "venue": "Univers. Access Inf. Soc.",
     "doi": "10.1007/s10209-022-00897-5",
-    "url": "https://doi.org/10.1007/s10209-022-00897-5",
     "personIds": [
       "wajdi-aljedaani",
       "mohamed-wiem-mkaouer"
@@ -1935,7 +1949,6 @@
     "type": "article",
     "venue": "J. Softw. Evol. Process.",
     "doi": "10.1002/smr.2505",
-    "url": "https://doi.org/10.1002/smr.2505",
     "personIds": [
       "ali-ouni",
       "moataz-chouchen",
@@ -1954,7 +1967,9 @@
       "early detection",
       "sentiment analysis",
       "socio-technical analysis"
-    ]
+    ],
+    "image": "/resources/thumbnails/almarimi-2023-improving.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "alhindi-2023-issuelabeler",
@@ -1970,7 +1985,6 @@
     "type": "conference",
     "venue": "MOBILESoft",
     "doi": "10.1109/mobilsoft59058.2023.00012",
-    "url": "https://doi.org/10.1109/mobilsoft59058.2023.00012",
     "personIds": [
       "mohamed-wiem-mkaouer"
     ],
@@ -1985,7 +1999,9 @@
       "software maintenance",
       "bug reports",
       "problem prioritization"
-    ]
+    ],
+    "image": "/resources/thumbnails/alhindi-2023-issuelabeler.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "alomar-2023-justintime",
@@ -2007,7 +2023,6 @@
     "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2302.03416",
-    "url": "https://doi.org/10.48550/arxiv.2302.03416",
     "personIds": [
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer",
@@ -2016,7 +2031,9 @@
     ],
     "status": "preprint",
     "description": "Refactoring is a critical task in software maintenance, and is usually performed to enforce better design and coding practices, while coping with design defects. The Extract Method refactoring is widely used for merging duplicate code fragments into a single new method. Several studies attempted to recommend Extract Method refactoring opportunities using different techniques, including program slicing, program dependency graph analysis, change history analysis, structural similarity, and feature extraction. However, irrespective of the method, most of the existing approaches interfere with the developer's workflow: they require the developer to stop coding and analyze the suggested opportunities, and also consider all refactoring suggestions in the entire project without focusing on the development context. To increase the adoption of the Extract Method refactoring, in this paper, we aim to investigate the effectiveness of machine learning and deep learning algorithms for its recommendation while maintaining the workflow of the developer. The proposed approach relies on mining prior applied Extract Method refactorings and extracting their features to train a deep learning classifier that detects them in the user's code. We implemented our approach as a plugin for IntelliJ IDEA called AntiCopyPaster. To develop our approach, we trained and evaluated various popular models on a dataset of 18,942 code fragments from 13 Open Source Apache projects. The results show that the best model is the Convolutional Neural Network (CNN), which recommends appropriate Extract Method refactorings with an F-measure of 0.82. We also conducted a qualitative study with 72 developers to evaluate the usefulness of the developed plugin. The results show that developers tend to appreciate the idea of the approach and are satisfied with various aspects of the plugin's operation.",
-    "arxivId": "2302.03416"
+    "arxivId": "2302.03416",
+    "image": "/resources/thumbnails/alomar-2023-justintime.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "palonis-2023-largescale",
@@ -2034,7 +2051,6 @@
     "type": "conference",
     "venue": "ASSETS",
     "doi": "10.1145/3597638.3614476",
-    "url": "https://doi.org/10.1145/3597638.3614476",
     "personIds": [
       "brandon-palonis",
       "mohamed-wiem-mkaouer"
@@ -2050,7 +2066,9 @@
       "social media participation",
       "topic modeling",
       "discourse categories"
-    ]
+    ],
+    "image": "/resources/thumbnails/palonis-2023-largescale.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "chouchen-2023-learning",
@@ -2066,7 +2084,6 @@
     "type": "article",
     "venue": "Empir. Softw. Eng.",
     "doi": "10.1007/s10664-023-10300-3",
-    "url": "https://doi.org/10.1007/s10664-023-10300-3",
     "personIds": [
       "moataz-chouchen",
       "ali-ouni",
@@ -2099,7 +2116,6 @@
     "type": "conference",
     "venue": "ECSQARU",
     "doi": "10.1007/978-3-031-45608-4_31",
-    "url": "https://doi.org/10.1007/978-3-031-45608-4_31",
     "personIds": [
       "mohamed-wiem-mkaouer"
     ],
@@ -2131,7 +2147,6 @@
     "type": "article",
     "venue": "J. Syst. Softw.",
     "doi": "10.1016/j.jss.2023.111817",
-    "url": "https://doi.org/10.1016/j.jss.2023.111817",
     "personIds": [
       "ali-ouni",
       "eman-abdullah-alomar",
@@ -2163,7 +2178,6 @@
     "type": "preprint",
     "venue": "CoRR",
     "doi": "10.48550/arxiv.2302.05554",
-    "url": "https://doi.org/10.48550/arxiv.2302.05554",
     "personIds": [
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer"
@@ -2179,7 +2193,9 @@
       "software quality",
       "coding standards",
       "false positives"
-    ]
+    ],
+    "image": "/resources/thumbnails/alomar-2023-use.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "aljedaani-2023-teachers",
@@ -2195,7 +2211,6 @@
     "type": "conference",
     "venue": "ISEC",
     "doi": "10.1145/3578527.3578531",
-    "url": "https://doi.org/10.1145/3578527.3578531",
     "personIds": [
       "wajdi-aljedaani",
       "mohamed-wiem-mkaouer"
@@ -2211,7 +2226,9 @@
       "COVID-19 pandemic",
       "teacher perceptions",
       "computer science education"
-    ]
+    ],
+    "image": "/resources/thumbnails/aljedaani-2023-teachers.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "aljedaani-2023-state",
@@ -2230,7 +2247,6 @@
     "type": "conference",
     "venue": "W4A",
     "doi": "10.1145/3587281.3587291",
-    "url": "https://doi.org/10.1145/3587281.3587291",
     "personIds": [
       "wajdi-aljedaani",
       "mohamed-wiem-mkaouer",
@@ -2248,7 +2264,9 @@
       "educational technology",
       "disabled users",
       "screen readers"
-    ]
+    ],
+    "image": "/resources/thumbnails/aljedaani-2023-state.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "begoug-2023-what",
@@ -2265,7 +2283,6 @@
     "type": "conference",
     "venue": "ESEM",
     "doi": "10.1109/esem56168.2023.10304847",
-    "url": "https://doi.org/10.1109/esem56168.2023.10304847",
     "personIds": [
       "ali-ouni",
       "eman-abdullah-alomar",
@@ -2282,7 +2299,9 @@
       "Stack Overflow",
       "developer questions",
       "topic modeling"
-    ]
+    ],
+    "image": "/resources/thumbnails/begoug-2023-what.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "aljedaani-2022-automatic",
@@ -2303,7 +2322,6 @@
     ],
     "description": "In recent years, mobile applications have gained popularity for providing information, digital services, and content to users including users with disabilities. However, recent studies have shown that even popular mobile apps are facing issues related to accessibility, which hinders their usability experience for people with disabilities. For discovering these issues in the new app releases, developers consider user reviews published on the official app stores. However, it is a challenging and time-consuming task to identify the type of accessibility-related reviews manually. Therefore, in this study, we have used super-vised learning techniques, namely, Extra Tree Classifier (ETC), Random Forest, Support Vector Classification, Decision Tree, K-Nearest Neighbors (KNN), and Logistic Regression for automated classification of 2,663 Android app reviews based on four types of accessibility guidelines, i.e., Principles, Audio/Images, Design and Focus. Results have shown that the ETC classifier produces the best results in the automated classification of accessibility app reviews with 93% accuracy.",
     "doi": "10.1109/cdma54072.2022.00027",
-    "url": "https://doi.org/10.1109/cdma54072.2022.00027",
     "pages": "133-138",
     "publisher": "IEEE",
     "openalexId": "W4220973385",
@@ -2314,7 +2332,9 @@
       "accessibility guidelines",
       "people with disabilities",
       "extra trees"
-    ]
+    ],
+    "image": "/resources/thumbnails/aljedaani-2022-automatic.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "alomar-2022-exploratory",
@@ -2339,7 +2359,6 @@
     ],
     "description": "Understanding the practice of refactoring documentation is of paramount importance in academia and industry. Issue tracking systems are used by most software projects enabling developers, quality assurance, managers, and users to submit feature requests and other tasks such as bug fixing and code review. Although recent studies explored how to document refactoring in commit messages, little is known about how developers describe their refactoring needs in issues. In this study, we aim at exploring developer-reported refactoring changes in issues to better understand what developers consider to be problematic in their code and how they handle it. Our approach relies on text mining 45,477 refactoring-related issues and identifying refactoring patterns from a diverse corpus of 77 Java projects by investigating issues associated with 15,833 refactoring operations and developers' explicit refactoring intention. Our results show that (1) developers mostly use move refactoring related terms/phrases to target refactoring-related issues; and (2) developers tend to explicitly mention the improvement of specific quality attributes and focus on duplicate code removal. We envision our findings enabling tool builders to support developers with automated documentation of refactoring changes in issues.",
     "doi": "10.1145/3524842.3528525",
-    "url": "https://doi.org/10.1145/3524842.3528525",
     "pages": "107-111",
     "publisher": "ACM",
     "openalexId": "W4220729516",
@@ -2375,7 +2394,6 @@
     ],
     "description": "For many software applications, performance is a critical Non-Functional requirement. Different software testing techniques are associated with various types of software testing, often related to performance regressions. Detecting code changes responsible for performance regression, for a rapidly evolving software with an increasing number of daily commits, is becoming arduous due to performance tests being time-consuming. The expense of running performance benchmarks, for all committed changes, has evolved to the bottleneck of detecting performance regression. Therefore, a recent technique called Perphecy was proposed to help, with quickly identifying performance regression introducing code changes, supporting the selection of performance tests, and reducing their execution time. However, Perphecy was not thoroughly tested on a large system, and so, its performance is still unknown in a real-world scenario. In this paper, we perform an in-depth analysis of Perphecy’s ability to identify performance regression introducing code changes on the open-source Git project. Our work challenges the ability of the model to sustain its performance when increasing the sample under test from 201 commits, to 8596 commits. In addition to verifying the scalability of the previous findings, we also test the efficiency of the proposed approach against a wider variety of performance regression introducing code changes. We provide insights into its advantages, limitations, and practical value.",
     "doi": "10.1109/stc55697.2022.00036",
-    "url": "https://doi.org/10.1109/stc55697.2022.00036",
     "pages": "206-217",
     "publisher": "IEEE",
     "openalexId": "W4309346529",
@@ -2386,7 +2404,9 @@
       "Git",
       "scalability",
       "performance testing"
-    ]
+    ],
+    "image": "/resources/thumbnails/alshoaibi-2022-detection.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "arias-2022-accessibility",
@@ -2403,7 +2423,6 @@
     "type": "conference",
     "venue": "CHI Extended Abstracts",
     "doi": "10.1145/3491101.3519625",
-    "url": "https://doi.org/10.1145/3491101.3519625",
     "personIds": [
       "mohamed-wiem-mkaouer"
     ],
@@ -2418,7 +2437,9 @@
       "accessibility guidelines",
       "WCAG 2.1",
       "accessibility violations"
-    ]
+    ],
+    "image": "/resources/thumbnails/arias-2022-accessibility.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "alomar-2022-anticopypaster",
@@ -2440,7 +2461,6 @@
     "type": "conference",
     "venue": "ASE",
     "doi": "10.1145/3551349.3559537",
-    "url": "https://doi.org/10.1145/3551349.3559537",
     "personIds": [
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer",
@@ -2480,7 +2500,6 @@
     "type": "article",
     "venue": "Soc. Netw. Anal. Min.",
     "doi": "10.1007/s13278-022-00946-0",
-    "url": "https://doi.org/10.1007/s13278-022-00946-0",
     "personIds": [
       "wajdi-aljedaani",
       "mohamed-wiem-mkaouer",
@@ -2514,7 +2533,6 @@
     "type": "conference",
     "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
     "doi": "10.48550/arxiv.2203.14404",
-    "url": "https://doi.org/10.48550/arxiv.2203.14404",
     "personIds": [
       "eman-abdullah-alomar",
       "moataz-chouchen",
@@ -2540,7 +2558,6 @@
     "type": "article",
     "venue": "IEEE Trans. Software Eng.",
     "doi": "10.1109/tse.2021.3129165",
-    "url": "https://doi.org/10.1109/tse.2021.3129165",
     "personIds": [
       "islem-saidani",
       "ali-ouni",
@@ -2556,7 +2573,9 @@
       "continuous integration",
       "SPEA2",
       "Travis CI"
-    ]
+    ],
+    "image": "/resources/thumbnails/saidani-2022-detecting.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "peruma-2022-refactor",
@@ -2585,7 +2604,6 @@
       "ali-ouni"
     ],
     "doi": "10.1007/s10664-021-10045-x",
-    "url": "https://doi.org/10.1007/s10664-021-10045-x",
     "volume": "27",
     "issue": "1",
     "pages": "11",
@@ -2617,7 +2635,6 @@
     "type": "article",
     "venue": "Inf. Softw. Technol.",
     "doi": "10.1016/j.infsof.2022.106996",
-    "url": "https://doi.org/10.1016/j.infsof.2022.106996",
     "personIds": [
       "ali-ouni",
       "mohamed-wiem-mkaouer"
@@ -2656,7 +2673,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1007/s10515-021-00319-5",
-    "url": "https://doi.org/10.1007/s10515-021-00319-5",
     "volume": "29",
     "issue": "1",
     "pages": "21",
@@ -2688,7 +2704,6 @@
     "type": "conference",
     "venue": "SAC",
     "doi": "10.1145/3477314.3507150",
-    "url": "https://doi.org/10.1145/3477314.3507150",
     "personIds": [
       "deema-alshoaibi",
       "hiten-gupta",
@@ -2706,7 +2721,9 @@
       "class imbalance",
       "decision forest",
       "random oversampling"
-    ]
+    ],
+    "image": "/resources/thumbnails/alshoaibi-2022-learning.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "daaji-2022-multicriteria",
@@ -2723,7 +2740,6 @@
     "type": "article",
     "venue": "ACM Trans. Internet Techn.",
     "doi": "10.1145/3446388",
-    "url": "https://doi.org/10.1145/3446388",
     "personIds": [
       "ali-ouni",
       "mohamed-wiem-mkaouer"
@@ -2741,7 +2757,9 @@
       "MOORA",
       "multi-criteria decision making",
       "multi-objective optimization"
-    ]
+    ],
+    "image": "/resources/thumbnails/daaji-2022-multicriteria.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "alomar-2022-documentation",
@@ -2769,7 +2787,6 @@
       "ali-ouni"
     ],
     "doi": "10.1007/s10515-021-00314-w",
-    "url": "https://doi.org/10.1007/s10515-021-00314-w",
     "volume": "29",
     "issue": "1",
     "pages": "9",
@@ -2800,7 +2817,6 @@
     "type": "conference",
     "venue": "W4A",
     "doi": "10.1145/3493612.3520471",
-    "url": "https://doi.org/10.1145/3493612.3520471",
     "personIds": [
       "wajdi-aljedaani",
       "mohamed-wiem-mkaouer",
@@ -2817,7 +2833,9 @@
       "Firefox",
       "accessibility framework",
       "binary classification"
-    ]
+    ],
+    "image": "/resources/thumbnails/aljedaani-2022-identification.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "alexandre-2022-identification",
@@ -2834,7 +2852,6 @@
     "type": "conference",
     "venue": "EASE",
     "doi": "10.1145/3530019.3534083",
-    "url": "https://doi.org/10.1145/3530019.3534083",
     "personIds": [
       "ali-ouni",
       "mohamed-wiem-mkaouer"
@@ -2850,7 +2867,9 @@
       "library recommendations",
       "hierarchical clustering",
       "DBSCAN"
-    ]
+    ],
+    "image": "/resources/thumbnails/alexandre-2022-identification.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "peruma-2022-refactoring",
@@ -2867,7 +2886,6 @@
     "type": "conference",
     "venue": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
     "doi": "10.48550/arxiv.2203.05660",
-    "url": "https://doi.org/10.48550/arxiv.2203.05660",
     "personIds": [
       "anthony-peruma",
       "eman-abdullah-alomar",
@@ -2917,7 +2935,6 @@
       "ali-ouni"
     ],
     "doi": "10.1007/s11334-021-00422-6",
-    "url": "https://doi.org/10.1007/s11334-021-00422-6",
     "volume": "18",
     "issue": "1",
     "pages": "105-135",
@@ -2960,7 +2977,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1016/j.scico.2021.102693",
-    "url": "https://doi.org/10.1016/j.scico.2021.102693",
     "volume": "213",
     "pages": "102693",
     "publisher": "Elsevier BV",
@@ -2990,7 +3006,6 @@
     "type": "article",
     "venue": "Swarm Evol. Comput.",
     "doi": "10.1016/j.swevo.2022.101101",
-    "url": "https://doi.org/10.1016/j.swevo.2022.101101",
     "personIds": [
       "deema-alshoaibi",
       "mohamed-wiem-mkaouer",
@@ -3023,7 +3038,6 @@
     "type": "conference",
     "venue": "EvoApplications",
     "doi": "10.1007/978-3-031-02462-7_12",
-    "url": "https://doi.org/10.1007/978-3-031-02462-7_12",
     "personIds": [
       "mohamed-wiem-mkaouer",
       "ali-ouni"
@@ -3058,7 +3072,6 @@
     "type": "article",
     "venue": "Knowl. Based Syst.",
     "doi": "10.1016/j.knosys.2022.109780",
-    "url": "https://doi.org/10.1016/j.knosys.2022.109780",
     "personIds": [
       "wajdi-aljedaani",
       "mohamed-wiem-mkaouer"
@@ -3100,7 +3113,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1007/s10664-022-10125-6",
-    "url": "https://doi.org/10.1007/s10664-022-10125-6",
     "volume": "27",
     "issue": "4",
     "pages": "81",
@@ -3136,7 +3148,6 @@
     ],
     "description": "Android applications (apps) evolve quickly to meet users requirements, fix bugs or adapt to technological changes. Such changes can lead to the presence of code smells - symptoms of poor design and/or implementation choices that may hinder the project maintenance and evolution. Previous research studied the characteristics of traditional object-oriented (OO) code smells affecting source code files in desktop software systems, and advocated that the interaction and co-presence of code smells reduce the ability of developers to understand and maintain source code. However, little knowledge is available on emerging categories of Android-specific code smells and their interactions, i.e., co-occurences, with traditional OO smells, in the context of Android apps. To provide a broader understanding of this phenomenon, we conduct an empirical study on 1,923 open source Android apps taking into account 15 types of Android-specific and 10 types of traditional OO code smells. Our results show that the co-occurrence phenomenon is indeed prevalent in Android apps and several smell types have strong associations. Developers need to be aware of this phenomenon and consider detecting and eliminating both traditional and Android smells separately, using dedicated tools.",
     "doi": "10.1109/asew52652.2021.00018",
-    "url": "https://doi.org/10.1109/asew52652.2021.00018",
     "pages": "26-33",
     "publisher": "IEEE",
     "openalexId": "W4206977531",
@@ -3147,7 +3158,9 @@
       "software maintainability",
       "open-source apps",
       "code smell detection"
-    ]
+    ],
+    "image": "/resources/thumbnails/hamdi-2021-empirical2.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "bessghaier-2021-longitudinal",
@@ -3166,7 +3179,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1007/s11219-021-09567-w",
-    "url": "https://doi.org/10.1007/s11219-021-09567-w",
     "volume": "29",
     "issue": "4",
     "pages": "901-941",
@@ -3229,7 +3241,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1109/mobilesoft52590.2021.00010",
-    "url": "https://doi.org/10.1109/mobilesoft52590.2021.00010",
     "pages": "28-39",
     "publisher": "IEEE",
     "openalexId": "W3175255846",
@@ -3270,7 +3281,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1109/tse.2021.3098242",
-    "url": "https://doi.org/10.1109/tse.2021.3098242",
     "description": "This paper presents an ensemble part-of-speech tagging approach for source code identifiers. Ensemble tagging is a technique that uses machine-learning and the output from multiple part-of-speech taggers to annotate natural language text at a higher quality than the part-of-speech taggers are able to obtain independently. Our ensemble uses three state-of-the-art part-of-speech taggers: SWUM, POSSE, and Stanford. We study the quality of the ensemble’s annotations on five different types of identifier names: function, class, attribute, parameter, and declaration statement, at the level of both individual words and full identifier names. We also study and discuss the weaknesses of our tagger to promote the future amelioration of these problems through further research. Our results show that the ensemble achieves 75% accuracy at the identifier level and 8486% accuracy at the word level. This is an increase of +17% points at the identifier level from the closest independent partof-speech tagger.",
     "volume": "48",
     "issue": "9",
@@ -3307,7 +3317,6 @@
     ],
     "description": "Weight initialization is critical in being able to successfully train artificial neural networks (ANNs), and even more so for recurrent neural networks (RNNs) which can easily suffer from vanishing and exploding gradients. In neuroevolution, where evolutionary algorithms are applied to neural architecture search, weights typically need to be initialized at three different times: when the initial genomes (ANN architectures) are created, when offspring genomes are generated by crossover, and when new nodes or edges are created during mutation. This work explores the difference between the state-of-the-art Xavier and Kaiming methods, and novel Lamarckian weight inheritance for weight initialization during crossover and mutation operations. These are examined using the Evolutionary eXploration of Augmenting Memory Models (EXAMM) neuroevolution algorithm, which is capable of evolving RNNs with a variety of modern memory cells (e.g., LSTM, GRU, MGU, UGRNN and Delta-RNN cells) as well as recurrent connections with varying time skips through a high performance island based distributed evolutionary algorithm. Results show that with statistical significance, the Lamarckian strategy outperforms both Kaiming and Xavier weight initialization, can speed neuroevolution by requiring less backpropagation epochs to be evaluated per genome, and that the neuroevolutionary process provides further benefits to neural network weight optimization.",
     "doi": "10.1007/978-3-030-72699-7_37",
-    "url": "https://doi.org/10.1007/978-3-030-72699-7_37",
     "pages": "584-600",
     "publisher": "Springer International Publishing",
     "openalexId": "W3149912667",
@@ -3346,7 +3355,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1109/saner50967.2021.00060",
-    "url": "https://doi.org/10.1109/saner50967.2021.00060",
     "pages": "531-535",
     "publisher": "IEEE",
     "openalexId": "W3137814148",
@@ -3407,7 +3415,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1145/3468264.3473115",
-    "url": "https://doi.org/10.1145/3468264.3473115",
     "pages": "1530-1534",
     "publisher": "ACM",
     "openalexId": "W3195650035",
@@ -3435,7 +3442,6 @@
     "type": "article",
     "venue": "Algorithms",
     "doi": "10.3390/a14100289",
-    "url": "https://doi.org/10.3390/a14100289",
     "personIds": [
       "priyadarshni-sagar",
       "eman-abdullah-alomar",
@@ -3456,7 +3462,9 @@
       "multi-class classification",
       "random forest",
       "Java projects"
-    ]
+    ],
+    "image": "/resources/thumbnails/sagar-2021-comparing.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "almarimi-2021-csdetector",
@@ -3480,7 +3488,6 @@
     ],
     "description": "Community smells represent symptoms of sub-optimal organizational and social issues within software development communities that often lead to additional project costs and reduced software quality. Previous research identified a variety of community smells that are connected to sub-optimal patterns under different perspectives of organizational-social structures in the software development community. To detect community smells and understanding the characteristics of such organizational-social structures in a project, we propose csDetector, an open source tool that is able to automatically detect community smells within a project and provide relevant socio-technical metrics. csDetector uses a machine learningbased detection approach that learns from various existing bad community development practices to provide automated support in detecting related community smells. We evaluate the effectiveness of csDetector on a benchmark of 143 open source projects from GitHub. Our results show that the csDetector tool can detect ten commonly occurring community smells in open software projects with an average F1 score of 84%. csDetector is publicly available, with a demo video, at: https://github.com/Nuri22/csDetector",
     "doi": "10.1145/3468264.3473121",
-    "url": "https://doi.org/10.1145/3468264.3473121",
     "pages": "1560-1564",
     "publisher": "ACM",
     "openalexId": "W3195281059",
@@ -3518,7 +3525,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.48550/arxiv.2210.09947",
-    "url": "https://doi.org/10.48550/arxiv.2210.09947",
     "openalexId": "W3160163934",
     "arxivId": "2210.09947",
     "keywords": [
@@ -3555,7 +3561,6 @@
       "marouane-kessentini"
     ],
     "doi": "10.1016/j.eswa.2020.114176",
-    "url": "https://doi.org/10.1016/j.eswa.2020.114176",
     "volume": "167",
     "pages": "114176",
     "publisher": "Elsevier BV",
@@ -3592,7 +3597,6 @@
     ],
     "description": "Neuroevolution commonly uses speciation strategies to better explore the search space of neural network architectures. One such speciation strategy is the use of islands, which are also popular in improving the performance of distributed evolutionary algorithms. However, islands may experience stagnation, which prevents their convergence towards better solutions and can result in wasted computation. This work evaluates utilizing an island extinction and repopulation mechanism to avoid premature convergence using Evolutionary eXploration of Augmenting Memory Models (EXAMM), an asynchronous island based neuroevolution algorithm that progressively evolves recurrent neural networks (RNNs). In island extinction and repopulation, all members of the worst performing island are erased periodically and repopulated with mutated versions of the global best RNN. This island based strategy is additionally compared to NEAT’s (NeuroEvolution of Augmenting Topologies) speciation strategy. Experiments were performed using two different real-world time series datasets (coal-fired power plant and aviation flight data). With statistical significance, results show that in addition to being more scalable, this island extinction and repopulation strategy evolves better global best genomes than both EXAMM’s original island based strategy and NEAT’s speciation strategy. The extinction and repopulation strategy is easy to implement, and can be generically applied to other neuroevolution algorithms.",
     "doi": "10.1007/978-3-030-72699-7_36",
-    "url": "https://doi.org/10.1007/978-3-030-72699-7_36",
     "pages": "568-583",
     "publisher": "Springer International Publishing",
     "openalexId": "W3146654619",
@@ -3621,7 +3625,6 @@
     "type": "conference",
     "venue": "ASE Workshops",
     "doi": "10.1109/asew52652.2021.00053",
-    "url": "https://doi.org/10.1109/asew52652.2021.00053",
     "personIds": [
       "wajdi-aljedaani",
       "ali-ouni",
@@ -3638,7 +3641,9 @@
       "TextBlob",
       "VADER",
       "TF-IDF features"
-    ]
+    ],
+    "image": "/resources/thumbnails/aljedaani-2021-learning.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "almhana-2021-method",
@@ -3659,7 +3664,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1016/j.infsof.2020.106474",
-    "url": "https://doi.org/10.1016/j.infsof.2020.106474",
     "description": "Context: One of the time-consuming maintenance tasks is the localization of bugs especially in large software systems. Developers have to follow a tedious process to reproduce the abnormal behavior then inspect a large number of files. While several studies have been proposed for bugs localization, the majority of them are recommending classes/files as outputs which may still require high inspection effort. Furthermore, there is a significant difference between the natural language used in bug reports and the programming language which limits the efficiency of existing approaches since most of them are mainly based on lexical similarity. Objective: In this paper, we propose an automated approach to find and rank the potential methods in order to localize the source of a bug based on a bug report description. Method: Our approach finds a good balance between minimizing the number of recommended classes and maximizing the relevance of the proposed solution using a hybrid multi-objective optimization algorithm combining local and global search. The relevance of the recommended code fragments is estimated based on the use of the history of changes and bug-fixing, and the lexical similarity between the bug report description and the API documentation. Our approach operates on two main steps. The first step is to find the best set of classes satisfying the two conflicting criteria of relevance and the number of classes to recommend using a global search based on NSGA-II. The second step is to locate the most appropriate methods to inspect, using a local multi-objective search based on Simulated Annealing (MOSA) from the list of classes recommended by the first step. Results: We evaluated our system on 6 open source Java projects, using the version of the project before fixing the bug of many bug reports. Our hybrid multi-objective approach is able to successfully locate the true buggy methods within the top 10 recommendations for over 78% of the bug reports leading to a significant reduction of developers’ effort comparing to class-level bug localization techniques. Conclusion: The experimental results show that the search-based approach significantly outperforms four state-of-the-art methods in recommending relevant files for bug reports.",
     "volume": "131",
     "pages": "106474",
@@ -3696,7 +3700,6 @@
       "ali-ouni"
     ],
     "doi": "10.1201/9781003001188-9",
-    "url": "https://doi.org/10.1201/9781003001188-9",
     "pages": "127-140",
     "publisher": "Auerbach Publications",
     "openalexId": "W3153105554",
@@ -3731,7 +3734,6 @@
       "ali-ouni"
     ],
     "doi": "10.1016/j.infsof.2021.106675",
-    "url": "https://doi.org/10.1016/j.infsof.2021.106675",
     "volume": "140",
     "pages": "106675",
     "publisher": "Elsevier BV",
@@ -3800,7 +3802,6 @@
       "marouane-kessentini"
     ],
     "doi": "10.1007/s10796-020-10100-w",
-    "url": "https://doi.org/10.1007/s10796-020-10100-w",
     "description": "As the development of Android mobile applications continues to grow to follow up its high increase in demand and market share, there is a need for automating the evaluation of their graphical user interfaces and detect any associated defects as they are perceived to lead to bad overall usability. Although, there is growth in research targeting the assessment of mobile user interfaces, there is a lack of studies assessing their impact on quality. The goal of this work, is to analyze the impact of defects on the maintainability of interfaces by studying the connection between the existence of the defects and the change-proneness of interfaces. We empirically experiment the impact of 8 aesthetics defects in 56 releases of 5 Android applications, as we explore the following research questions: (1) are developers fixing the defects along the releases, (2) to what extent infected GUI classes are subject to change than other classes, (3) to what extent this subjectivity is due to the presence of defects. Our empirical validation confirms that (1) various defects typically exist in interfaces?, (2) the vulnerability of interfaces, infected with defects, to an increase of changes?, and (3) some aesthetics defects are more severe than others?.",
     "image": "/resources/thumbnails/soui-2021-impact.jpg",
     "volume": "24",
@@ -3840,7 +3841,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1016/j.infsof.2021.106618",
-    "url": "https://doi.org/10.1016/j.infsof.2021.106618",
     "volume": "138",
     "pages": "106618",
     "publisher": "Elsevier BV",
@@ -3880,7 +3880,6 @@
       "ali-ouni"
     ],
     "doi": "10.1007/s11334-021-00388-5",
-    "url": "https://doi.org/10.1007/s11334-021-00388-5",
     "volume": "18",
     "issue": "2",
     "pages": "233-249",
@@ -3918,7 +3917,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1145/3468264.3473924",
-    "url": "https://doi.org/10.1145/3468264.3473924",
     "pages": "1303-1313",
     "publisher": "ACM",
     "openalexId": "W3178785861",
@@ -3950,7 +3948,6 @@
     ],
     "description": "Context. Modern Code Review (MCR) is being adopted in both open source and commercial projects as a common practice. MCR is a widely acknowledged quality assurance practice that allows early detection of defects as well as poor coding practices. It also brings several other benefits such as knowledge sharing, team awareness, and collaboration. Problem. In practice, code reviews can experience significant delays to be completed due to various socio-technical factors which can affect the project quality and cost. For a successful review process, peer reviewers should perform their review tasks in a timely manner while providing relevant feedback about the code change being reviewed. However, there is a lack of tool support to help developers estimating the time required to complete a code review prior to accepting or declining a review request. Objective. Our objective is to build and validate an effective approach to predict the code review completion time in the context of MCR and help developers better manage and prioritize their code review tasks. Method. We formulate the prediction of the code review completion time as a learning problem. In particular, we propose a framework based on regression models to (i) effectively estimate the code review completion time, and (ii) understand the main factors influencing code review completion time.",
     "doi": "10.26226/morressier.613b5419842293c031b5b63c",
-    "url": "https://doi.org/10.26226/morressier.613b5419842293c031b5b63c",
     "publisher": "Morressier",
     "openalexId": "W3202585385",
     "arxivId": "2109.15141",
@@ -3984,7 +3981,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1007/s00500-020-05559-3",
-    "url": "https://doi.org/10.1007/s00500-020-05559-3",
     "volume": "25",
     "issue": "7",
     "pages": "5619-5632",
@@ -4024,7 +4020,6 @@
       "marouane-kessentini"
     ],
     "doi": "10.1109/icse-seip52600.2021.00044",
-    "url": "https://doi.org/10.1109/icse-seip52600.2021.00044",
     "pages": "348-357",
     "publisher": "IEEE",
     "openalexId": "W3128560401",
@@ -4050,12 +4045,10 @@
     "type": "conference",
     "venue": "GECCO Companion",
     "doi": "10.1145/3449726.3461425",
-    "url": "https://doi.org/10.1145/3449726.3461425",
     "personIds": [
       "ali-ouni",
       "mohamed-wiem-mkaouer"
     ],
-    "description": "tutorial Share on Search based software engineering: challenges, opportunities and recent applications Authors: Ali Ouni University of Quebec University of QuebecView Profile , Mohamed Wiem Mkaouer Rochester Institute of Technology Rochester Institute of TechnologyView Profile Authors Info & Claims GECCO '21: Proceedings of the Genetic and Evolutionary Computation Conference CompanionJuly 2021 Pages 1032–1063https://doi.org/10.1145/3449726.3461425Published:08 July 2021Publication History 0citation77DownloadsMetricsTotal Citations0Total Downloads77Last 12 Months39Last 6 weeks1 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my Alerts New Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteGet Access",
     "pages": "1032-1063",
     "publisher": "ACM",
     "openalexId": "W4206036967",
@@ -4129,7 +4122,6 @@
       "ali-ouni"
     ],
     "doi": "10.1016/j.jss.2020.110821",
-    "url": "https://doi.org/10.1016/j.jss.2020.110821",
     "volume": "171",
     "pages": "110821",
     "publisher": "Elsevier BV",
@@ -4166,7 +4158,6 @@
     ],
     "description": "It is good practice to name test methods such that they are comprehensible to developers; they must be written in such a way that their purpose and functionality are clear to those who will maintain them. Unfortunately, there is little automated support for writing or maintaining the names of test methods. This can lead to inconsistent and low-quality test names and increase the maintenance cost of supporting these methods. Due to this risk, it is essential to help developers in maintaining their test method names over time. In this paper, we use grammar patterns, and how they relate to test method behavior, to understand test naming practices. This data will be used to support an automated tool for maintaining test names.",
     "doi": "10.1109/icpc52881.2021.00039",
-    "url": "https://doi.org/10.1109/icpc52881.2021.00039",
     "pages": "335-346",
     "publisher": "IEEE",
     "openalexId": "W3173909186",
@@ -4202,7 +4193,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1016/j.asoc.2020.106908",
-    "url": "https://doi.org/10.1016/j.asoc.2020.106908",
     "volume": "100",
     "pages": "106908",
     "publisher": "Elsevier BV",
@@ -4245,7 +4235,9 @@
       "recurrent neural networks",
       "genetic mutations",
       "Xavier initialization"
-    ]
+    ],
+    "image": "/resources/thumbnails/lyu-2020-experimental.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "alomar-2020-exploratory",
@@ -4273,7 +4265,6 @@
       "christian-newman"
     ],
     "doi": "10.1007/978-3-030-64694-3_18",
-    "url": "https://doi.org/10.1007/978-3-030-64694-3_18",
     "pages": "292-303",
     "publisher": "Springer International Publishing",
     "openalexId": "W3107556511",
@@ -4309,7 +4300,6 @@
     ],
     "description": "An essential activity of software maintenance is the refactoring of source code. Refactoring operations enable developers to take necessary actions to correct bad programming practices (i.e., smells) in the source code of both production and test files. With unit testing being a vital and fundamental part of ensuring the quality of a system, developers must address smelly test code. In this paper, we empirically explore the impact and relationship between refactoring operations and test smells in 250 open-source Android applications (apps). Our experiments showed that the type of refactoring operations performed by developers on test files differ from those performed on non-test files. Further, results around test smells show a co-occurrence between certain smell types and refactorings, and how refactorings are utilized to eliminate smells. Findings from this study will not only further our knowledge of refactoring operations on test files, but will also help developers in understanding the possible ways on how to maintain their apps.",
     "doi": "10.1145/3387940.3392189",
-    "url": "https://doi.org/10.1145/3387940.3392189",
     "pages": "350-357",
     "publisher": "ACM",
     "openalexId": "W3088542276",
@@ -4320,7 +4310,9 @@
       "software maintenance",
       "test code quality",
       "open-source apps"
-    ]
+    ],
+    "image": "/resources/thumbnails/peruma-2020-exploratory.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "alizadeh-2020-interactive",
@@ -4338,7 +4330,6 @@
     "type": "article",
     "venue": "IEEE Trans. Software Eng.",
     "doi": "10.1109/tse.2018.2872711",
-    "url": "https://doi.org/10.1109/tse.2018.2872711",
     "personIds": [
       "marouane-kessentini",
       "mohamed-wiem-mkaouer",
@@ -4357,7 +4348,9 @@
       "NSGA-II",
       "multi-objective optimization",
       "developer feedback"
-    ]
+    ],
+    "image": "/resources/thumbnails/alizadeh-2020-interactive.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "chouchen-2020-androlib",
@@ -4377,7 +4370,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1007/978-3-030-64694-3_13",
-    "url": "https://doi.org/10.1007/978-3-030-64694-3_13",
     "pages": "208-225",
     "publisher": "Springer International Publishing",
     "openalexId": "W3108203541",
@@ -4409,7 +4401,6 @@
       "marouane-kessentini"
     ],
     "doi": "10.1007/s00500-019-04391-8",
-    "url": "https://doi.org/10.1007/s00500-019-04391-8",
     "volume": "24",
     "issue": "10",
     "pages": "7685-7714",
@@ -4438,7 +4429,6 @@
     "type": "article",
     "venue": "Appl. Artif. Intell.",
     "doi": "10.1080/08839514.2019.1691849",
-    "url": "https://doi.org/10.1080/08839514.2019.1691849",
     "personIds": [
       "mohamed-wiem-mkaouer"
     ],
@@ -4455,7 +4445,9 @@
       "feature extraction",
       "financial distress",
       "corporate insolvency"
-    ]
+    ],
+    "image": "/resources/thumbnails/soui-2020-bankruptcy.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "peruma-2020-contextualizing",
@@ -4515,7 +4507,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1007/978-3-030-64694-3_16",
-    "url": "https://doi.org/10.1007/978-3-030-64694-3_16",
     "pages": "261-276",
     "publisher": "Springer International Publishing",
     "openalexId": "W3109680928",
@@ -4554,7 +4545,6 @@
       "ali-ouni"
     ],
     "doi": "10.1007/978-3-030-64694-3_15",
-    "url": "https://doi.org/10.1007/978-3-030-64694-3_15",
     "pages": "245-260",
     "publisher": "Springer International Publishing",
     "openalexId": "W3114813405",
@@ -4617,7 +4607,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1016/j.knosys.2020.106201",
-    "url": "https://doi.org/10.1016/j.knosys.2020.106201",
     "volume": "204",
     "pages": "106201",
     "publisher": "Elsevier BV",
@@ -4652,7 +4641,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1016/j.asoc.2020.106667",
-    "url": "https://doi.org/10.1016/j.asoc.2020.106667",
     "volume": "95",
     "pages": "106667",
     "publisher": "Elsevier BV",
@@ -4688,7 +4676,6 @@
     ],
     "description": "The manual migration between different third-party libraries represents a challenge for software developers. Developers typically need to explore both libraries Application Programming Interfaces, along with reading their documentation, in order to locate the suitable mappings between replacing and replaced methods. In this paper, we introduce RAPIM, a novel machine learning approach that recommends mappings between methods from two different libraries. Our model learns from previous migrations, manually performed in mined software systems, and extracts a set of features related to the similarity between method signatures and method textual documentation. We evaluate our model using 8 popular migrations, collected from 57,447 open-source Java projects. Results show that RAPIM is able to recommend relevant library API mappings with an average accuracy score of 87%. Finally, we provide the community with an API recommendation web service that could be used to support the migration process.",
     "doi": "10.1016/j.asoc.2020.106140",
-    "url": "https://doi.org/10.1016/j.asoc.2020.106140",
     "volume": "90",
     "pages": "106140",
     "publisher": "Elsevier BV",
@@ -4721,7 +4708,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1109/issrew51248.2020.00034",
-    "url": "https://doi.org/10.1109/issrew51248.2020.00034",
     "description": "Commit messages are used in the industry by developers to annotate changes made to the code. Accurate classification of these messages can help monitor the software evolution process and enable better tracking for various industrial stakeholders. In this paper, we present a state of the art method for commit message classification into categories as per Swanson's maintenance activities i.e. “Corrective”, “Perfective”, and “Adaptive”. This is a challenging task because not all commit messages are well written and informative. Existing approaches rely on keyword-based techniques to solve this problem. However, these approaches are oblivious to the full language model and do not recognize the contextual relationship between words. State of the art methodology in Natural Language Processing (NLP), is to train a context-aware neural network (Transformer) on a very large data set that encompasses the entire language and then fine-tunes it for a specific task. In this way, the model can learn the language, pay attention to the context, and then transfer that knowledge for better performance at the specific task. We use an off-the-shelf neural network called DistilBERT and fine-tune it for commit message classification task. This step is non-trivial because programming languages and commit messages have unique keywords, jargon, and idioms. This paper presents our effort in training this model and constructing the data set for this task. We describe the rules used to construct the data set. We validate our approach on industrial projects from GitHub, such as Kubernetes, Linux, TensorFlow, Spark, TypeScript, and PyTorch. We were able to achieve 87% F1-score for the commit message classification task, which is an order of magnitude accurate than previous studies.",
     "pages": "37-42",
     "publisher": "IEEE",
@@ -4733,7 +4719,9 @@
       "fine-tuning",
       "software evolution",
       "training dataset construction"
-    ]
+    ],
+    "image": "/resources/thumbnails/sarwar-2020-multi.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "almarimi-2020-detection",
@@ -4757,7 +4745,6 @@
     ],
     "description": "Community smells are symptoms of organizational and social issues within the software development community that often increase the project costs and impact software quality. Recent studies have identified a variety of community smells and defined them as suboptimal patterns connected to organizational-social structures in the software development community such as the lack of communication, coordination and collaboration. Recognizing the advantages of the early detection of potential community smells in a software project, we introduce a novel approach that learns from various community organizational and social practices to provide an automated support for detecting community smells. In particular, our approach learns from a set of interleaving organizational-social symptoms that characterize the existence of community smell instances in a software project. We build a multi-label learning model to detect 8 common types of community smells. We use the ensemble classifier chain (ECC) model that transforms multi-label problems into several single-label problems which are solved using genetic programming (GP) to find the optimal detection rules for each smell type. To evaluate the performance of our approach, we conducted an empirical study on a benchmark of 103 open source projects and 407 community smell instances. The statistical tests of our results show that our approach can detect the eight considered smell types with an average F-measure of 89% achieving a better performance compared to different state-of-the-art techniques. Furthermore, we found that the most influential factors that best characterize community smells include the social network density and closeness centrality as well as the standard deviation of the number of developers per time zone and per community.",
     "doi": "10.1145/3372787.3390439",
-    "url": "https://doi.org/10.1145/3372787.3390439",
     "pages": "43-54",
     "publisher": "ACM",
     "openalexId": "W3088322718",
@@ -4768,7 +4755,9 @@
       "multi-label classification",
       "genetic programming",
       "social network analysis"
-    ]
+    ],
+    "image": "/resources/thumbnails/almarimi-2020-detection.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "bessghaier-2020-diffusion",
@@ -4787,7 +4776,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1007/978-3-030-59592-0_5",
-    "url": "https://doi.org/10.1007/978-3-030-59592-0_5",
     "pages": "67-84",
     "publisher": "Springer International Publishing",
     "openalexId": "W3085618411",
@@ -4823,7 +4811,6 @@
     ],
     "description": "Identifiers make up a majority of the text in code. They are one of the most basic mediums through which developers describe the code they create and understand the code that others create. Therefore, understanding the patterns latent in identifier naming practices and how accurately we are able to automatically model these patterns is vital if researchers are to support developers and automated analysis approaches in comprehending and creating identifiers correctly and optimally. This paper investigates identifiers by studying sequences of part-of-speech annotations, referred to as grammar patterns. This work advances our understanding of these patterns and our ability to model them by 1) establishing common naming patterns in different types of identifiers, such as class and attribute names; 2) analyzing how different patterns influence comprehension; and 3) studying the accuracy of state-of-the-art techniques for part-of-speech annotations, which are vital in automatically modeling identifier naming patterns, in order to establish their limits and paths toward improvement. To do this, we manually annotate a dataset of 1,335 identifiers from 20 open-source systems and use this dataset to study naming patterns, semantics, and tagger accuracy.",
     "doi": "10.1016/j.jss.2020.110740",
-    "url": "https://doi.org/10.1016/j.jss.2020.110740",
     "volume": "170",
     "pages": "110740",
     "publisher": "Elsevier BV",
@@ -4836,7 +4823,9 @@
       "program comprehension",
       "class names",
       "named entity recognition"
-    ]
+    ],
+    "image": "/resources/thumbnails/newman-2020-generation.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "saidani-2020-prediction",
@@ -4916,7 +4905,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1016/j.infsof.2020.106392",
-    "url": "https://doi.org/10.1016/j.infsof.2020.106392",
     "volume": "128",
     "pages": "106392",
     "publisher": "Elsevier BV",
@@ -4954,7 +4942,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1145/3377929.3390057",
-    "url": "https://doi.org/10.1145/3377929.3390057",
     "pages": "307-308",
     "publisher": "ACM",
     "openalexId": "W3046227412",
@@ -4994,7 +4981,6 @@
     ],
     "description": "The test code, just like production source code, is subject to bad design and programming practices, also known as smells. The presence of test smells in a software project may affect the quality, maintainability, and extendability of test suites making them less effective in finding potential faults and quality issues in the project’s production code. In this paper, we introduce tsDetect, an automated test smell detection tool for Java software systems that uses a set of detection rules to locate existing test smells in test code. We evaluate the effectiveness of tsDetect on a benchmark of 65 unit test files containing instances of 19 test smell types. Results show that tsDetect achieves a high detection accuracy with an average precision score of 96% and an average recall score of 97%. tsDetect is publicly available, with a demo video, at: https://testsmells.github.io/",
     "doi": "10.1145/3368089.3417921",
-    "url": "https://doi.org/10.1145/3368089.3417921",
     "pages": "1650-1654",
     "publisher": "ACM",
     "openalexId": "W3106077701",
@@ -5024,7 +5010,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1007/978-3-030-59618-7_8",
-    "url": "https://doi.org/10.1007/978-3-030-59618-7_8",
     "pages": "114-132",
     "publisher": "Springer International Publishing",
     "openalexId": "W3089741582",
@@ -5054,7 +5039,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1007/978-3-030-29551-6_71",
-    "url": "https://doi.org/10.1007/978-3-030-29551-6_71",
     "pages": "805-816",
     "publisher": "Springer International Publishing",
     "openalexId": "W2969589564",
@@ -5085,7 +5069,6 @@
       "ali-ouni"
     ],
     "doi": "10.1109/iwor.2019.00017",
-    "url": "https://doi.org/10.1109/iwor.2019.00017",
     "pages": "51-58",
     "publisher": "IEEE",
     "openalexId": "W2954560898",
@@ -5148,7 +5131,6 @@
     ],
     "description": "Identifier names are the atoms of comprehension; weak identifier names decrease productivity by increasing the chance that developers make mistakes and increasing the time taken to understand chunks of code. Therefore, it is vital to support developers in naming, and renaming, identifiers. In this paper, we study how terms in an identifier change during the application of rename refactorings and contextualize these changes using co-occurring refactorings and commit messages. The goal of this work is to understand how different development activities affect the type of changes applied to names during a rename. Results of this study can help researchers understand more about developers' naming habits and support developers in determining when to rename and what words to use.",
     "doi": "10.1109/scam.2019.00017",
-    "url": "https://doi.org/10.1109/scam.2019.00017",
     "pages": "74-85",
     "publisher": "IEEE",
     "openalexId": "W2995039663",
@@ -5158,7 +5140,9 @@
       "commit messages",
       "program comprehension",
       "developer productivity"
-    ]
+    ],
+    "image": "/resources/thumbnails/peruma-2019-contextualizing.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "alomar-2019-design",
@@ -5190,7 +5174,9 @@
       "software quality attributes",
       "open-source Java projects",
       "software maintenance"
-    ]
+    ],
+    "image": "/resources/thumbnails/alomar-2019-design.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "safdari-2019-learning",
@@ -5216,14 +5202,15 @@
     ],
     "description": "With the rise of autonomous systems, the automation of faults detection and localization becomes critical to their reliability. An automated strategy that can provide a ranked list of faulty modules or files with respect to how likely they contain the root cause of the problem would help in the automation bug localization. Learning from the history if previously located bugs in general, and extracting the dependencies between these bugs in particular, helps in building models to accurately localize any potentially detected bugs. In this study, we propose a novel fault localization solution based on a learning-to-rank strategy, using the history of previously localized bugs and their dependencies as features, to rank files in terms of their likelihood of being a root cause of a bug. The evaluation of our approach has shown its efficiency in localizing dependent bugs.",
     "doi": "10.1117/12.2519226",
-    "url": "https://doi.org/10.1117/12.2519226",
     "pages": "10",
     "publisher": "SPIE",
     "openalexId": "W2945351762",
     "keywords": [
       "bug localization",
       "learning to rank"
-    ]
+    ],
+    "image": "/resources/thumbnails/safdari-2019-learning.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "alrubaye-2019-migrationminer",
@@ -5246,7 +5233,6 @@
     ],
     "description": "In this paper we introduce, MigrationMiner, an automated tool that detects code migrations performed between Java third-party library. Given a list of open source projects, the tool detects potential library migration code changes and collects the specific code fragments in which the developer replaces methods from the retired library with methods from the new library. To support the migration process, MigrationMiner collects the library documentation that is associated with every method involved in the migration. We evaluate our tool on a benchmark of manually validated library migrations. Results show that MigrationMiner achieves an accuracy of 100%. A demo video of Migration-Miner is available at https://youtu.be/sAlR1HNetXc.",
     "doi": "10.1109/icsme.2019.00072",
-    "url": "https://doi.org/10.1109/icsme.2019.00072",
     "pages": "414-417",
     "publisher": "IEEE",
     "openalexId": "W2955818766",
@@ -5278,7 +5264,6 @@
     ],
     "description": "In this paper, we present a multi-label active learning-based approach to handle the problem of classification of commit messages. The approach will help developers track software changes, e.g., adding or updating existing features, fixing user-reported errors, improving software performance, etc. We first constructed an unlabeled dataset of commit messages where each commit message is represented as a vector of feature values. The set of adopted features were automatically generated from the original commit messages using Term Frequency-Inverse Document Frequency (TFIDF) technique. Because many commit messages can be assigned more than one commit class at the same time and in order to reduce the effort needed to assign labels to each instance in a large set of commit messages, we adopted an Active Learning multi-label approach. Experimentations have shown that we could train an accurate multi-label classifier model, in our case, a binary relevance with logistic regression as a base classifier, by actively querying an oracle for labels during the training process and with a reasonable number of labeled instances.",
     "doi": "10.1145/3297280.3297452",
-    "url": "https://doi.org/10.1145/3297280.3297452",
     "pages": "1760-1767",
     "publisher": "ACM",
     "openalexId": "W2943600473",
@@ -5310,7 +5295,6 @@
       "mohamed-wiem-mkaouer",
       "ali-ouni"
     ],
-    "description": "The data generated by our tools have been made available on our website. In-addition to the test smells exhibited by the projects, the dataset also includes details on the project's commits, releases and issues. As our research involved the analysis of Android and traditional Java projects, we have split our dataset into two, one for each category. Each dataset is in the format of a SQLite database file. Also made available are the unit test files used in the precision and recall experiment of our study. The datasets are available for download from here: https://drive.google.com/drive/folders/1vVeaNCCXUNI3TisQRb2AZAwabVKkF_wS?usp=sharing testsmells_android.sqlite contains the data related to Android projects. testsmells_java.sqlite contains the data related to traditional Java projects. ManualVerification.zip contains the unit test files used by participants to test the accuracy of the tool. developer_survey.xlsx contains details about the developer survey. Listed below are details of the tables in the dataset: testsmells_android.sqlite Table Name Description git_commit_log The git log for each project git_commit_files The files and actions associated with each commit git_tag The tags associated with each project github_metadata Repository details of each project. Obtained from GitHub. github_release Details of all project releases. Obtained from GitHub. github_issue Details of all project issues. Obtained from GitHub. github_issue_label The label associated with each issue github_issue_commit The commits associated with each issue tool_testfile_history Detected Junit test files tool_testfilemapping_history Mapping of test and production files tool_testsmell_history The type of test smells detected on each unit test file debt_testfile_history Comments containing SATD in test files apps The git clone url for the apps fdroid Fdroid details for the app google_play Google Play details for the app FirstSmell_CommitPosition The commit when the first test smell occurs SmellCooccurrence Co-occurrence of smell types TestFileSmellEvolution The smell trend for each test file Listed below are details of the tables in the dataset: testsmells_java.sqlite Table Name Description git_commit_log The git log for each project git_commit_files The files and actions associated with each commit git_tag The tags associated with each project github_metadata Repository details of each project. Obtained from GitHub. github_release Details of all project releases. Obtained from GitHub. github_issue Details of all project issues. Obtained from GitHub. github_issue_label The label associated with each issue github_issue_commit The commits associated with each issue tool_testfile_history Detected Junit test files tool_testfilemapping_history Mapping of test and production files tool_testsmell_history The type of test smells detected on each unit test file debt_comment_history Comments containing SATD in test files",
     "openalexId": "W2997945246",
     "keywords": [
       "test smells",
@@ -5344,7 +5328,6 @@
       "marouane-kessentini"
     ],
     "doi": "10.1109/esem.2019.8870177",
-    "url": "https://doi.org/10.1109/esem.2019.8870177",
     "pages": "1-11",
     "publisher": "IEEE",
     "openalexId": "W2960587195",
@@ -5379,7 +5362,6 @@
     ],
     "description": "The migration process between different third-party libraries is hard, complex and error-prone. Typically, during a library migration, developers need to find methods in the new library that are most adequate in replacing the old methods of the retired library. This process is subjective and time-consuming as developers need to fully understand the documentation of both libraries' Application Programming Interfaces, and find the right matching between their methods, if it exists. In this context, several studies rely on mining existing library migrations to provide developers with by-example approaches for similar scenarios. In this paper, we introduce a novel mining approach that extracts existing instances of library method replacements that are manually performed by developers for a given library migration to automatically generate migration patterns in the method level. Thereafter, our approach combines the mined method-change patterns with method-related lexical similarity to accurately detect mappings between replacing/replaced methods. We conduct a large scale empirical study to evaluate our approach on a benchmark of 57,447 open-source Java projects leading to 9 popular library migrations. Our qualitative results indicate that our approach significantly increases the accuracy of mining method-level mappings by an average accuracy of 12%, as well as increasing the number of discovered method mappings, in comparison with existing state-of-the-art studies. Finally, we provide the community with an open source mining tool along with a dataset of all mined migrations at the method level.",
     "doi": "10.1109/icpc.2019.00053",
-    "url": "https://doi.org/10.1109/icpc.2019.00053",
     "pages": "347-357",
     "publisher": "IEEE",
     "openalexId": "W2948724728",
@@ -5415,7 +5397,6 @@
     ],
     "description": "Performance regression testing is highly expensive as it delays system development when optimally conducted after each code change. Therefore, it is important to prioritize the schedule of performance tests by executing them only when a newly committed change is most likely to introduce performance regression. This paper introduces a novel formulation of the detection of performance regression introducing code changes as an optimization problem. Static and dynamic metrics are combined to generate a detection rule, which is being optimized in terms of its ability to flag problematic code changes, and avoid false positives. We evaluated our approach using performance issues, extracted from the Git project. Results show the effectiveness of our approach in accurately detecting performance regression introducing code changes compared with state-of-the-art techniques. Moreover, our suggested detection rules were found to be robust to the software changes over time, which reduces the overhead of updating them frequently.",
     "doi": "10.1007/978-3-030-27455-9_6",
-    "url": "https://doi.org/10.1007/978-3-030-27455-9_6",
     "pages": "75-88",
     "publisher": "Springer International Publishing",
     "openalexId": "W2969777417",
@@ -5442,7 +5423,6 @@
     "type": "conference",
     "venue": "ICSOC",
     "doi": "10.1007/978-3-030-33702-5_5",
-    "url": "https://doi.org/10.1007/978-3-030-33702-5_5",
     "personIds": [
       "islem-saidani",
       "ali-ouni",
@@ -5497,7 +5477,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1016/j.asoc.2019.105830",
-    "url": "https://doi.org/10.1016/j.asoc.2019.105830",
     "volume": "85",
     "pages": "105830",
     "publisher": "Elsevier BV",
@@ -5530,7 +5509,6 @@
     ],
     "description": "Although there is much research advancing state-of-art of program transformation tools, their application in industry source code change problems has not yet been gauged. In this context, the purpose of this paper is to better understand developer familiarity and comfort with these languages by conducting a survey. It poses, and answers, four research questions to understand how frequently source code transformation languages are applied to refactoring tasks, how well-known these languages are in industry, what developers think are obstacles to adoption, and what developer refactoring habits tell us about their current use, or underuse, of transformation languages. The results show that while source code transformation languages can fill a needed niche in refactoring, research must motivate their application. We provide explanations and insights based on data, aimed at the program transformation and refactoring communities, with a goal to motivate future research and ultimately improve industry adoption of transformation languages for refactoring tasks.",
     "doi": "10.1145/3242163.3242170",
-    "url": "https://doi.org/10.1145/3242163.3242170",
     "pages": "34-41",
     "publisher": "ACM",
     "openalexId": "W2888625345",
@@ -5539,7 +5517,9 @@
       "developer perceptions",
       "industrial adoption",
       "code editing"
-    ]
+    ],
+    "image": "/resources/thumbnails/newman-2018-study.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "peruma-2018-empirical",
@@ -5561,7 +5541,6 @@
     ],
     "description": "Renaming is vital to software maintenance and evolution. Developers rename entities when their original names no longer fit their behavioral role within the program. This may happen if the entity's original name was of poor quality or if the system has evolved such that the original name needs to be updated to reflect some of this evolution. In the end, the reason for the rename ultimately falls under increasing understandability and comprehension. Because comprehension is so important, and identifiers are the primary way developers comprehend code, it is critical to understand empirically how and why identifier names evolve. Armed with an understanding of these two facets of identifier evolution, researchers will be able to train algorithms to recognize, recommend, or even automatically generate high-quality identifier names. We present an empirical study of how method, class and package identifier names evolve to better understand the motives of their evolution. The empirical validation involves a set of 524,113 rename refactorings, performed on 3,795 Java systems. In a nutshell, our findings demonstrate that most rename refactorings narrow the meaning of the identifiers for which they are applied. Further, we analyze commit messages to contextualize these renames.",
     "doi": "10.1145/3242163.3242169",
-    "url": "https://doi.org/10.1145/3242163.3242169",
     "pages": "26-33",
     "publisher": "ACM",
     "openalexId": "W2888547534",
@@ -5572,7 +5551,9 @@
       "method names",
       "class names",
       "commit messages"
-    ]
+    ],
+    "image": "/resources/thumbnails/peruma-2018-empirical.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "alrubaye-2018-automating",
@@ -5595,7 +5576,9 @@
       "Java library",
       "word similarity",
       "API changes"
-    ]
+    ],
+    "image": "/resources/thumbnails/alrubaye-2018-automating.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "mkaouer-2017-robust",
@@ -5619,7 +5602,6 @@
       "marouane-kessentini"
     ],
     "doi": "10.1007/s10664-016-9426-8",
-    "url": "https://doi.org/10.1007/s10664-016-9426-8",
     "volume": "22",
     "issue": "2",
     "pages": "894-927",
@@ -5654,7 +5636,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1109/mobilesoft.2017.35",
-    "url": "https://doi.org/10.1109/mobilesoft.2017.35",
     "pages": "213-214",
     "publisher": "IEEE",
     "openalexId": "W2735337113",
@@ -5688,7 +5669,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1109/mobilesoft.2017.23",
-    "url": "https://doi.org/10.1109/mobilesoft.2017.23",
     "pages": "217-218",
     "publisher": "IEEE",
     "openalexId": "W2734415351",
@@ -5752,7 +5732,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1109/mobilesoft.2017.24",
-    "url": "https://doi.org/10.1109/mobilesoft.2017.24",
     "pages": "219-220",
     "publisher": "IEEE",
     "openalexId": "W2736244653",
@@ -5783,7 +5762,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.5220/0006171201270136",
-    "url": "https://doi.org/10.5220/0006171201270136",
     "pages": "127-136",
     "publisher": "SCITEPRESS - Science and Technology Publications",
     "openalexId": "W2592297027",
@@ -5818,7 +5796,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1109/tse.2017.2716950",
-    "url": "https://doi.org/10.1109/tse.2017.2716950",
     "volume": "44",
     "issue": "9",
     "pages": "897-913",
@@ -5853,7 +5830,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1109/mobilesoft.2017.5",
-    "url": "https://doi.org/10.1109/mobilesoft.2017.5",
     "pages": "165-169",
     "publisher": "IEEE",
     "openalexId": "W2735790335",
@@ -5884,7 +5860,6 @@
       "mohamed-wiem-mkaouer"
     ],
     "doi": "10.1007/978-3-319-47106-8_24",
-    "url": "https://doi.org/10.1007/978-3-319-47106-8_24",
     "pages": "281-287",
     "publisher": "Springer International Publishing",
     "openalexId": "W2522580941",
@@ -5915,7 +5890,6 @@
       "marouane-kessentini"
     ],
     "doi": "10.1007/s10664-015-9414-4",
-    "url": "https://doi.org/10.1007/s10664-015-9414-4",
     "volume": "21",
     "issue": "6",
     "pages": "2503-2545",
@@ -5952,7 +5926,6 @@
       "ali-ouni"
     ],
     "doi": "10.1145/2970276.2970344",
-    "url": "https://doi.org/10.1145/2970276.2970344",
     "pages": "286-295",
     "publisher": "ACM",
     "openalexId": "W2513235427",
@@ -6011,7 +5984,6 @@
       "ali-ouni"
     ],
     "doi": "10.1145/2729974",
-    "url": "https://doi.org/10.1145/2729974",
     "volume": "24",
     "issue": "3",
     "pages": "1-45",
@@ -6049,7 +6021,6 @@
       "marouane-kessentini"
     ],
     "doi": "10.1007/978-3-319-09940-8_12",
-    "url": "https://doi.org/10.1007/978-3-319-09940-8_12",
     "pages": "168-183",
     "publisher": "Springer International Publishing",
     "openalexId": "W162631536",
@@ -6114,7 +6085,6 @@
       "marouane-kessentini"
     ],
     "doi": "10.1016/B978-0-12-420232-0.00004-0",
-    "url": "https://doi.org/10.1016/B978-0-12-420232-0.00004-0",
     "pages": "161-202",
     "publisher": "Elsevier",
     "openalexId": "W211908175",
@@ -6150,7 +6120,6 @@
       "marouane-kessentini"
     ],
     "doi": "10.1145/2642937.2642965",
-    "url": "https://doi.org/10.1145/2642937.2642965",
     "pages": "331-336",
     "publisher": "ACM",
     "openalexId": "W2170344504",
@@ -6192,7 +6161,9 @@
       "robustness",
       "multi-objective optimization",
       "NSGA-II"
-    ]
+    ],
+    "image": "/resources/thumbnails/mkaouer-2014-software.jpg",
+    "imageSource": "generated"
   },
   {
     "id": "mkaouer-2013-preference",
@@ -6214,7 +6185,6 @@
       "marouane-kessentini"
     ],
     "doi": "10.1109/cmsbse.2013.6605712",
-    "url": "https://doi.org/10.1109/cmsbse.2013.6605712",
     "description": "In this paper, we propose the use of preference-based evolutionary multi-objective optimization techniques (P-EMO) to address various software modelling challenges. P-EMO allows the incorporation of decision maker (i.e., designer) preferences (e.g., quality, correctness, etc.) in multi-objective optimization techniques by restricting the Pareto front to a region of interest easing the decision making task. We discuss the different challenges and potential benefits of P-EMO in software modelling. We report experiments on the use of P-EMO on a well-known modeling problem where very promising results are obtained.",
     "pages": "61-66",
     "publisher": "IEEE",
