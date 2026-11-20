@@ -1,5 +1,6 @@
 import NewsList from '@/components/news-list';
 import Link from 'next/link';
+import Script from 'next/script';
 import { notFound } from 'next/navigation';
 import ReactMarkdown from 'react-markdown';
 import { papers, safeUrl, awards, projects, news } from '@/lib/content';
@@ -33,6 +34,7 @@ export default async function Publication({ params }) {
   const { id } = await params;
   const p = papers.find((p) => p.id === id);
   if (!p) notFound();
+  const bareDoi = p.doi ? p.doi.replace(/^https?:\/\/(dx\.)?doi\.org\//, '') : '';
   const doi = p.doi ? (/^https?:\/\//.test(p.doi) ? p.doi : `https://doi.org/${p.doi}`) : '';
   const updates = relatedNews(news, 'publicationIds', p.id, { awards, projects });
   return (
@@ -71,6 +73,18 @@ export default async function Publication({ params }) {
           {safeUrl(p.code) && <a href={safeUrl(p.code)}>Code</a>}
           {safeUrl(p.url) && <a href={safeUrl(p.url)}>Website</a>}
         </div>
+        {bareDoi && !/^10\.48550\//.test(bareDoi) && (
+          <>
+            <span
+              className="__dimensions_badge_embed__ paper-badge"
+              data-doi={bareDoi}
+              data-style="small_rectangle"
+              data-legend="always"
+              data-hide-zero-citations="true"
+            />
+            <Script src="https://badge.dimensions.ai/badge.js" strategy="afterInteractive" />
+          </>
+        )}
       </header>
       {p.image && (
         <figure className="graphical-abstract">
