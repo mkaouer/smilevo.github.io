@@ -588,6 +588,27 @@ footer {
   background: var(--wash);
   padding: 22px;
 }
+.graphical-abstract {
+  margin: 30px auto;
+  background: var(--wash);
+  padding: 22px;
+}
+.graphical-abstract img {
+  display: block;
+  max-height: 420px;
+  width: 100%;
+  object-fit: contain;
+}
+.graphical-abstract figcaption {
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--muted, #555);
+  text-align: center;
+}
+.paper-citation {
+  font-size: 14px;
+  opacity: 0.8;
+}
 .back-link {
   font-size: 13px;
   color: var(--purple);
