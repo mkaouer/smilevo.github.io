@@ -32,7 +32,9 @@
       "prompt engineering"
     ],
     "image": "/resources/thumbnails/draoui-2026-improving.jpg",
-    "imageSource": "generated"
+    "imageSource": "paper",
+    "pdf": "/resources/pubpdfs/draoui-2026-improving.pdf",
+    "imageCaption": "Approach overview."
   },
   {
     "id": "sambaturu-2026-enhancing",
@@ -256,7 +258,9 @@
       "open source software"
     ],
     "image": "/resources/thumbnails/khalifa-2026-explainable.jpg",
-    "imageSource": "generated"
+    "imageSource": "paper",
+    "pdf": "/resources/pubpdfs/khalifa-2026-explainable.pdf",
+    "imageCaption": "Sketch of the proposed KG-RAG framework."
   },
   {
     "id": "draoui-2026-data",
@@ -287,7 +291,12 @@
       "data preprocessing",
       "categorical encoding",
       "imputation"
-    ]
+    ],
+    "pdf": "/resources/pubpdfs/draoui-2026-data.pdf",
+    "image": "/resources/thumbnails/draoui-2026-data.jpg",
+    "imageSource": "paper",
+    "imageCaption": "Leakage detection approach overview.",
+    "description": "Context. Data leakage is a well-recognized threat to the validity of machine learning evaluations. Prior work has proposed concep- tual taxonomies that describe leakage at a high level of abstraction, while code-level detection approaches typically operationalize leakage using coarse-grained or binary labels. As a result, how leakage concretely manifests within real-world machine learn- ing pipelines, and how abstract leakage notions map to code-level practices, remains insufficiently understood. Objectives. This study aims to characterize how data leakage manifests in practice within real-world machine learning pipelines and to assess how effectively existing detection techniques capture these concrete manifestations. Methods. We curate a corpus of over 600 pub- licly available Jupyter notebooks from GitHub and Kaggle and perform fine-grained manual annotation at the level of individual training–evaluation instances, referred to as model pairs. Based on this annotation, we derive an empirically grounded, code-centric categorization of leakage manifestations tied to concrete preprocessing operations and data-flow structures within pipeline archi- tectures. We further evaluate a learning-based leakage detector built on data dependency graphs against a state-of-the-art static analysis approach across the identified leakage categories. Results. Our analysis shows that data leakage is concentrated around common preprocessing operations, including categorical encoding, imputation, feature scaling, and text vectorization. We iden- tify three distinct forms of preprocessing leakage—statistical, target-based, and feature-space leakage—the latter emerging as a pervasive yet under-characterized phenomenon. Detection results reveal complementary strengths and limitations: static analysis achieves higher recall through aggressive rule application, while the learning-based approach attains higher precision and detects leakage patterns not explicitly modeled by rules. Conclusion. Data leakage in real-world machine learning pipelines primarily arises from recurring preprocessing and data-handling decisions rather than rare implementation errors. A code-centric analysis helps bridge the gap between abstract leakage taxonomies and coarse-grained detection, providing clearer insight into how leakage emerges within pipeline architectures in practice."
   },
   {
     "id": "venkatakrishnan-2026-libshift",
@@ -375,7 +384,12 @@
       "software dependency management",
       "Python library",
       "open source software"
-    ]
+    ],
+    "pdf": "/resources/pubpdfs/khalifa-2026-lark.pdf",
+    "image": "/resources/thumbnails/khalifa-2026-lark.jpg",
+    "imageSource": "paper",
+    "imageCaption": "Sketch of the proposed KG-RAG framework.",
+    "description": "Context: Software systems increasingly rely on large ecosystems of libraries, frameworks, and platforms. While this interconnectedness accelerates develop- ment, it also gives rise to the persistent challenge of software license incompat- ibility. Rapid evolution of dependencies, heterogeneous execution environments, and the risk of deprecated or inconsistent APIs can lead to hidden costs, de- graded reliability, and even security vulnerabilities. Objective: Such licence incompatibilities often emerge late in the development lifecycle, where they are more difficult and costly to address. Detecting incompatibilities at early stages is therefore essential for ensuring robustness and sustainability. Method: In this paper, we introduce a novel approach that integrates Knowledge Graphs (KGs) with Large Language Models (LLMs) through a Retrieval-Augmented Generation (RAG) mechanism, enabling the automated detection of potential license incompatibilities and providing context-rich, citation-backed explana- tions. Results: On a dataset of 4,000 open-source and 100 proprietary Python projects, our method achieves 98.1% license detection accuracy, a 96.2% com- patibility F1 score, and considerably enhanced explainability relative to existing approaches. Conclusion: We expect that the proposed system, named LARK, will help mitigate legal risks and deliver a practical, scalable solution for detecting software license incompatibilities."
   },
   {
     "id": "bessghaier-2026-searchbased",
