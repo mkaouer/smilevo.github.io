@@ -1473,3 +1473,48 @@ h2 + .news-item {
     grid-template-columns: 1fr;
   }
 }
+
+/* Cookie consent */
+.cookie-banner {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  max-width: 560px;
+  margin-left: auto;
+  z-index: 50;
+  background: #fff;
+  border: 1px solid var(--line, #ddd);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  padding: 18px 20px;
+  font-size: 14px;
+}
+.cookie-banner p {
+  margin: 0 0 14px;
+}
+.cookie-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.cookie-banner button {
+  font: inherit;
+  padding: 8px 18px;
+  border: 1px solid var(--purple);
+  background: #fff;
+  color: var(--purple);
+  cursor: pointer;
+}
+.cookie-banner button.primary {
+  background: var(--purple);
+  color: #fff;
+}
+.cookie-settings {
+  font: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}

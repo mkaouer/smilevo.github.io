@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Script from 'next/script';
 import { site, projects, gallery } from '@/lib/content';
+import CookieConsent, { CookieSettingsButton } from '@/components/cookie-consent';
 import Navigation from '@/components/navigation';
 import './globals.css';
 export const metadata = {
@@ -24,7 +25,10 @@ export default function RootLayout({ children }) {
               strategy="afterInteractive"
             />
             <Script id="ga4" strategy="afterInteractive">
-              {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');`}
+              {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+var c='denied';try{c=localStorage.getItem('cookie-consent')==='granted'?'granted':'denied';}catch(e){}
+gtag('consent','default',{analytics_storage:c,ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+gtag('js',new Date());gtag('config','${GA_ID}');`}
             </Script>
           </>
         )}
@@ -58,8 +62,10 @@ export default function RootLayout({ children }) {
               </a>{' '}
               at the <a href="https://umflint.edu/">University of Michigan-Flint</a>.
             </div>
+            <CookieSettingsButton />
           </footer>
         </div>
+        <CookieConsent />
       </body>
     </html>
   );
