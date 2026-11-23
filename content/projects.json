@@ -174,7 +174,8 @@
       "draoui-2026-data",
       "draoui-2026-improving"
     ],
-    "summary": "How test-data leakage appears in real machine learning notebooks, and how to detect it."
+    "summary": "How test-data leakage appears in real machine learning notebooks, and how to detect it.",
+    "image": "/resources/thumbnails/draoui-2026-improving.jpg"
   },
   {
     "id": "agentic-software-engineering",
@@ -192,6 +193,7 @@
       "masmoudi-2026-preliminary",
       "sambaturu-2026-enhancing"
     ],
-    "summary": "How AI coding agents work in real repositories, and agentic frameworks that support developers."
+    "summary": "How AI coding agents work in real repositories, and agentic frameworks that support developers.",
+    "image": "/resources/thumbnails/masmoudi-2026-preliminary.jpg"
   }
 ]
