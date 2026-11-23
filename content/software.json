@@ -1,0 +1,154 @@
+[
+  {
+    "id": "mkaouer",
+    "login": "mkaouer",
+    "name": "Mohamed Wiem Mkaouer",
+    "personId": "mohamed-wiem-mkaouer",
+    "url": "https://github.com/mkaouer",
+    "description": "Research tools and datasets from my group and earlier work.",
+    "repos": [
+      {
+        "name": "Code-Smells-Detection-in-JavaScript",
+        "description": "Tools and datasets for detecting code smells in JavaScript.",
+        "language": "C++",
+        "stars": 9,
+        "url": "https://github.com/mkaouer/Code-Smells-Detection-in-JavaScript"
+      },
+      {
+        "name": "AdaptiveSystems",
+        "description": "Adaptive systems optimization heuristics.",
+        "stars": 2,
+        "url": "https://github.com/mkaouer/AdaptiveSystems"
+      },
+      {
+        "name": "PLAIN",
+        "description": "PLugin for predicting the usAbility of mobile User INterface.",
+        "language": "Java",
+        "stars": 2,
+        "url": "https://github.com/mkaouer/PLAIN"
+      },
+      {
+        "name": "SVNDownloader",
+        "description": "A small tool to download SVN projects without installing any software.",
+        "stars": 1,
+        "url": "https://github.com/mkaouer/SVNDownloader"
+      }
+    ]
+  },
+  {
+    "id": "hussien89aa",
+    "login": "hussien89aa",
+    "name": "Hussein Alrubaye",
+    "personId": "hussein-alrubaye",
+    "url": "https://github.com/hussien89aa",
+    "description": "Tutorials and code for Android, Kotlin, Python, iOS and interview preparation.",
+    "repos": [
+      {
+        "name": "AndroidTutorialForBeginners",
+        "description": "Step-by-step guide to building Android apps in Android Studio.",
+        "language": "Java",
+        "stars": 4600,
+        "url": "https://github.com/hussien89aa/AndroidTutorialForBeginners"
+      },
+      {
+        "name": "KotlinUdemy",
+        "description": "Kotlin projects, including games and apps such as a Pokémon game, a Twitter-style app and a notepad.",
+        "language": "Kotlin",
+        "stars": 2000,
+        "url": "https://github.com/hussien89aa/KotlinUdemy"
+      },
+      {
+        "name": "DataStructureAndAlgorithms",
+        "description": "Faster, lower-memory code for interview preparation.",
+        "language": "Java",
+        "stars": 904,
+        "url": "https://github.com/hussien89aa/DataStructureAndAlgorithms"
+      },
+      {
+        "name": "PythonTutorial",
+        "description": "Step-by-step guide to building Python apps.",
+        "language": "Python",
+        "stars": 764,
+        "url": "https://github.com/hussien89aa/PythonTutorial"
+      },
+      {
+        "name": "iOSAppDevelopment",
+        "description": "Step-by-step guide to building iOS apps with Swift.",
+        "language": "Swift",
+        "stars": 388,
+        "url": "https://github.com/hussien89aa/iOSAppDevelopment"
+      },
+      {
+        "name": "XamarinAndroidTutorial",
+        "description": "Step-by-step guide to building Android apps with C#.",
+        "language": "C#",
+        "stars": 185,
+        "url": "https://github.com/hussien89aa/XamarinAndroidTutorial"
+      }
+    ]
+  },
+  {
+    "id": "shehan",
+    "login": "shehan",
+    "name": "Anthony Peruma",
+    "personId": "anthony-peruma",
+    "url": "https://github.com/shehan",
+    "description": "Small tools and samples for Android and mining software repositories.",
+    "repos": [
+      {
+        "name": "fdroidMetadataExtractor",
+        "description": "Python script that extracts metadata from Android apps listed on F-Droid.",
+        "language": "Python",
+        "stars": 1,
+        "url": "https://github.com/shehan/fdroidMetadataExtractor"
+      },
+      {
+        "name": "SimpleTODO",
+        "description": "A simple native Android to-do app.",
+        "language": "Java",
+        "stars": 1,
+        "url": "https://github.com/shehan/SimpleTODO"
+      },
+      {
+        "name": "InterProcessCommunication-Sample",
+        "description": "Sample project demonstrating inter-process communication in C#.",
+        "language": "C#",
+        "stars": 1,
+        "url": "https://github.com/shehan/InterProcessCommunication-Sample"
+      }
+    ]
+  },
+  {
+    "id": "issue-labeler",
+    "login": "issue-labeler",
+    "name": "Issue-Labeler",
+    "url": "https://github.com/issue-labeler",
+    "description": "An ALBERT-based Jira plugin for issue classification, with its model and website.",
+    "repos": [
+      {
+        "name": "Issue-Labeler-Plugin",
+        "description": "The Jira plugin (JavaScript).",
+        "language": "JavaScript",
+        "url": "https://github.com/issue-labeler/Issue-Labeler-Plugin"
+      },
+      {
+        "name": "issue-labeler-model",
+        "description": "The issue classification model (Python).",
+        "language": "Python",
+        "url": "https://github.com/issue-labeler/issue-labeler-model"
+      },
+      {
+        "name": "issue-labeler-site",
+        "description": "The project website.",
+        "language": "CSS",
+        "url": "https://github.com/issue-labeler/issue-labeler-site"
+      },
+      {
+        "name": "Model-Design",
+        "description": "Notebooks on the model design.",
+        "language": "Jupyter Notebook",
+        "url": "https://github.com/issue-labeler/Model-Design"
+      }
+    ]
+  }
+]

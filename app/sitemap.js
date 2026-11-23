@@ -13,6 +13,7 @@ export default function sitemap() {
     '/teaching/',
     '/talks/',
     '/service/',
+    '/software/',
     '/resources/',
     '/join/',
     ...(projects.length || pageContent.research.trim() ? ['/research/'] : []),
