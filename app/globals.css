@@ -1428,3 +1428,48 @@ h2 + .news-item {
 .post-body h2 {
   margin-top: 1.8em;
 }
+
+/* Research projects */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 36px 32px;
+  margin: 24px 0 48px;
+}
+.project-card img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  background: var(--wash);
+}
+.project-card h3 {
+  margin: 12px 0 8px;
+}
+.project-card p {
+  font-size: 15px;
+  color: var(--muted);
+}
+.project-card .paper-links {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+}
+.software-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 22px;
+}
+.software-list h3 {
+  margin: 0 0 4px;
+  font-size: 19px;
+}
+.project .detail-image {
+  max-width: 100%;
+  margin: 0 0 24px;
+}
+@media (max-width: 700px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}

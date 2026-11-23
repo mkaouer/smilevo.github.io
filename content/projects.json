@@ -2,121 +2,196 @@
   {
     "id": "software-unit-test-smells",
     "title": "Software Unit Test Smells",
-    "description": "*Automated Software Engineering*\n\nUnit test code, just like regular/production source code, is subject to bad programming practices, known also as anti-patterns, defects and smells [1]. Smells, being symptoms of bad design or implementation decisions, has been proven to be responsible for decreasing the quality of software systems from various aspects, such as making it harder to understand, more complex to maintain, and more prone to errors and bugs [2]. Test smells are defined as bad programming practices in unit test code (such as how test cases are organized, implemented and interact with each other) that indicate potential design problems in the test source code [3], [4], [5], [6]. The objective of this project is to educate developers on the types of unit testing smells that developers typically introduce or encounter when writing unit tests. To this extent, this site provides definitions (along with examples) of unit test smells and an open-source tool to detect the different smell types in the source code.",
-    "url": "https://testsmells.org/",
+    "area": "Automated Software Engineering",
+    "description": "Unit test code, just like regular/production source code, is subject to bad programming practices, known also as anti-patterns, defects and smells. Smells, being symptoms of bad design or implementation decisions, has been proven to be responsible for decreasing the quality of software systems from various aspects, such as making it harder to understand, more complex to maintain, and more prone to errors and bugs. Test smells are defined as bad programming practices in unit test code (such as how test cases are organized, implemented and interact with each other) that indicate potential design problems in the test source code. The objective of this project is to educate developers on the types of unit testing smells that developers typically introduce or encounter when writing unit tests. To this extent, this site provides definitions (along with examples) of unit test smells and an open-source tool to detect the different smell types in the source code.",
     "image": "/resources/projects/ts-detect.png",
+    "url": "https://testsmells.org/",
+    "software": [
+      {
+        "name": "tsDetect",
+        "description": "An open-source tool that detects test smells in Java unit tests.",
+        "code": "https://github.com/TestSmells/TestSmellDetector"
+      }
+    ],
     "personIds": [
       "anthony-peruma",
       "mohamed-wiem-mkaouer",
       "wajdi-aljedaani",
       "ali-ouni"
-    ]
+    ],
+    "publicationIds": [
+      "gurramkonda-2025-vrtestsniffer",
+      "peruma-2024-insights",
+      "peruma-2024-rationale",
+      "aljedaani-2023-test",
+      "takebayashi-2023-exploratory",
+      "aljedaani-2021-test",
+      "peruma-2021-grammar",
+      "peruma-2020-exploratory",
+      "peruma-2020-tsdetect",
+      "peruma-2019-distribution"
+    ],
+    "summary": "Defining and detecting bad practices in unit test code, and teaching developers to avoid them."
   },
   {
     "id": "library-migration",
     "title": "Library Migration",
-    "description": "*Automated Software Engineering*\n\nModern software systems rely heavily on third-party library functionality as a mean to save time, reduce implementation costs, and increase their software quality when offering rich, robust and up-to-date features. However, as software systems evolve frequently, the need for better services and more secure, reliable and quality functionalities causes developers to often replace their old libraries with more recent ones. This process of replacing a library with a different one, while preserving the same functionality, is known as library migration . Learn more about evolution migration that happened over year of development. We track library migration in around 321k open source projects",
-    "url": "http://migrationlab.net",
+    "area": "Automated Software Engineering",
+    "description": "Modern software systems rely heavily on third-party library functionality as a mean to save time, reduce implementation costs, and increase their software quality when offering rich, robust and up-to-date features. However, as software systems evolve frequently, the need for better services and more secure, reliable and quality functionalities causes developers to often replace their old libraries with more recent ones. This process of replacing a library with a different one, while preserving the same functionality, is known as library migration. Learn more about evolution migration that happened over year of development. We track library migration in around 321k open source projects",
     "image": "/resources/projects/migration.png",
+    "url": "http://migrationlab.net",
+    "software": [
+      {
+        "name": "MigrationMiner",
+        "description": "Detects third-party library migrations in the history of Java projects.",
+        "code": "https://github.com/hussien89aa/MigrationMiner"
+      },
+      {
+        "name": "MigrationMapper",
+        "description": "Maps the API methods of a replaced library to those of its replacement.",
+        "code": "https://github.com/hussien89aa/MigrationMapper"
+      }
+    ],
     "personIds": [
       "hussein-alrubaye",
       "rana-alrubaye",
       "mohamed-wiem-mkaouer",
       "ali-ouni"
-    ]
+    ],
+    "publicationIds": [
+      "venkatakrishnan-2026-libshift",
+      "deshpande-2024-thirdparty",
+      "alexandre-2022-identification",
+      "deshpande-2022-searchbased",
+      "alrubaye-2020-does",
+      "alrubaye-2020-learning",
+      "chouchen-2020-androlib",
+      "alrubaye-2019-migrationminer",
+      "alrubaye-2019-use",
+      "alrubaye-2019-variability",
+      "alrubaye-2018-automating"
+    ],
+    "summary": "Detecting and recommending third-party library migrations, down to the level of individual API methods."
   },
   {
     "id": "self-affirmed-refactoring",
     "title": "Self-Affirmed Refactoring",
-    "description": "*Software Refactoring*\n\nSAR refers to developers documentation if their refactoring activities. SAR is key to understand various aspects of refactoring, including the motivation, and procedure, and the consequences of the peformed code change. All documented by the code authors themselves. This website contains all the research related to SAR. You will find all papers, artifacts, datasets, and scripts that we publicly share for replication and extension. If you have questions please email us at ealomar@stevens.edu or mwmvse@rit.edu.",
+    "area": "Software Refactoring",
+    "description": "SAR refers to developers documentation if their refactoring activities. SAR is key to understand various aspects of refactoring, including the motivation, and procedure, and the consequences of the peformed code change. All documented by the code authors themselves. This website contains all the research related to SAR. You will find all papers, artifacts, datasets, and scripts that we publicly share for replication and extension. If you have questions please email us at ealomar@stevens.edu or mwmvse@rit.edu.",
+    "image": "/resources/projects/SAR.jpg",
     "url": "https://smilevo.github.io/self-affirmed-refactoring/",
-    "image": "/resources/projects/SAR.jpg",
+    "software": [
+      {
+        "name": "SATDBailiff",
+        "description": "Mines and tracks self-admitted technical debt across a repository history.",
+        "code": "https://github.com/smilevo/SATDBailiff"
+      }
+    ],
     "personIds": [
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer",
       "ali-ouni"
-    ]
-  },
-  {
-    "id": "ts-detect",
-    "title": "TS-Detect",
-    "description": "*Automated Software Engineering*\n\nUnit test code, just like regular/production source code, is subject to bad programming practices, known also as anti-patterns, defects and smells [1]. Smells, being symptoms of bad design or implementation decisions, has been proven to be responsible for decreasing the quality of software systems from various aspects, such as making it harder to understand, more complex to maintain, and more prone to errors and bugs [2]. Test smells are defined as bad programming practices in unit test code (such as how test cases are organized, implemented and interact with each other) that indicate potential design problems in the test source code [3], [4], [5], [6]. The objective of this project is to educate developers on the types of unit testing smells that developers typically introduce or encounter when writing unit tests. To this extent, this site provides definitions (along with examples) of unit test smells and an open-source tool to detect the different smell types in the source code.",
-    "code": "https://github.com/TestSmells/TestSmellDetector",
-    "image": "/resources/projects/ts-detect.png",
-    "personIds": [
-      "anthony-peruma",
-      "mohamed-wiem-mkaouer",
-      "wajdi-aljedaani",
-      "ali-ouni"
-    ]
-  },
-  {
-    "id": "migration-miner",
-    "title": "Migration Miner",
-    "description": "*Automated Software Engineering*\n\nModern software systems rely heavily on third-party library functionality as a mean to save time, reduce implementation costs, and increase their software quality when offering rich, robust and up-to-date features. However, as software systems evolve frequently, the need for better services and more secure, reliable and quality functionalities causes developers to often replace their old libraries with more recent ones. This process of replacing a library with a different one, while preserving the same functionality, is known as library migration . Learn more about evolution migration that happened over year of development. We track library migration in around 321k open source projects",
-    "code": "https://github.com/hussien89aa/MigrationMiner",
-    "image": "/resources/projects/migration.png",
-    "personIds": [
-      "hussein-alrubaye",
-      "rana-alrubaye",
-      "mohamed-wiem-mkaouer",
-      "ali-ouni"
-    ]
-  },
-  {
-    "id": "migration-mapper",
-    "title": "Migration Mapper",
-    "description": "*Automated Software Engineering*\n\nModern software systems rely heavily on third-party library functionality as a mean to save time, reduce implementation costs, and increase their software quality when offering rich, robust and up-to-date features. However, as software systems evolve frequently, the need for better services and more secure, reliable and quality functionalities causes developers to often replace their old libraries with more recent ones. This process of replacing a library with a different one, while preserving the same functionality, is known as library migration . Learn more about evolution migration that happened over year of development. We track library migration in around 321k open source projects",
-    "code": "https://github.com/hussien89aa/MigrationMapper",
-    "image": "/resources/projects/migration.png",
-    "personIds": [
-      "hussein-alrubaye",
-      "rana-alrubaye",
-      "mohamed-wiem-mkaouer",
-      "ali-ouni"
-    ]
-  },
-  {
-    "id": "satdbailiff-satd-refatoring-detector",
-    "title": "SATDBailiff: SATD refatoring detector",
-    "description": "*Software Refactoring*\n\nSAR refers to developers documentation if their refactoring activities. SAR is key to understand various aspects of refactoring, including the motivation, and procedure, and the consequences of the peformed code change. All documented by the code authors themselves. This website contains all the research related to SAR. You will find all papers, artifacts, datasets, and scripts that we publicly share for replication and extension. If you have questions please email us at ealomar@stevens.edu or mwmvse@rit.edu.",
-    "code": "https://github.com/smilevo/SATDBailiff",
-    "image": "/resources/projects/SAR.jpg",
-    "personIds": [
-      "ben-christians",
-      "eman-abdullah-alomar",
-      "mohamed-wiem-mkaouer",
-      "ali-ouni"
-    ]
-  },
-  {
-    "id": "leakcheck",
-    "title": "LeakCheck",
-    "description": "A deep-learning and static-analysis tool for detecting test-data leakage in Python notebooks.",
-    "code": "https://github.com/smilevo/LeakCheck",
-    "personIds": [
-      "taha-draoui",
-      "mohamed-wiem-mkaouer"
-    ]
+    ],
+    "publicationIds": [
+      "alomar-2022-documentation",
+      "alomar-2022-exploratory",
+      "alomar-2022-satdbailiff",
+      "alomar-2021-toward",
+      "alomar-2021-we",
+      "marmolejos-2021-use",
+      "alomar-2019-can",
+      "alomar-2019-design"
+    ],
+    "summary": "Studying how developers document their own refactoring activities, and the tools that mine them."
   },
   {
     "id": "anticopypaster",
     "title": "AntiCopyPaster",
+    "area": "Software Refactoring",
     "description": "An IntelliJ IDEA plugin that tracks copy-paste activity and suggests extracting duplicated code into a new method.",
-    "code": "https://github.com/JetBrains-Research/anti-copy-paster",
+    "software": [
+      {
+        "name": "AntiCopyPaster",
+        "description": "IntelliJ IDEA plugin that suggests extracting duplicated code as soon as it is pasted.",
+        "code": "https://github.com/JetBrains-Research/anti-copy-paster"
+      }
+    ],
     "personIds": [
       "eman-abdullah-alomar",
       "mohamed-wiem-mkaouer"
-    ]
+    ],
+    "publicationIds": [
+      "alomar-2026-anticopypaster",
+      "alomar-2024-anticopypaster",
+      "alomar-2023-justintime",
+      "alomar-2022-anticopypaster"
+    ],
+    "summary": "An IDE plugin that suggests extracting duplicated code as soon as it is pasted."
   },
   {
     "id": "performance-regression",
     "title": "Performance Regression",
+    "area": "Automated Software Engineering",
     "description": "An open-source dataset of commits that introduce performance regressions.",
-    "url": "https://smilevo.github.io/price/",
+    "software": [
+      {
+        "name": "PRICE dataset",
+        "description": "Open-source dataset of commits that introduce performance regressions.",
+        "url": "https://smilevo.github.io/price/"
+      }
+    ],
     "personIds": [
       "deema-alshoaibi",
       "mohamed-wiem-mkaouer"
-    ]
+    ],
+    "publicationIds": [
+      "boussema-2026-ampsrd",
+      "shoaibi-2023-software",
+      "alshoaibi-2022-detection",
+      "alshoaibi-2022-learning",
+      "alshoaibi-2022-searchbased",
+      "alshoaibi-2019-price"
+    ],
+    "summary": "Detecting and characterizing code changes that introduce performance regressions."
+  },
+  {
+    "id": "data-leakage",
+    "title": "Data Leakage",
+    "area": "Software Engineering for AI",
+    "description": "Data leakage occurs when information from outside the training data, typically from the test set, influences a machine learning model. It inflates reported results and leads to unreliable deployments. We study how leakage actually appears in real-world Jupyter notebooks, and we build tools that detect it by combining static program slicing with large language models.",
+    "software": [
+      {
+        "name": "LeakCheck",
+        "description": "A deep-learning and static-analysis tool for detecting test-data leakage in Python notebooks.",
+        "code": "https://github.com/smilevo/LeakCheck"
+      }
+    ],
+    "personIds": [
+      "taha-draoui",
+      "mohamed-wiem-mkaouer"
+    ],
+    "publicationIds": [
+      "draoui-2026-data",
+      "draoui-2026-improving"
+    ],
+    "summary": "How test-data leakage appears in real machine learning notebooks, and how to detect it."
+  },
+  {
+    "id": "agentic-software-engineering",
+    "title": "Agentic Software Engineering",
+    "area": "Software Engineering for AI",
+    "description": "AI coding agents now open pull requests, refactor code and diagnose failing builds on their own. This project studies what these agents actually do and how well they communicate it, for example how they describe refactoring in the pull requests they produce, and builds agentic frameworks that support developers in tasks such as change impact analysis and CI/CD failure diagnosis.",
+    "software": [],
+    "personIds": [
+      "aymen-masmoudi",
+      "belhassen-khefacha",
+      "mohamed-wiem-mkaouer"
+    ],
+    "publicationIds": [
+      "boussema-2026-ampsrd",
+      "masmoudi-2026-preliminary",
+      "sambaturu-2026-enhancing"
+    ],
+    "summary": "How AI coding agents work in real repositories, and agentic frameworks that support developers."
   }
 ]
