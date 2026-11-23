@@ -62,6 +62,10 @@ gtag('js',new Date());gtag('config','${GA_ID}');`}
               </a>{' '}
               at the <a href="https://umflint.edu/">University of Michigan-Flint</a>.
             </div>
+            <div>
+              Content © Mohamed Wiem Mkaouer and the SMILE Research Group, CC BY-NC 4.0 except where
+              noted.
+            </div>
             <CookieSettingsButton />
           </footer>
         </div>

@@ -1,6 +1,10 @@
-MIT License
+MIT License (source code)
+
+This license covers the source code of this website (everything outside `content/` and `public/`).
+The written and visual content is covered by CONTENT_LICENSE.md.
 
 Copyright (c) 2020-present George Cushen
+Copyright (c) 2026-present Mohamed Wiem Mkaouer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
