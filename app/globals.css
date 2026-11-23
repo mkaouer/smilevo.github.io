@@ -1395,3 +1395,36 @@ h2 + .news-item {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.post-list {
+  display: grid;
+  gap: 28px;
+  margin-top: 28px;
+}
+.post-card time,
+.post time {
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  opacity: 0.7;
+}
+.post-card h2 {
+  margin: 6px 0 8px;
+  font-size: 24px;
+}
+.post-card p {
+  margin: 0;
+  max-width: 62ch;
+}
+.post-body {
+  max-width: 68ch;
+}
+.post-body ol,
+.post-body ul {
+  padding-left: 1.4em;
+}
+.post-body li {
+  margin: 0.55em 0;
+}
+.post-body h2 {
+  margin-top: 1.8em;
+}
