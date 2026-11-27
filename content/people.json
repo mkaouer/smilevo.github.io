@@ -2001,5 +2001,93 @@
     "links": {
       "github": "https://github.com/bendrixbailey"
     }
+  },
+  {
+    "id": "spencer-stissi",
+    "name": "Spencer Stissi",
+    "role": "Software Engineering Undergraduate",
+    "status": "alumni",
+    "priority": 5,
+    "topics": [
+      "Software testing",
+      "Test smells"
+    ],
+    "organization": "RIT",
+    "bio": "Spencer Stissi contributed to the tsDetect test smell detection tools as an undergraduate student.",
+    "education": [
+      {
+        "degree": "BS in Software Engineering",
+        "institution": "Rochester Institute of Technology"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/sas7359"
+    }
+  },
+  {
+    "id": "kamrul-haque",
+    "name": "Kamrul Haque",
+    "role": "Senior Project Student",
+    "status": "alumni",
+    "priority": 5,
+    "topics": [
+      "Software testing",
+      "Test smells"
+    ],
+    "organization": "University of Michigan-Dearborn",
+    "bio": "Kamrul Haque contributed to the tsDetect test smell detection plugins as a University of Michigan-Dearborn senior project student.",
+    "education": [
+      {
+        "degree": "BS",
+        "institution": "University of Michigan-Dearborn"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/HeliosHawk"
+    }
+  },
+  {
+    "id": "aakifah-fatima-rasheed",
+    "name": "Aakifah Fatima Rasheed",
+    "role": "Senior Project Student",
+    "status": "alumni",
+    "priority": 5,
+    "topics": [
+      "Software testing",
+      "Test smells"
+    ],
+    "organization": "University of Michigan-Dearborn",
+    "bio": "Aakifah Fatima Rasheed contributed to the tsDetect test smell detection plugins as a University of Michigan-Dearborn senior project student.",
+    "education": [
+      {
+        "degree": "BS",
+        "institution": "University of Michigan-Dearborn"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/khifah"
+    }
+  },
+  {
+    "id": "maya-noureddine",
+    "name": "Maya Noureddine",
+    "role": "Senior Project Student",
+    "status": "alumni",
+    "priority": 5,
+    "topics": [
+      "Software testing",
+      "Test smells"
+    ],
+    "organization": "University of Michigan-Dearborn",
+    "bio": "Maya Noureddine contributed to the tsDetect test smell detection plugins as a University of Michigan-Dearborn senior project student.",
+    "education": [
+      {
+        "degree": "BS",
+        "institution": "University of Michigan-Dearborn"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/mayanour4"
+    }
   }
 ]
