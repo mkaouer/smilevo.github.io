@@ -1,5 +1,54 @@
 [
   {
+    "id": "2026-data-leakage-aseai",
+    "title": "Data Leakage Detection in Machine Learning Workflows",
+    "date": "2026",
+    "location": "African Fall School on Software Engineering and AI (ASEAI)",
+    "type": "Invited talk"
+  },
+  {
+    "id": "2025-bridging-the-gap",
+    "title": "Bridging the Gap: AI-Driven Software Testing and Quality Assurance",
+    "date": "2025",
+    "location": "IEEE Summer School on Computational Intelligence for Software Engineering (AISE'25)",
+    "type": "Invited talk"
+  },
+  {
+    "id": "2025-refactoring-ai-era",
+    "title": "Software Refactoring: Challenges and Opportunities in the Era of Artificial Intelligence",
+    "date": "2025",
+    "location": "ICETC 2025 and SANER 2025",
+    "type": "Invited talk"
+  },
+  {
+    "id": "2025-academic-journey",
+    "title": "My Academic Journey: 3 Takeaways",
+    "date": "2025",
+    "location": "University of Michigan-Flint Center for Global Engagement",
+    "type": "Invited talk"
+  },
+  {
+    "id": "2024-software-quality-llms",
+    "title": "Cultivating Software Quality Improvement in the Classroom: An Experience with LLMs",
+    "date": "2024",
+    "location": "University of Michigan-Flint Research Seminar Series",
+    "type": "Invited talk"
+  },
+  {
+    "id": "2024-improving-software-quality",
+    "title": "Improving Software Quality: Research-Driven Industrial and Educational Case Studies",
+    "date": "2024",
+    "location": "University of Michigan-Dearborn Research Seminar Series",
+    "type": "Invited talk"
+  },
+  {
+    "id": "2023-jit-duplicates",
+    "title": "Just-in-time Code Duplicates Extraction",
+    "date": "2023",
+    "location": "ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM) 2023",
+    "type": "Invited talk"
+  },
+  {
     "id": "mohamed-talk-nwit2022",
     "title": "Wiem Presentation @ Never Works In Theory 2022",
     "date": "2022-09-24",
@@ -8,12 +57,34 @@
     "url": "https://neverworkintheory.org/"
   },
   {
+    "id": "2022-refactoring-survey",
+    "title": "A Large-Scale Survey of Software Refactoring",
+    "date": "2022",
+    "location": "Strange Loop",
+    "type": "Invited talk"
+  },
+  {
+    "id": "2022-intro-refactoring",
+    "title": "Introduction to Software Refactoring",
+    "date": "2022",
+    "location": "Tunis Business School",
+    "type": "Invited talk"
+  },
+  {
+    "id": "2022-extract-method",
+    "title": "Extract Method Refactoring",
+    "date": "2022",
+    "location": "International Conference on Automated Software Engineering (ASE) 2022",
+    "type": "Invited talk"
+  },
+  {
     "id": "iwor-recording2021",
     "title": "International Workshop on Refactoring 2021",
     "date": "2021-12-01",
     "summary": "2021 International Workshop on Refactoring (IWoR).",
     "location": "Virtual Conference",
-    "url": "https://iwor.github.io/iwor2021/"
+    "url": "https://iwor.github.io/iwor2021/",
+    "video": "https://www.youtube.com/watch?v=kHuFL1xZdI4"
   },
   {
     "id": "mohamed-talk-rittalks2021",
@@ -21,7 +92,36 @@
     "date": "2021-12-01",
     "summary": "My Graduate Study - 3 Takeaways.",
     "location": "Virtual Conference",
-    "url": "https://www.rit.edu/admissions/blog"
+    "url": "https://www.rit.edu/admissions/blog",
+    "video": "https://www.youtube.com/watch?v=D3T8S1W8dOA"
+  },
+  {
+    "id": "2021-ai-maintenance",
+    "title": "Supporting Software Maintenance and Evolution using AI",
+    "date": "2021",
+    "location": "RIT Data Science Club",
+    "type": "Invited talk"
+  },
+  {
+    "id": "2021-challenges-se",
+    "title": "Challenges in Software Engineering",
+    "date": "2021",
+    "location": "Higher Institute of Management, Sousse",
+    "type": "Invited talk"
+  },
+  {
+    "id": "2021-ts-detect",
+    "title": "TS-Detect: An OS Tool for Detecting Bad Programming Practices in Test Code",
+    "date": "2021",
+    "location": "RIT IGM",
+    "type": "Invited talk"
+  },
+  {
+    "id": "2021-sbse-tutorial",
+    "title": "Search-Based Software Engineering",
+    "date": "2021",
+    "location": "GECCO Tutorials",
+    "type": "Invited talk"
   },
   {
     "id": "hussein-talk-icsr2020",
@@ -37,7 +137,9 @@
     "date": "2020-12-01",
     "summary": "Third-Party Software Library Reuse From Adoption to Migration Presentation.",
     "location": "Virtual Conference",
-    "url": "https://icsr2020.wordpress.com/"
+    "url": "https://icsr2020.wordpress.com/",
+    "video": "https://www.youtube.com/watch?v=cnwV4HQGdRs",
+    "type": "Invited talk"
   },
   {
     "id": "hussein-talk-rpa2017",
@@ -45,7 +147,8 @@
     "date": "2020-12-01",
     "summary": "Hussein Research Potential Assessment's Presentation.",
     "location": "Virtual Conference",
-    "url": "https://icsr2020.wordpress.com/"
+    "url": "https://icsr2020.wordpress.com/",
+    "video": "https://www.youtube.com/watch?v=kSGtMGIyY_Y"
   },
   {
     "id": "wajdi-talk-chi2020",
@@ -53,7 +156,8 @@
     "date": "2020-12-01",
     "summary": "Finding the Needle in a Haystack - On the Automatic Identification of Accessibility User Reviews.",
     "location": "Virtual Conference",
-    "url": "https://chi2020.acm.org/"
+    "url": "https://chi2020.acm.org/",
+    "video": "https://www.youtube.com/watch?v=uKQtdk72mc8"
   },
   {
     "id": "narjes-talk-scc2020",
@@ -61,7 +165,15 @@
     "date": "2020-04-17",
     "summary": "On the Diffusion and Impact of Code Smells in Web Applications.",
     "location": "Virtual Conference",
-    "url": "https://conferences.computer.org/scc/2020/"
+    "url": "https://conferences.computer.org/scc/2020/",
+    "video": "https://www.youtube.com/watch?v=okIvtZslOa8"
+  },
+  {
+    "id": "2020-intro-testing",
+    "title": "Introduction to Software Testing",
+    "date": "2020",
+    "location": "First Year Computing Student Orientation",
+    "type": "Invited talk"
   },
   {
     "id": "curators-talk-senior-project2019",
@@ -69,7 +181,8 @@
     "date": "2019-12-01",
     "summary": "Interim Presentation of The Curators.",
     "location": "Golisano Building 70",
-    "url": "https://seniorproject.se.rit.edu/"
+    "url": "https://seniorproject.se.rit.edu/",
+    "video": "https://www.youtube.com/watch?v=joyUH-AWBPI"
   },
   {
     "id": "mkaouer-presentation-ssbse2019",
@@ -77,7 +190,8 @@
     "date": "2019-08-31",
     "summary": "PRICE: Detection of Performance Regression Introducing Code Changes Using Static and Dynamic Metrics",
     "location": "Park Inn by Radisson Meriton Conference & Spa Hotel",
-    "url": "http://ssbse19.mines-albi.fr/"
+    "url": "http://ssbse19.mines-albi.fr/",
+    "video": "https://www.youtube.com/watch?v=U7HZ3KEgQTY"
   },
   {
     "id": "meteor-talk-senior-project2017",
@@ -85,7 +199,8 @@
     "date": "2017-12-01",
     "summary": "Meteor interim senior design presentation.",
     "location": "Golisano Building 70",
-    "url": "https://seniorproject.se.rit.edu/"
+    "url": "https://seniorproject.se.rit.edu/",
+    "video": "https://www.youtube.com/watch?v=hdxHBSjd0og"
   },
   {
     "id": "mkaouer-presentation-ssbse2016",
@@ -93,13 +208,15 @@
     "date": "2016-10-08",
     "summary": "SSBSE 2016 second-day afternoon session recording, including Mohamed Wiem Mkaouer's presentation.",
     "location": "Holiday Inn Raleigh Downtown",
-    "url": "http://ssbse.com/2016/"
+    "url": "http://ssbse.com/2016/",
+    "video": "https://www.youtube.com/watch?v=g3ETAWTSf0A"
   },
   {
     "id": "mkaouer-phd-defense-2016",
     "title": "Mohamed Wiem Mkaouer Ph.D. Oral Defense",
     "date": "2016-04-04",
     "summary": "Defense of Balancing Competing Needs Of Machine And Human In Search-Based Software Refactoring.",
-    "location": "University of Michigan-Dearborn"
+    "location": "University of Michigan-Dearborn",
+    "video": "https://www.youtube.com/watch?v=c3b1JZLzulA"
   }
 ]

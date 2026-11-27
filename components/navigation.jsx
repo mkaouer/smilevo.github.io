@@ -10,7 +10,6 @@ const links = [
   ['/events/', 'Events'],
   ['/funding/', 'Funding'],
   ['/teaching/', 'Teaching'],
-  ['/talks/', 'Talks'],
   ['/service/', 'Service'],
   ['/software/', 'Software'],
   ['/resources/', 'Resources'],

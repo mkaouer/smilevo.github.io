@@ -1566,3 +1566,10 @@ h2 + .news-item {
     grid-template-columns: 1fr;
   }
 }
+
+.event-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+  color: var(--muted);
+}

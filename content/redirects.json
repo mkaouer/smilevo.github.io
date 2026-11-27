@@ -1178,5 +1178,9 @@
   {
     "from": "/newsfeed/",
     "to": "/social/"
+  },
+  {
+    "from": "/talks/",
+    "to": "/events/"
   }
 ]
