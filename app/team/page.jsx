@@ -1,28 +1,7 @@
-import PersonPhoto from '@/components/person-photo';
-import Link from 'next/link';
+import PersonGrid from '@/components/person-grid';
 import { people, alumni, safeUrl } from '@/lib/content';
 import PageHeading from '@/components/page-heading';
 export const metadata = { title: 'People', alternates: { canonical: '/team/' } };
-function PersonGrid({ members, headingLevel = 3, compact = false }) {
-  const Heading = `h${headingLevel}`;
-  return (
-    <div className={compact ? 'people-grid people-grid-compact' : 'people-grid'}>
-      {members.map((p) => (
-        <article className="person-card" key={p.id}>
-          <Link href={`/people/${p.id}/`}>
-            {p.image ? (
-              <PersonPhoto person={p} loading="lazy" />
-            ) : (
-              <div className="person-placeholder" />
-            )}
-            <Heading>{p.name}</Heading>
-          </Link>
-          <p>{p.role}</p>
-        </article>
-      ))}
-    </div>
-  );
-}
 // Alphabetical by the name shown on the card, ignoring case and accents.
 const byName = (a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' });
 

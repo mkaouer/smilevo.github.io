@@ -23,3 +23,8 @@ document how content was converted. Events, teaching and service data are kept i
 `main` branch.
 
 The site layout and code are adapted from <https://github.com/behavioral-data/behavioral-data.github.io>.
+
+## License
+
+- Source code: MIT, see [LICENSE.md](LICENSE.md). The original notice of George Cushen (Wowchemy) is kept.
+- Website content: CC BY-NC 4.0 with exceptions for publications, photographs and third-party material, see [CONTENT_LICENSE.md](CONTENT_LICENSE.md).

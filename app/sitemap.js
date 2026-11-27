@@ -13,6 +13,7 @@ export default function sitemap() {
     '/teaching/',
     '/talks/',
     '/service/',
+    '/software/',
     '/resources/',
     '/join/',
     ...(projects.length || pageContent.research.trim() ? ['/research/'] : []),
@@ -20,6 +21,7 @@ export default function sitemap() {
     ...(pageContent.about.trim() ? ['/aboutwebsite/'] : []),
     ...papers.map((p) => `/publications/${p.id}/`),
     ...people.map((p) => `/people/${p.id}/`),
+    ...projects.map((p) => `/research/${p.id}/`),
     ...posts.map((p) => `/resources/${p.id}/`),
   ].map((path) => ({ url: `${site.url}${path}` }));
 }
