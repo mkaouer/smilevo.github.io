@@ -12,6 +12,8 @@ const links = [
   ['/teaching/', 'Teaching'],
   ['/talks/', 'Talks'],
   ['/service/', 'Service'],
+  ['/software/', 'Software'],
+  ['/resources/', 'Resources'],
   ['/join/', 'Join us'],
 ];
 export default function Navigation({ extraLinks = [] }) {

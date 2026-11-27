@@ -1,47 +1,31 @@
 import Link from 'next/link';
-import ReactMarkdown from 'react-markdown';
-import { safeUrl, people, papers } from '@/lib/content';
 export default function ProjectList({ projects }) {
   if (!projects.length) return null;
+  const areas = [...new Set(projects.map((p) => p.area).filter(Boolean))];
+  const groups = areas.length
+    ? areas.map((a) => [a, projects.filter((p) => p.area === a)])
+    : [[null, projects]];
   return (
     <section className="section">
-      <h2>Projects</h2>
-      {projects.map((p) => (
-        <article key={p.id} id={p.id} className="section">
-          <h3>{p.title}</h3>
-          {p.image && <img className="detail-image" src={p.image} alt={p.title} />}
-          {p.description && (
-            <div className="prose">
-              <ReactMarkdown>{p.description}</ReactMarkdown>
-            </div>
-          )}
-          <ul>
-            {(p.personIds || []).map((id) => (
-              <li key={id}>
-                <Link href={`/people/${id}/`}>{people.find((v) => v.id === id)?.name}</Link>
-              </li>
+      {groups.map(([area, items]) => (
+        <div key={area || 'all'}>
+          <h2>{area || 'Projects'}</h2>
+          <div className="project-grid">
+            {items.map((p) => (
+              <article key={p.id} id={p.id} className="project-card">
+                <Link href={`/research/${p.id}/`}>
+                  {p.image && <img src={p.image} alt="" loading="lazy" />}
+                  <h3>{p.title}</h3>
+                </Link>
+                <p>{p.summary}</p>
+                <div className="paper-links">
+                  <Link href={`/research/${p.id}/`}>Project page</Link>
+                  <span className="count">{(p.publicationIds || []).length} publications</span>
+                </div>
+              </article>
             ))}
-            {(p.publicationIds || []).map((id) => (
-              <li key={id}>
-                <Link href={`/publications/${id}/`}>{papers.find((v) => v.id === id)?.title}</Link>
-              </li>
-            ))}
-          </ul>
-          <div className="paper-links">
-            {[
-              ['url', 'Website'],
-              ['code', 'Code'],
-              ['dataset', 'Dataset'],
-            ].map(
-              ([key, label]) =>
-                safeUrl(p[key]) && (
-                  <a href={safeUrl(p[key])} key={key}>
-                    {label}
-                  </a>
-                ),
-            )}
           </div>
-        </article>
+        </div>
       ))}
     </section>
   );
