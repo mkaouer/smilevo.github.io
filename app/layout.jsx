@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Script from 'next/script';
-import { site, projects, gallery } from '@/lib/content';
+import { site, gallery } from '@/lib/content';
 import CookieConsent, { CookieSettingsButton } from '@/components/cookie-consent';
 import Navigation from '@/components/navigation';
 import './globals.css';
@@ -43,12 +43,7 @@ gtag('js',new Date());gtag('config','${GA_ID}');`}
               Research Group
             </span>
           </Link>
-          <Navigation
-            extraLinks={[
-              ...(projects.length ? [['/research/', 'Research']] : []),
-              ...(gallery.length ? [['/pictures/', 'Pictures']] : []),
-            ]}
-          />
+          <Navigation extraLinks={[...(gallery.length ? [['/pictures/', 'Pictures']] : [])]} />
         </aside>
         <div className="site-body">
           <main id="main" tabIndex={-1}>

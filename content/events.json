@@ -49,6 +49,16 @@
     "type": "Invited talk"
   },
   {
+    "id": "byte-talks-2023",
+    "title": "Byte Talks",
+    "date": "2023",
+    "summary": "Short talk at the Byte Talks event.",
+    "location": "Rochester Institute of Technology",
+    "type": "Invited talk",
+    "url": "https://www.facebook.com/events/1436184336402517/",
+    "video": "https://www.youtube.com/watch?v=UyMMkh9Upek"
+  },
+  {
     "id": "mohamed-talk-nwit2022",
     "title": "Wiem Presentation @ Never Works In Theory 2022",
     "date": "2022-09-24",
@@ -129,7 +139,8 @@
     "date": "2020-12-17",
     "summary": "How Does Library Migration Impact Software Quality and Comprehension? An Empirical Study.",
     "location": "Virtual Conference",
-    "url": "https://icsr2020.wordpress.com"
+    "url": "https://icsr2020.wordpress.com",
+    "video": "https://www.youtube.com/watch?v=VfaYeDqMj70"
   },
   {
     "id": "ali-mohamed-hussein-talk-icsr2020",

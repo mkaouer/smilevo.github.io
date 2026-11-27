@@ -1823,5 +1823,183 @@
     "topics": [],
     "image": "/resources/headshots/lobna-ghadhab.jpg",
     "organization": "University of Tunis"
+  },
+  {
+    "id": "shannon-sloan",
+    "name": "Shannon Sloan",
+    "role": "Software Engineering Undergraduate",
+    "status": "alumni",
+    "priority": 5,
+    "topics": [
+      "Software testing",
+      "Test smells"
+    ],
+    "organization": "RIT",
+    "bio": "Shannon Sloan contributed to the tsDetect test smell detection tools as an undergraduate student.",
+    "education": [
+      {
+        "degree": "BS in Software Engineering",
+        "institution": "Rochester Institute of Technology"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/ses7578"
+    }
+  },
+  {
+    "id": "noah-britton",
+    "name": "Noah Britton",
+    "role": "Software Engineering Undergraduate",
+    "status": "alumni",
+    "priority": 5,
+    "topics": [
+      "Software testing",
+      "Test smells"
+    ],
+    "organization": "RIT",
+    "bio": "Noah Britton contributed to the tsDetect test smell detection tools as an undergraduate student.",
+    "education": [
+      {
+        "degree": "BS in Software Engineering",
+        "institution": "Rochester Institute of Technology"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/nxb9626"
+    }
+  },
+  {
+    "id": "ben-radley",
+    "name": "Ben Radley",
+    "role": "Software Engineering Undergraduate",
+    "status": "alumni",
+    "priority": 5,
+    "topics": [
+      "Software testing",
+      "Test smells"
+    ],
+    "organization": "RIT",
+    "bio": "Ben Radley contributed to the tsDetect test smell detection tools as an undergraduate student.",
+    "education": [
+      {
+        "degree": "BS in Software Engineering",
+        "institution": "Rochester Institute of Technology"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/bdr1224"
+    }
+  },
+  {
+    "id": "joseph-saltalamacchia",
+    "name": "Joseph Saltalamacchia",
+    "role": "Software Engineering Undergraduate",
+    "status": "alumni",
+    "priority": 5,
+    "topics": [
+      "Software testing",
+      "Test smells"
+    ],
+    "organization": "RIT",
+    "bio": "Joseph Saltalamacchia contributed to the tsDetect test smell detection tools as an undergraduate student.",
+    "education": [
+      {
+        "degree": "BS in Software Engineering",
+        "institution": "Rochester Institute of Technology"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/jks6634"
+    }
+  },
+  {
+    "id": "cameron-riu",
+    "name": "Cameron Riu",
+    "role": "Software Engineering Undergraduate",
+    "status": "alumni",
+    "priority": 5,
+    "topics": [
+      "Software testing",
+      "Test smells"
+    ],
+    "organization": "RIT",
+    "bio": "Cameron Riu contributed to the tsDetect test smell detection tools as an undergraduate student.",
+    "education": [
+      {
+        "degree": "BS in Software Engineering",
+        "institution": "Rochester Institute of Technology",
+        "years": "2023"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/CameronRiu"
+    }
+  },
+  {
+    "id": "ryan-gillie",
+    "name": "Ryan Gillie",
+    "role": "Software Engineer",
+    "status": "alumni",
+    "priority": 5,
+    "topics": [
+      "Software testing",
+      "Test smells"
+    ],
+    "organization": "Royal Ahold Delhaize",
+    "bio": "Ryan Gillie contributed to the tsDetect test smell detection tools as an undergraduate student.",
+    "education": [
+      {
+        "degree": "BS in Software Engineering",
+        "institution": "Rochester Institute of Technology"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/ryanagillie"
+    }
+  },
+  {
+    "id": "lukas-short",
+    "name": "Lukas Short",
+    "role": "Software Engineering Undergraduate",
+    "status": "alumni",
+    "priority": 5,
+    "topics": [
+      "Software testing",
+      "Test smells"
+    ],
+    "organization": "RIT",
+    "bio": "Lukas Short contributed to the tsDetect test smell detection tools as an undergraduate student.",
+    "education": [
+      {
+        "degree": "BS in Software Engineering",
+        "institution": "Rochester Institute of Technology"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/las6731"
+    }
+  },
+  {
+    "id": "bendrix-bailey",
+    "name": "Bendrix Bailey",
+    "role": "Software Engineering Undergraduate",
+    "status": "alumni",
+    "priority": 5,
+    "topics": [
+      "Software testing",
+      "Test smells"
+    ],
+    "organization": "RIT",
+    "bio": "Bendrix Bailey contributed to the tsDetect test smell detection tools as an undergraduate student.",
+    "education": [
+      {
+        "degree": "BS in Software Engineering",
+        "institution": "Rochester Institute of Technology",
+        "years": "2022"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/bendrixbailey"
+    }
   }
 ]
