@@ -11,7 +11,6 @@ export default function sitemap() {
     '/events/',
     '/funding/',
     '/teaching/',
-    '/talks/',
     '/service/',
     '/software/',
     '/resources/',
